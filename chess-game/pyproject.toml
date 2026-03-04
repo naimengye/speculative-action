@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chess-game"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chess>=1.11.2",
+    "matplotlib>=3.10.7",
+    "nltk>=3.9.2",
+    "numpy>=2.3.4",
+    "openai>=2.4.0",
+    "python-dotenv>=1.1.1",
+    "pyyaml>=6.0.3",
+    "requests>=2.32.5",
+    "rich>=14.2.0",
+    "scipy>=1.16.2",
+    "websockets>=15.0.1",
+]
+[project.optional-dependencies]
+dev = [
+    "tiktoken>=0.8.0",
+]
+[project.scripts]
+speculative-chess = "speculative_workflow.Speculative_Chess:main"
+regular-chess = "regular_workflow.regular_chess:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["textarena*", "speculative_workflow*", "regular_workflow*"]
+
+[tool.setuptools]
+py-modules = ["utils"]

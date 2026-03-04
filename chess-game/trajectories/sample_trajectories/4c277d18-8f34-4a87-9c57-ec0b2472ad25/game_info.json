@@ -1,0 +1,12 @@
+{
+    "0": {
+        "role": "Player 0",
+        "invalid_move": false,
+        "turn_count": 25
+    },
+    "1": {
+        "role": "Player 1",
+        "invalid_move": false,
+        "turn_count": 25
+    }
+}

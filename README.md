@@ -1,8 +1,9 @@
 # Speculative Actions: Faster Agentic Systems via Lossless Parallelism
-Predict likely next steps with a fast Speculator while a slower, authoritative Actor validates—turning idle waiting time into productive work.
+
+Predict likely next steps with a fast **Speculator** while a slower, authoritative **Actor** validates—turning idle waiting time into productive work.
 
 ## TL;DR
-This repo implements Speculative Actions, a systems-level pattern that accelerates agents in rich environments (games, tool-use pipelines, web search, OS tuning). We treat every agent step as an API call and speculate the most likely next response(s) using a fast model. When the slow, ground-truth executor agrees, we’ve already pre-launched subsequent calls. The user sees as-if sequential, lossless behavior—just faster.
+This repo implements **Speculative Actions**, a systems-level pattern that accelerates agents in rich environments (games, tool-use pipelines, web search, OS tuning). We treat every agent step as an API call and speculate the most likely next response(s) using a fast model. When the slow, ground-truth executor agrees, we’ve already pre-launched subsequent calls. The user sees as-if sequential, lossless behavior—just faster.
 
 - Lossless core: verify before commit; rollback/overwrite when needed
 
@@ -12,12 +13,31 @@ This repo implements Speculative Actions, a systems-level pattern that accelerat
 
 - Practice: top-1/3 guesses often match; we measure both accuracy and wall-clock speedup across settings
 
-We provide four environments:
+## Repository layout
 
-- `chess/` - turn-based game-play (lossless)
-- `ecommerce` - retail tool-calling (lossless)
-- `hotpotqa/` - multi-hop web search (lossless)
-- `os-tuning` - real-time OS tuning (a lossy extension with last-write wins)
+Each environment is **self-contained**. All setup, config, and commands for an environment are run from that environment's directory.
+
+```
+speculative-action/
+├── README.md                 # This file
+├── chess-game/               # Turn-based game-play (lossless)
+│   ├── README.md             # Setup and usage for chess
+│   ├── config.yml            # API keys, models, paths (relative to chess-game/)
+│   ├── trajectories/         # Default data dir (sample_trajectories, test_trajectories, …)
+│   └── …
+├── ecommerce/                # Retail tool-calling (lossless)
+├── hotpotqa/                 # Multi-hop web search (lossless)
+└── os-tuning/                # OS hyperparameter tuning (lossy extension)
+```
+
+**Working directory convention:** For any environment, **run all commands from that environment's root** (e.g. `cd chess-game` then run scripts or entry points). Config and default data paths (e.g. `config.yml`, `trajectories/`) are relative to that root. This keeps imports and paths consistent without hardcoded or cwd-dependent paths.
+
+## Environments
+
+- **`chess-game/`** — turn-based game-play (lossless). See [chess-game/README.md](chess-game/README.md).
+- **`ecommerce/`** — retail tool-calling (lossless)
+- **`hotpotqa/`** — multi-hop web search (lossless)
+- **`os-tuning/`** — real-time OS tuning (lossy extension with last-write wins)
 
 
 

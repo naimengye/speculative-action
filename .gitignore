@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS
+.DS_Store
+
+# Chess-game Project-specific
+chess-game/uv.lock
+chess-game/.venv
+chess-game/__pycache__/
+chess-game/.python-version
+chess-game/deprecated/
+chess-game/trajectories/test_trajectories/
+chess-game/trajectories/sample_trajectories/*.pdf
+chess-game/trajectories/sample_trajectories/*/*.pdf
+chess-game/trajectories/sample_trajectories/*/*.csv
+
+
+# IDE-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

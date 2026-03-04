@@ -1,0 +1,1252 @@
+{
+    "0": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r n b q k b n r |\n 7 | p p p p p p p p |\n 6 | . . . . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . . . . . . |\n 3 | . . . . . . . . |\n 2 | P P P P P P P P |\n 1 | R N B Q K B N R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[e2e4]",
+        "time_taken_current_agent": 4.3297117641195655,
+        "input_tokens_current_agent": 352,
+        "output_tokens_current_agent": 75,
+        "total_tokens_current_agent": 427,
+        "guessed_moves + ground_truth_move": [
+            "[e2e4]",
+            "[d2d4]",
+            "[g1f3]",
+            "[e2e4]"
+        ],
+        "confidence_scores": [
+            85.0,
+            75.0,
+            65.0,
+            85.0
+        ],
+        "prediction_times": 5.98140879208222,
+        "guess_prediction_time": 3.6552693862468004,
+        "guess_input_tokens": 482,
+        "guess_output_tokens": 154,
+        "guess_total_tokens": 636
+    },
+    "1": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r n b q k b n r |\n 7 | p p p p p p p p |\n 6 | . . . . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . . P . . . |\n 3 | . . . . . . . . |\n 2 | P P P P . P P P |\n 1 | R N B Q K B N R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]",
+        "current_move": "[e7e5]",
+        "time_taken_current_agent": 9.774545925669372,
+        "input_tokens_current_agent": 352,
+        "output_tokens_current_agent": 459,
+        "total_tokens_current_agent": 811,
+        "guessed_moves + ground_truth_move": [
+            "[e7e5]",
+            "[c7c5]",
+            "[d7d5]",
+            "[e7e5]"
+        ],
+        "confidence_scores": [
+            76.0,
+            81.0,
+            50.0,
+            76.0
+        ],
+        "prediction_times": 13.40684016700834,
+        "guess_prediction_time": 3.0391044290736318,
+        "guess_input_tokens": 482,
+        "guess_output_tokens": 218,
+        "guess_total_tokens": 700
+    },
+    "2": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r n b q k b n r |\n 7 | p p p p . p p p |\n 6 | . . . . . . . . |\n 5 | . . . . p . . . |\n 4 | . . . . P . . . |\n 3 | . . . . . . . . |\n 2 | P P P P . P P P |\n 1 | R N B Q K B N R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[g1f3]",
+        "time_taken_current_agent": 99.63758885953575,
+        "input_tokens_current_agent": 406,
+        "output_tokens_current_agent": 6155,
+        "total_tokens_current_agent": 6561,
+        "guessed_moves + ground_truth_move": [
+            "[d1h5]",
+            "[f1c4]",
+            "[g1f3]",
+            "[g1f3]"
+        ],
+        "confidence_scores": [
+            35.0,
+            65.0,
+            85.0,
+            85.0
+        ],
+        "prediction_times": 16.285621209070086,
+        "guess_prediction_time": 12.077462935820222,
+        "guess_input_tokens": 536,
+        "guess_output_tokens": 474,
+        "guess_total_tokens": 1010
+    },
+    "3": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r n b q k b n r |\n 7 | p p p p . p p p |\n 6 | . . . . . . . . |\n 5 | . . . . p . . . |\n 4 | . . . . P . . . |\n 3 | . . . . . N . . |\n 2 | P P P P . P P P |\n 1 | R N B Q K B . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8e7], [g8h6], [g8f6], [f8e7], [f8d6], [f8c5], [f8b4], [f8a3], [e8e7], [d8e7], [d8f6], [d8g5], [d8h4], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [d7d5], [c7c5], [b7b5], [a7a5]",
+        "current_move": "[b8c6]",
+        "time_taken_current_agent": 30.1694609913975,
+        "input_tokens_current_agent": 406,
+        "output_tokens_current_agent": 1867,
+        "total_tokens_current_agent": 2273,
+        "guessed_moves + ground_truth_move": [
+            "[g8f6]",
+            "[d7d5]",
+            "[c7c5]",
+            "[b8c6]"
+        ],
+        "confidence_scores": [
+            80.0,
+            30.0,
+            20.0,
+            85.0
+        ],
+        "prediction_times": 86.60785229085013,
+        "guess_prediction_time": 4.21306674554944,
+        "guess_input_tokens": 536,
+        "guess_output_tokens": 154,
+        "guess_total_tokens": 690
+    },
+    "4": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b n r |\n 7 | p p p p . p p p |\n 6 | . . n . . . . . |\n 5 | . . . . p . . . |\n 4 | . . . . P . . . |\n 3 | . . . . . N . . |\n 2 | P P P P . P P P |\n 1 | R N B Q K B . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3g1], [h1g1], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [d2d4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[f1c4]",
+        "time_taken_current_agent": 149.13565665483475,
+        "input_tokens_current_agent": 394,
+        "output_tokens_current_agent": 8843,
+        "total_tokens_current_agent": 9237,
+        "guessed_moves + ground_truth_move": [
+            "[f3e5]",
+            "[f1c4]",
+            "[b1c3]",
+            "[f1c4]"
+        ],
+        "confidence_scores": [
+            30.0,
+            65.0,
+            50.0,
+            65.0
+        ],
+        "prediction_times": 31.541531292023137,
+        "guess_prediction_time": 8.642548871226609,
+        "guess_input_tokens": 524,
+        "guess_output_tokens": 602,
+        "guess_total_tokens": 1126
+    },
+    "5": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b n r |\n 7 | p p p p . p p p |\n 6 | . . n . . . . . |\n 5 | . . . . p . . . |\n 4 | . . B . P . . . |\n 3 | . . . . . N . . |\n 2 | P P P P . P P P |\n 1 | R N B Q K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8e7], [g8h6], [g8f6], [f8e7], [f8d6], [f8c5], [f8b4], [f8a3], [e8e7], [d8e7], [d8f6], [d8g5], [d8h4], [a8b8], [c6b8], [c6e7], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [f7f6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [d7d5], [b7b5], [a7a5]",
+        "current_move": "[g8f6]",
+        "time_taken_current_agent": 153.16973110102117,
+        "input_tokens_current_agent": 418,
+        "output_tokens_current_agent": 12299,
+        "total_tokens_current_agent": 12717,
+        "guessed_moves + ground_truth_move": [
+            "[g8f6]",
+            "[d7d5]",
+            "[c6d4]",
+            "[g8f6]"
+        ],
+        "confidence_scores": [
+            75.0,
+            60.0,
+            45.0,
+            75.0
+        ],
+        "prediction_times": 34.1768707500305,
+        "guess_prediction_time": 17.04127887636423,
+        "guess_input_tokens": 548,
+        "guess_output_tokens": 922,
+        "guess_total_tokens": 1470
+    },
+    "6": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b . r |\n 7 | p p p p . p p p |\n 6 | . . n . . n . . |\n 5 | . . . . p . . . |\n 4 | . . B . P . . . |\n 3 | . . . . . N . . |\n 2 | P P P P . P P P |\n 1 | R N B Q K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [f3g5], [f3e5], [f3h4], [f3d4], [f3g1], [h1g1], [h1f1], [e1e2], [e1f1], [d1e2], [b1c3], [b1a3], [e1g1], [h2h3], [g2g3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [d2d4], [b2b4], [a2a4]",
+        "current_move": "[d1e2]",
+        "time_taken_current_agent": 204.72868315503,
+        "input_tokens_current_agent": 430,
+        "output_tokens_current_agent": 15051,
+        "total_tokens_current_agent": 15481,
+        "guessed_moves + ground_truth_move": [
+            "[c4f7]",
+            "[f3e5]",
+            "[e1g1]",
+            "[d1e2]"
+        ],
+        "confidence_scores": [
+            8.0,
+            58.0,
+            78.0,
+            47.0
+        ],
+        "prediction_times": 65.06568108289503,
+        "guess_prediction_time": 6.9140883050858974,
+        "guess_input_tokens": 560,
+        "guess_output_tokens": 474,
+        "guess_total_tokens": 1034
+    },
+    "7": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b . r |\n 7 | p p p p . p p p |\n 6 | . . n . . n . . |\n 5 | . . . . p . . . |\n 4 | . . B . P . . . |\n 3 | . . . . . N . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [h8g8], [f8e7], [f8d6], [f8c5], [f8b4], [f8a3], [e8e7], [d8e7], [a8b8], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [c6b8], [c6e7], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [d7d5], [b7b5], [a7a5]",
+        "current_move": "[c6d4]",
+        "time_taken_current_agent": 236.78173599392176,
+        "input_tokens_current_agent": 406,
+        "output_tokens_current_agent": 11979,
+        "total_tokens_current_agent": 12385,
+        "guessed_moves + ground_truth_move": [
+            "[c6d4]",
+            "[d7d5]",
+            "[f8c5]",
+            "[c6d4]"
+        ],
+        "confidence_scores": [
+            82.0,
+            68.0,
+            46.0,
+            82.0
+        ],
+        "prediction_times": 56.24631429184228,
+        "guess_prediction_time": 16.523144733160734,
+        "guess_input_tokens": 536,
+        "guess_output_tokens": 858,
+        "guess_total_tokens": 1394
+    },
+    "8": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b . r |\n 7 | p p p p . p p p |\n 6 | . . . . . n . . |\n 5 | . . . . p . . . |\n 4 | . . B n P . . . |\n 3 | . . . . . N . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [f3g5], [f3e5], [f3h4], [f3d4], [f3g1], [e2e3], [e2d3], [e2f1], [e2d1], [h1g1], [h1f1], [e1f1], [e1d1], [b1c3], [b1a3], [e1g1], [h2h3], [g2g3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [b2b4], [a2a4]",
+        "current_move": "[f3d4]",
+        "time_taken_current_agent": 92.7771446891129,
+        "input_tokens_current_agent": 430,
+        "output_tokens_current_agent": 4619,
+        "total_tokens_current_agent": 5049,
+        "guessed_moves + ground_truth_move": [
+            "[f3d4]",
+            "[e2e3]",
+            "[e2d3]",
+            "[f3d4]"
+        ],
+        "confidence_scores": [
+            60.0,
+            10.0,
+            70.0,
+            60.0
+        ],
+        "prediction_times": 68.20438145892695,
+        "guess_prediction_time": 31.38481497578323,
+        "guess_input_tokens": 560,
+        "guess_output_tokens": 2202,
+        "guess_total_tokens": 2762
+    },
+    "9": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b . r |\n 7 | p p p p . p p p |\n 6 | . . . . . n . . |\n 5 | . . . . p . . . |\n 4 | . . B N P . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [h8g8], [f8e7], [f8d6], [f8c5], [f8b4], [f8a3], [e8e7], [d8e7], [a8b8], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [e5d4], [h7h6], [g7g6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [d7d5], [c7c5], [b7b5], [a7a5]",
+        "current_move": "[e5d4]",
+        "time_taken_current_agent": 73.45540211442858,
+        "input_tokens_current_agent": 394,
+        "output_tokens_current_agent": 4939,
+        "total_tokens_current_agent": 5333,
+        "guessed_moves + ground_truth_move": [
+            "[e5d4]",
+            "[f6e4]",
+            "[d7d5]",
+            "[e5d4]"
+        ],
+        "confidence_scores": [
+            92.0,
+            10.0,
+            38.0,
+            92.0
+        ],
+        "prediction_times": 73.92861441709101,
+        "guess_prediction_time": 12.041076296940446,
+        "guess_input_tokens": 524,
+        "guess_output_tokens": 794,
+        "guess_total_tokens": 1318
+    },
+    "10": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b . r |\n 7 | p p p p . p p p |\n 6 | . . . . . n . . |\n 5 | . . . . . . . . |\n 4 | . . B p P . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [e2h5], [e2g4], [e2f3], [e2e3], [e2d3], [e2f1], [e2d1], [h1g1], [h1f1], [e1f1], [e1d1], [b1c3], [b1a3], [e1g1], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [b2b4], [a2a4]",
+        "current_move": "[e4e5]",
+        "time_taken_current_agent": 198.27878391649574,
+        "input_tokens_current_agent": 436,
+        "output_tokens_current_agent": 9867,
+        "total_tokens_current_agent": 10303,
+        "guessed_moves + ground_truth_move": [
+            "[c4f7]",
+            "[e1g1]",
+            "[b1c3]",
+            "[e4e5]"
+        ],
+        "confidence_scores": [
+            7.0,
+            74.0,
+            28.0,
+            66.0
+        ],
+        "prediction_times": 72.18310662498698,
+        "guess_prediction_time": 7.322638172656298,
+        "guess_input_tokens": 566,
+        "guess_output_tokens": 602,
+        "guess_total_tokens": 1168
+    },
+    "11": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b . r |\n 7 | p p p p . p p p |\n 6 | . . . . . n . . |\n 5 | . . . . P . . . |\n 4 | . . B p . . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [h8g8], [f8e7], [f8d6], [f8c5], [f8b4], [f8a3], [e8e7], [d8e7], [a8b8], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [d7d6], [c7c6], [b7b6], [a7a6], [d4d3], [h7h5], [g7g5], [d7d5], [c7c5], [b7b5], [a7a5]",
+        "current_move": "[d7d5]",
+        "time_taken_current_agent": 267.2571935309097,
+        "input_tokens_current_agent": 394,
+        "output_tokens_current_agent": 15435,
+        "total_tokens_current_agent": 15829,
+        "guessed_moves + ground_truth_move": [
+            "[c7c5]",
+            "[d4d3]",
+            "[f8b4]",
+            "[d7d5]"
+        ],
+        "confidence_scores": [
+            15.0,
+            85.0,
+            10.0,
+            75.0
+        ],
+        "prediction_times": 104.897039916832,
+        "guess_prediction_time": 9.199142076075077,
+        "guess_input_tokens": 524,
+        "guess_output_tokens": 538,
+        "guess_total_tokens": 1062
+    },
+    "12": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b . r |\n 7 | p p p . . p p p |\n 6 | . . . . . n . . |\n 5 | . . . p P . . . |\n 4 | . . B p . . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [e2h5], [e2g4], [e2e4], [e2f3], [e2e3], [e2d3], [e2f1], [e2d1], [h1g1], [h1f1], [e1f1], [e1d1], [b1c3], [b1a3], [e1g1], [e5f6], [e5e6], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [b2b4], [a2a4], [e5d6]",
+        "current_move": "[e5f6]",
+        "time_taken_current_agent": 92.73085254058242,
+        "input_tokens_current_agent": 442,
+        "output_tokens_current_agent": 4043,
+        "total_tokens_current_agent": 4485,
+        "guessed_moves + ground_truth_move": [
+            "[e5f6]",
+            "[c4d5]",
+            "[e2h5]",
+            "[e5f6]"
+        ],
+        "confidence_scores": [
+            88.0,
+            18.0,
+            3.0,
+            88.0
+        ],
+        "prediction_times": 41.42738387500867,
+        "guess_prediction_time": 12.199126792140305,
+        "guess_input_tokens": 572,
+        "guess_output_tokens": 666,
+        "guess_total_tokens": 1238
+    },
+    "13": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . b q k b . r |\n 7 | p p p . . p p p |\n 6 | . . . . . P . . |\n 5 | . . . p . . . . |\n 4 | . . B p . . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [e8d7], [f8e7], [d8e7], [c8e6]",
+        "current_move": "[c8e6]",
+        "time_taken_current_agent": 117.09792427439243,
+        "input_tokens_current_agent": 256,
+        "output_tokens_current_agent": 6923,
+        "total_tokens_current_agent": 7179,
+        "guessed_moves + ground_truth_move": [
+            "[f8e7]",
+            "[d8e7]",
+            "[c8e6]",
+            "[c8e6]"
+        ],
+        "confidence_scores": [
+            10.0,
+            8.0,
+            78.0,
+            78.0
+        ],
+        "prediction_times": 67.62671375018544,
+        "guess_prediction_time": 2.971981281414628,
+        "guess_input_tokens": 386,
+        "guess_output_tokens": 218,
+        "guess_total_tokens": 604
+    },
+    "14": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q k b . r |\n 7 | p p p . . p p p |\n 6 | . . . . b P . . |\n 5 | . . . p . . . . |\n 4 | . . B p . . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [e2e6], [e2h5], [e2e5], [e2g4], [e2e4], [e2f3], [e2e3], [e2d3], [e2f1], [e2d1], [h1g1], [h1f1], [e1f1], [e1d1], [b1c3], [b1a3], [e1g1], [f6g7], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [b2b4], [a2a4]",
+        "current_move": "[f6g7]",
+        "time_taken_current_agent": 513.0701372316107,
+        "input_tokens_current_agent": 442,
+        "output_tokens_current_agent": 25611,
+        "total_tokens_current_agent": 26053,
+        "guessed_moves + ground_truth_move": [
+            "[e2e6]",
+            "[f6g7]",
+            "[c4b5]",
+            "[f6g7]"
+        ],
+        "confidence_scores": [
+            10.0,
+            50.0,
+            70.0,
+            50.0
+        ],
+        "prediction_times": 60.36682520899922,
+        "guess_prediction_time": 11.285165086388588,
+        "guess_input_tokens": 572,
+        "guess_output_tokens": 922,
+        "guess_total_tokens": 1494
+    },
+    "15": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q k b . r |\n 7 | p p p . . p P p |\n 6 | . . . . b . . . |\n 5 | . . . p . . . . |\n 4 | . . B p . . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [h8g8], [f8g7], [f8e7], [f8d6], [f8c5], [f8b4], [f8a3], [e8e7], [e8d7], [d8c8], [d8b8], [d8e7], [d8d7], [d8f6], [d8d6], [d8g5], [d8h4], [a8c8], [a8b8], [d5c4], [h7h6], [f7f6], [c7c6], [b7b6], [a7a6], [d4d3], [h7h5], [f7f5], [c7c5], [b7b5], [a7a5]",
+        "current_move": "[f8g7]",
+        "time_taken_current_agent": 117.15277391113341,
+        "input_tokens_current_agent": 418,
+        "output_tokens_current_agent": 5899,
+        "total_tokens_current_agent": 6317,
+        "guessed_moves + ground_truth_move": [
+            "[f8g7]",
+            "[f8e7]",
+            "[h8g8]",
+            "[f8g7]"
+        ],
+        "confidence_scores": [
+            95.0,
+            5.0,
+            15.0,
+            95.0
+        ],
+        "prediction_times": 61.07943362509832,
+        "guess_prediction_time": 11.558349835686386,
+        "guess_input_tokens": 548,
+        "guess_output_tokens": 986,
+        "guess_total_tokens": 1534
+    },
+    "16": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q k . . r |\n 7 | p p p . . p b p |\n 6 | . . . . b . . . |\n 5 | . . . p . . . . |\n 4 | . . B p . . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [e2e6], [e2h5], [e2e5], [e2g4], [e2e4], [e2f3], [e2e3], [e2d3], [e2f1], [e2d1], [h1g1], [h1f1], [e1f1], [e1d1], [b1c3], [b1a3], [e1g1], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [b2b4], [a2a4]",
+        "current_move": "[c4b5]",
+        "time_taken_current_agent": 131.66442858241498,
+        "input_tokens_current_agent": 436,
+        "output_tokens_current_agent": 10187,
+        "total_tokens_current_agent": 10623,
+        "guessed_moves + ground_truth_move": [
+            "[e2e6]",
+            "[c4d5]",
+            "[e1g1]",
+            "[c4b5]"
+        ],
+        "confidence_scores": [
+            90.0,
+            10.0,
+            50.0,
+            45.0
+        ],
+        "prediction_times": 78.97922654100694,
+        "guess_prediction_time": 11.92206500750035,
+        "guess_input_tokens": 566,
+        "guess_output_tokens": 1050,
+        "guess_total_tokens": 1616
+    },
+    "17": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q k . . r |\n 7 | p p p . . p b p |\n 6 | . . . . b . . . |\n 5 | . B . p . . . . |\n 4 | . . . p . . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [e8f8], [e8e7], [d8d7], [c7c6]",
+        "current_move": "[c7c6]",
+        "time_taken_current_agent": 156.33014986477792,
+        "input_tokens_current_agent": 256,
+        "output_tokens_current_agent": 10699,
+        "total_tokens_current_agent": 10955,
+        "guessed_moves + ground_truth_move": [
+            "[e8f8]",
+            "[d8d7]",
+            "[c7c6]",
+            "[c7c6]"
+        ],
+        "confidence_scores": [
+            65.0,
+            5.0,
+            90.0,
+            90.0
+        ],
+        "prediction_times": 65.04435937479138,
+        "guess_prediction_time": 3.6415475755929947,
+        "guess_input_tokens": 386,
+        "guess_output_tokens": 282,
+        "guess_total_tokens": 668
+    },
+    "18": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q k . . r |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . B . p . . . . |\n 4 | . . . p . . . . |\n 3 | . . . . . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [b5c6], [b5a6], [b5c4], [b5a4], [b5d3], [e2e6], [e2h5], [e2e5], [e2g4], [e2e4], [e2c4], [e2f3], [e2e3], [e2d3], [e2f1], [e2d1], [h1g1], [h1f1], [e1f1], [e1d1], [b1c3], [b1a3], [e1g1], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[b5d3]",
+        "time_taken_current_agent": 324.6915820846334,
+        "input_tokens_current_agent": 448,
+        "output_tokens_current_agent": 16779,
+        "total_tokens_current_agent": 17227,
+        "guessed_moves + ground_truth_move": [
+            "[e2e6]",
+            "[b5c6]",
+            "[e1g1]",
+            "[b5d3]"
+        ],
+        "confidence_scores": [
+            5.0,
+            5.0,
+            5.0,
+            5.0
+        ],
+        "prediction_times": 44.012799999909475,
+        "guess_prediction_time": 20.767203363589942,
+        "guess_input_tokens": 578,
+        "guess_output_tokens": 730,
+        "guess_total_tokens": 1308
+    },
+    "19": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q k . . r |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . p . . . . |\n 4 | . . . p . . . . |\n 3 | . . . B . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [h8g8], [h8f8], [e8f8], [e8e7], [e8d7], [d8c8], [d8b8], [d8e7], [d8d7], [d8c7], [d8f6], [d8d6], [d8b6], [d8g5], [d8a5], [d8h4], [a8c8], [a8b8], [g7f8], [g7h6], [g7f6], [g7e5], [e8g8], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[e8g8]",
+        "time_taken_current_agent": 144.66690910514444,
+        "input_tokens_current_agent": 424,
+        "output_tokens_current_agent": 10635,
+        "total_tokens_current_agent": 11059,
+        "guessed_moves + ground_truth_move": [
+            "[e8g8]",
+            "[d8h4]",
+            "[c6c5]",
+            "[e8g8]"
+        ],
+        "confidence_scores": [
+            75.0,
+            50.0,
+            62.0,
+            75.0
+        ],
+        "prediction_times": 56.385282791918144,
+        "guess_prediction_time": 22.676517023704946,
+        "guess_input_tokens": 554,
+        "guess_output_tokens": 1498,
+        "guess_total_tokens": 2052
+    },
+    "20": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q . r k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . p . . . . |\n 4 | . . . p . . . . |\n 3 | . . . B . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . K . . R |\n   +-----------------+\n    a b c d e f g h \nValid moves: [d3h7], [d3g6], [d3a6], [d3f5], [d3b5], [d3e4], [d3c4], [e2e6], [e2h5], [e2e5], [e2g4], [e2e4], [e2f3], [e2e3], [e2f1], [e2d1], [h1g1], [h1f1], [e1f1], [e1d1], [b1c3], [b1a3], [e1g1], [h2h3], [g2g3], [f2f3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[e1g1]",
+        "time_taken_current_agent": 244.98232434410602,
+        "input_tokens_current_agent": 442,
+        "output_tokens_current_agent": 14731,
+        "total_tokens_current_agent": 15173,
+        "guessed_moves + ground_truth_move": [
+            "[d3h7]",
+            "[e2e6]",
+            "[e1g1]",
+            "[e1g1]"
+        ],
+        "confidence_scores": [
+            10.0,
+            5.0,
+            85.0,
+            85.0
+        ],
+        "prediction_times": 46.481786417076364,
+        "guess_prediction_time": 13.59554145950824,
+        "guess_input_tokens": 572,
+        "guess_output_tokens": 922,
+        "guess_total_tokens": 1494
+    },
+    "21": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q . r k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . p . . . . |\n 4 | . . . p . . . . |\n 3 | . . . B . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [f8e8], [d8e8], [d8c8], [d8b8], [d8e7], [d8d7], [d8c7], [d8f6], [d8d6], [d8b6], [d8g5], [d8a5], [d8h4], [a8c8], [a8b8], [g7h8], [g7h6], [g7f6], [g7e5], [e6c8], [e6d7], [e6f5], [e6g4], [e6h3], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[f8e8]",
+        "time_taken_current_agent": 494.44499467127025,
+        "input_tokens_current_agent": 436,
+        "output_tokens_current_agent": 22539,
+        "total_tokens_current_agent": 22975,
+        "guessed_moves + ground_truth_move": [
+            "[d8e7]",
+            "[f7f5]",
+            "[c6c5]",
+            "[f8e8]"
+        ],
+        "confidence_scores": [
+            70.0,
+            10.0,
+            45.0,
+            65.0
+        ],
+        "prediction_times": 143.2777212089859,
+        "guess_prediction_time": 9.547755362465978,
+        "guess_input_tokens": 566,
+        "guess_output_tokens": 410,
+        "guess_total_tokens": 976
+    },
+    "22": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . p . . . . |\n 4 | . . . p . . . . |\n 3 | . . . B . . . . |\n 2 | P P P P Q P P P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [d3h7], [d3g6], [d3a6], [d3f5], [d3b5], [d3e4], [d3c4], [e2e6], [e2h5], [e2e5], [e2g4], [e2e4], [e2f3], [e2e3], [e2e1], [e2d1], [g1h1], [f1e1], [f1d1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[e2e4]",
+        "time_taken_current_agent": 339.20944039244205,
+        "input_tokens_current_agent": 430,
+        "output_tokens_current_agent": 17099,
+        "total_tokens_current_agent": 17529,
+        "guessed_moves + ground_truth_move": [
+            "[d3h7]",
+            "[e2h5]",
+            "[e2g4]",
+            "[e2e4]"
+        ],
+        "confidence_scores": [
+            18.0,
+            72.0,
+            48.0,
+            52.0
+        ],
+        "prediction_times": 101.03960149991326,
+        "guess_prediction_time": 19.737537722103298,
+        "guess_input_tokens": 560,
+        "guess_output_tokens": 1754,
+        "guess_total_tokens": 2314
+    },
+    "23": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . p . . . . |\n 4 | . . . p Q . . . |\n 3 | . . . B . . . . |\n 2 | P P P P . P P P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8e7], [d8c8], [d8b8], [d8e7], [d8d7], [d8c7], [d8f6], [d8d6], [d8b6], [d8g5], [d8a5], [d8h4], [a8c8], [a8b8], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [e6c8], [e6d7], [e6f5], [e6g4], [e6h3], [d5e4], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[d5e4]",
+        "time_taken_current_agent": 85.22707698401064,
+        "input_tokens_current_agent": 454,
+        "output_tokens_current_agent": 3723,
+        "total_tokens_current_agent": 4177,
+        "guessed_moves + ground_truth_move": [
+            "[d5e4]",
+            "[d8h4]",
+            "[d8f6]",
+            "[d5e4]"
+        ],
+        "confidence_scores": [
+            97.0,
+            25.0,
+            18.0,
+            97.0
+        ],
+        "prediction_times": 57.28855154197663,
+        "guess_prediction_time": 18.432724102400243,
+        "guess_input_tokens": 584,
+        "guess_output_tokens": 858,
+        "guess_total_tokens": 1442
+    },
+    "24": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . . . . . . |\n 4 | . . . p p . . . |\n 3 | . . . B . . . . |\n 2 | P P P P . P P P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [d3a6], [d3b5], [d3e4], [d3c4], [d3e2], [g1h1], [f1e1], [f1d1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[d3e4]",
+        "time_taken_current_agent": 184.5892566582188,
+        "input_tokens_current_agent": 364,
+        "output_tokens_current_agent": 12299,
+        "total_tokens_current_agent": 12663,
+        "guessed_moves + ground_truth_move": [
+            "[d3e4]",
+            "[b1c3]",
+            "[f1e1]",
+            "[d3e4]"
+        ],
+        "confidence_scores": [
+            80.0,
+            10.0,
+            65.0,
+            80.0
+        ],
+        "prediction_times": 68.33351966692135,
+        "guess_prediction_time": 8.18077421747148,
+        "guess_input_tokens": 494,
+        "guess_output_tokens": 730,
+        "guess_total_tokens": 1224
+    },
+    "25": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . q r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . . . . . . |\n 4 | . . . p B . . . |\n 3 | . . . . . . . . |\n 2 | P P P P . P P P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8e7], [d8c8], [d8b8], [d8e7], [d8d7], [d8c7], [d8f6], [d8d6], [d8b6], [d8g5], [d8d5], [d8a5], [d8h4], [a8c8], [a8b8], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [e6c8], [e6d7], [e6f5], [e6d5], [e6g4], [e6c4], [e6h3], [e6b3], [e6a2], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [d4d3], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[d8h4]",
+        "time_taken_current_agent": 245.53713309857994,
+        "input_tokens_current_agent": 484,
+        "output_tokens_current_agent": 19723,
+        "total_tokens_current_agent": 20207,
+        "guessed_moves + ground_truth_move": [
+            "[d8h4]",
+            "[e6b3]",
+            "[d8d5]",
+            "[d8h4]"
+        ],
+        "confidence_scores": [
+            45.0,
+            4.0,
+            5.0,
+            45.0
+        ],
+        "prediction_times": 86.5515390841756,
+        "guess_prediction_time": 6.759442964568734,
+        "guess_input_tokens": 614,
+        "guess_output_tokens": 986,
+        "guess_total_tokens": 1600
+    },
+    "26": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . . . . . . |\n 4 | . . . p B . . q |\n 3 | . . . . . . . . |\n 2 | P P P P . P P P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [e4h7], [e4g6], [e4c6], [e4f5], [e4d5], [e4f3], [e4d3], [g1h1], [f1e1], [f1d1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [g2g4], [f2f4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[g2g3]",
+        "time_taken_current_agent": 259.0497485185042,
+        "input_tokens_current_agent": 376,
+        "output_tokens_current_agent": 19915,
+        "total_tokens_current_agent": 20291,
+        "guessed_moves + ground_truth_move": [
+            "[e4h7]",
+            "[g2g4]",
+            "[e4c6]",
+            "[g2g3]"
+        ],
+        "confidence_scores": [
+            10.0,
+            20.0,
+            5.0,
+            90.0
+        ],
+        "prediction_times": 122.17999583296478,
+        "guess_prediction_time": 5.9156884010881186,
+        "guess_input_tokens": 506,
+        "guess_output_tokens": 474,
+        "guess_total_tokens": 980
+    },
+    "27": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . . . . . . |\n 4 | . . . p B . . q |\n 3 | . . . . . . P . |\n 2 | P P P P . P . P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8d8], [e8c8], [e8b8], [e8e7], [a8d8], [a8c8], [a8b8], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [e6c8], [e6d7], [e6f5], [e6d5], [e6g4], [e6c4], [e6h3], [e6b3], [e6a2], [h4d8], [h4e7], [h4h6], [h4f6], [h4h5], [h4g5], [h4g4], [h4f4], [h4e4], [h4h3], [h4g3], [h4h2], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [d4d3], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[h4e4]",
+        "time_taken_current_agent": 120.75617913901806,
+        "input_tokens_current_agent": 508,
+        "output_tokens_current_agent": 8907,
+        "total_tokens_current_agent": 9415,
+        "guessed_moves + ground_truth_move": [
+            "[h4e4]",
+            "[h4g3]",
+            "[h4e7]",
+            "[h4e4]"
+        ],
+        "confidence_scores": [
+            92.0,
+            5.0,
+            28.0,
+            92.0
+        ],
+        "prediction_times": 40.079479875043035,
+        "guess_prediction_time": 22.370202138088644,
+        "guess_input_tokens": 638,
+        "guess_output_tokens": 1242,
+        "guess_total_tokens": 1880
+    },
+    "28": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . . . . . . |\n 4 | . . . p q . . . |\n 3 | . . . . . . P . |\n 2 | P P P P . P . P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [f1e1], [f1d1], [b1c3], [b1a3], [g3g4], [h2h3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [f2f4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[d2d3]",
+        "time_taken_current_agent": 101.63230992201716,
+        "input_tokens_current_agent": 328,
+        "output_tokens_current_agent": 6795,
+        "total_tokens_current_agent": 7123,
+        "guessed_moves + ground_truth_move": [
+            "[b1c3]",
+            "[f2f3]",
+            "[d2d3]",
+            "[d2d3]"
+        ],
+        "confidence_scores": [
+            15.0,
+            65.0,
+            82.0,
+            82.0
+        ],
+        "prediction_times": 87.66886299988255,
+        "guess_prediction_time": 9.832646044902503,
+        "guess_input_tokens": 458,
+        "guess_output_tokens": 1306,
+        "guess_total_tokens": 1764
+    },
+    "29": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . . . . . . |\n 4 | . . . p q . . . |\n 3 | . . . P . . P . |\n 2 | P P P . . P . P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8d8], [e8c8], [e8b8], [e8e7], [a8d8], [a8c8], [a8b8], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [e6c8], [e6d7], [e6f5], [e6d5], [e6g4], [e6c4], [e6h3], [e6b3], [e6a2], [e4g6], [e4f5], [e4e5], [e4d5], [e4h4], [e4g4], [e4f4], [e4f3], [e4e3], [e4d3], [e4g2], [e4e2], [e4h1], [e4e1], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[e4e5]",
+        "time_taken_current_agent": 346.39880589954555,
+        "input_tokens_current_agent": 514,
+        "output_tokens_current_agent": 23499,
+        "total_tokens_current_agent": 24013,
+        "guessed_moves + ground_truth_move": [
+            "[e4d3]",
+            "[a8d8]",
+            "[g8h8]",
+            "[e4e5]"
+        ],
+        "confidence_scores": [
+            10.0,
+            65.0,
+            60.0,
+            40.0
+        ],
+        "prediction_times": 54.34243112499826,
+        "guess_prediction_time": 91.63500706851482,
+        "guess_input_tokens": 644,
+        "guess_output_tokens": 4698,
+        "guess_total_tokens": 5342
+    },
+    "30": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . . q . . . |\n 4 | . . . p . . . . |\n 3 | . . . P . . P . |\n 2 | P P P . . P . P |\n 1 | R N B . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g1g2], [g1h1], [f1e1], [f1d1], [c1h6], [c1g5], [c1f4], [c1e3], [c1d2], [b1c3], [b1a3], [b1d2], [g3g4], [h2h3], [f2f3], [c2c3], [b2b3], [a2a3], [h2h4], [f2f4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[c1f4]",
+        "time_taken_current_agent": 89.27094571758062,
+        "input_tokens_current_agent": 370,
+        "output_tokens_current_agent": 5195,
+        "total_tokens_current_agent": 5565,
+        "guessed_moves + ground_truth_move": [
+            "[c1f4]",
+            "[f2f4]",
+            "[b1c3]",
+            "[c1f4]"
+        ],
+        "confidence_scores": [
+            82.0,
+            68.0,
+            10.0,
+            82.0
+        ],
+        "prediction_times": 49.96234054095112,
+        "guess_prediction_time": 11.471976374275982,
+        "guess_input_tokens": 500,
+        "guess_output_tokens": 858,
+        "guess_total_tokens": 1358
+    },
+    "31": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . b . . . |\n 5 | . . . . q . . . |\n 4 | . . . p . B . . |\n 3 | . . . P . . P . |\n 2 | P P P . . P . P |\n 1 | R N . . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8d8], [e8c8], [e8b8], [e8e7], [a8d8], [a8c8], [a8b8], [g7h8], [g7f8], [g7h6], [g7f6], [e6c8], [e6d7], [e6f5], [e6d5], [e6g4], [e6c4], [e6h3], [e6b3], [e6a2], [e5b8], [e5c7], [e5f6], [e5d6], [e5h5], [e5g5], [e5f5], [e5d5], [e5c5], [e5b5], [e5a5], [e5f4], [e5e4], [e5e3], [e5e2], [e5e1], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[e6h3]",
+        "time_taken_current_agent": 250.60815832484514,
+        "input_tokens_current_agent": 520,
+        "output_tokens_current_agent": 18379,
+        "total_tokens_current_agent": 18899,
+        "guessed_moves + ground_truth_move": [
+            "[e6h3]",
+            "[e5e2]",
+            "[a8d8]",
+            "[e6h3]"
+        ],
+        "confidence_scores": [
+            8.0,
+            78.0,
+            6.0,
+            8.0
+        ],
+        "prediction_times": 113.82337433402427,
+        "guess_prediction_time": 42.35047782771289,
+        "guess_input_tokens": 650,
+        "guess_output_tokens": 3162,
+        "guess_total_tokens": 3812
+    },
+    "32": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . q . . . |\n 4 | . . . p . B . . |\n 3 | . . . P . . P b |\n 2 | P P P . . P . P |\n 1 | R N . . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [f4h6], [f4g5], [f4e5], [f4e3], [f4d2], [f4c1], [g1h1], [f1e1], [f1d1], [f1c1], [b1c3], [b1a3], [b1d2], [g3g4], [f2f3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[f4e5]",
+        "time_taken_current_agent": 45.6794118154794,
+        "input_tokens_current_agent": 358,
+        "output_tokens_current_agent": 4107,
+        "total_tokens_current_agent": 4465,
+        "guessed_moves + ground_truth_move": [
+            "[f4e5]",
+            "[b1c3]",
+            "[f1e1]",
+            "[f4e5]"
+        ],
+        "confidence_scores": [
+            96.0,
+            12.0,
+            8.0,
+            96.0
+        ],
+        "prediction_times": 37.265747415833175,
+        "guess_prediction_time": 11.740584002807736,
+        "guess_input_tokens": 488,
+        "guess_output_tokens": 1178,
+        "guess_total_tokens": 1666
+    },
+    "33": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . B . . . |\n 4 | . . . p . . . . |\n 3 | . . . P . . P b |\n 2 | P P P . . P . P |\n 1 | R N . . . R K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8d8], [e8c8], [e8b8], [e8e7], [e8e6], [e8e5], [a8d8], [a8c8], [a8b8], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [h3c8], [h3d7], [h3e6], [h3f5], [h3g4], [h3g2], [h3f1], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[h3f1]",
+        "time_taken_current_agent": 108.92372498381883,
+        "input_tokens_current_agent": 430,
+        "output_tokens_current_agent": 7307,
+        "total_tokens_current_agent": 7737,
+        "guessed_moves + ground_truth_move": [
+            "[h3f1]",
+            "[g7e5]",
+            "[e8e5]",
+            "[h3f1]"
+        ],
+        "confidence_scores": [
+            90.0,
+            60.0,
+            50.0,
+            90.0
+        ],
+        "prediction_times": 73.30266649997793,
+        "guess_prediction_time": 10.977250874042511,
+        "guess_input_tokens": 560,
+        "guess_output_tokens": 986,
+        "guess_total_tokens": 1546
+    },
+    "34": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . B . . . |\n 4 | . . . p . . . . |\n 3 | . . . P . . P . |\n 2 | P P P . . P . P |\n 1 | R N . . . b K . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [e5b8], [e5g7], [e5c7], [e5f6], [e5d6], [e5f4], [e5d4], [g1h1], [g1f1], [b1c3], [b1a3], [b1d2], [g3g4], [h2h3], [f2f3], [c2c3], [b2b3], [a2a3], [h2h4], [f2f4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[g1f1]",
+        "time_taken_current_agent": 113.91945980954915,
+        "input_tokens_current_agent": 370,
+        "output_tokens_current_agent": 7947,
+        "total_tokens_current_agent": 8317,
+        "guessed_moves + ground_truth_move": [
+            "[g1f1]",
+            "[e5g7]",
+            "[e5d4]",
+            "[g1f1]"
+        ],
+        "confidence_scores": [
+            93.0,
+            25.0,
+            38.0,
+            93.0
+        ],
+        "prediction_times": 67.3528084999416,
+        "guess_prediction_time": 7.72482271771878,
+        "guess_input_tokens": 500,
+        "guess_output_tokens": 1050,
+        "guess_total_tokens": 1550
+    },
+    "35": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . B . . . |\n 4 | . . . p . . . . |\n 3 | . . . P . . P . |\n 2 | P P P . . P . P |\n 1 | R N . . . K . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8d8], [e8c8], [e8b8], [e8e7], [e8e6], [e8e5], [a8d8], [a8c8], [a8b8], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[e8e5]",
+        "time_taken_current_agent": 47.20524097792804,
+        "input_tokens_current_agent": 388,
+        "output_tokens_current_agent": 2891,
+        "total_tokens_current_agent": 3279,
+        "guessed_moves + ground_truth_move": [
+            "[g7e5]",
+            "[e8e5]",
+            "[g8f8]",
+            "[e8e5]"
+        ],
+        "confidence_scores": [
+            85.0,
+            65.0,
+            5.0,
+            65.0
+        ],
+        "prediction_times": 42.986342209158465,
+        "guess_prediction_time": 5.772892037406564,
+        "guess_input_tokens": 518,
+        "guess_output_tokens": 794,
+        "guess_total_tokens": 1312
+    },
+    "36": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . . . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . r . . . |\n 4 | . . . p . . . . |\n 3 | . . . P . . P . |\n 2 | P P P . . P . P |\n 1 | R N . . . K . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [f1g2], [f1g1], [b1c3], [b1a3], [b1d2], [g3g4], [h2h3], [f2f3], [c2c3], [b2b3], [a2a3], [h2h4], [f2f4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[f2f4]",
+        "time_taken_current_agent": 123.68928652629256,
+        "input_tokens_current_agent": 328,
+        "output_tokens_current_agent": 9611,
+        "total_tokens_current_agent": 9939,
+        "guessed_moves + ground_truth_move": [
+            "[f2f4]",
+            "[b1c3]",
+            "[c2c3]",
+            "[f2f4]"
+        ],
+        "confidence_scores": [
+            78.0,
+            10.0,
+            72.0,
+            78.0
+        ],
+        "prediction_times": 69.70323229208589,
+        "guess_prediction_time": 9.218533465638757,
+        "guess_input_tokens": 458,
+        "guess_output_tokens": 666,
+        "guess_total_tokens": 1124
+    },
+    "37": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . . . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . r . . . |\n 4 | . . . p . P . . |\n 3 | . . . P . . P . |\n 2 | P P P . . . . P |\n 1 | R N . . . K . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [a8f8], [a8e8], [a8d8], [a8c8], [a8b8], [g7h8], [g7f8], [g7h6], [g7f6], [e5e8], [e5e7], [e5e6], [e5h5], [e5g5], [e5f5], [e5d5], [e5c5], [e5b5], [e5a5], [e5e4], [e5e3], [e5e2], [e5e1], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[e5e7]",
+        "time_taken_current_agent": 319.01406283769757,
+        "input_tokens_current_agent": 436,
+        "output_tokens_current_agent": 21515,
+        "total_tokens_current_agent": 21951,
+        "guessed_moves + ground_truth_move": [
+            "[e5e1]",
+            "[e5e2]",
+            "[e5e3]",
+            "[e5e7]"
+        ],
+        "confidence_scores": [
+            10.0,
+            5.0,
+            70.0,
+            45.0
+        ],
+        "prediction_times": 139.79174733394757,
+        "guess_prediction_time": 8.065123477950692,
+        "guess_input_tokens": 566,
+        "guess_output_tokens": 858,
+        "guess_total_tokens": 1424
+    },
+    "38": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . . . k . |\n 7 | p p . . r p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P . . |\n 3 | . . . P . . P . |\n 2 | P P P . . . . P |\n 1 | R N . . . K . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [f1g2], [f1f2], [f1g1], [b1c3], [b1a3], [b1d2], [f4f5], [g3g4], [h2h3], [c2c3], [b2b3], [a2a3], [h2h4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[f1f2]",
+        "time_taken_current_agent": 130.81231084093451,
+        "input_tokens_current_agent": 328,
+        "output_tokens_current_agent": 9099,
+        "total_tokens_current_agent": 9427,
+        "guessed_moves + ground_truth_move": [
+            "[b1d2]",
+            "[c2c3]",
+            "[f4f5]",
+            "[f1f2]"
+        ],
+        "confidence_scores": [
+            65.0,
+            70.0,
+            45.0,
+            28.0
+        ],
+        "prediction_times": 27.810771540971473,
+        "guess_prediction_time": 3.9596260506659746,
+        "guess_input_tokens": 458,
+        "guess_output_tokens": 410,
+        "guess_total_tokens": 868
+    },
+    "39": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | r . . . . . k . |\n 7 | p p . . r p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P . . |\n 3 | . . . P . . P . |\n 2 | P P P . . K . P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [a8f8], [a8e8], [a8d8], [a8c8], [a8b8], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [e7e8], [e7d7], [e7c7], [e7e6], [e7e5], [e7e4], [e7e3], [e7e2], [e7e1], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[a8e8]",
+        "time_taken_current_agent": 122.4071193318814,
+        "input_tokens_current_agent": 412,
+        "output_tokens_current_agent": 9739,
+        "total_tokens_current_agent": 10151,
+        "guessed_moves + ground_truth_move": [
+            "[e7e2]",
+            "[a8e8]",
+            "[f7f5]",
+            "[a8e8]"
+        ],
+        "confidence_scores": [
+            12.0,
+            70.0,
+            60.0,
+            70.0
+        ],
+        "prediction_times": 70.31466866703704,
+        "guess_prediction_time": 13.664672842249274,
+        "guess_input_tokens": 542,
+        "guess_output_tokens": 1498,
+        "guess_total_tokens": 2040
+    },
+    "40": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . r . k . |\n 7 | p p . . r p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P . . |\n 3 | . . . P . . P . |\n 2 | P P P . . K . P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [f2f3], [f2g2], [f2g1], [f2f1], [b1c3], [b1a3], [b1d2], [f4f5], [g3g4], [h2h3], [c2c3], [b2b3], [a2a3], [h2h4], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[f2g2]",
+        "time_taken_current_agent": 463.90266873687506,
+        "input_tokens_current_agent": 334,
+        "output_tokens_current_agent": 22987,
+        "total_tokens_current_agent": 23321,
+        "guessed_moves + ground_truth_move": [
+            "[b1c3]",
+            "[f4f5]",
+            "[h2h4]",
+            "[f2g2]"
+        ],
+        "confidence_scores": [
+            8.0,
+            58.0,
+            62.0,
+            28.0
+        ],
+        "prediction_times": 83.32435199990869,
+        "guess_prediction_time": 2.1243130983784795,
+        "guess_input_tokens": 464,
+        "guess_output_tokens": 154,
+        "guess_total_tokens": 618
+    },
+    "41": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . r . k . |\n 7 | p p . . r p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P . . |\n 3 | . . . P . . P . |\n 2 | P P P . . . K P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8d8], [e8c8], [e8b8], [e8a8], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [e7d7], [e7c7], [e7e6], [e7e5], [e7e4], [e7e3], [e7e2], [e7e1], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[e7e2]",
+        "time_taken_current_agent": 71.61259582545608,
+        "input_tokens_current_agent": 406,
+        "output_tokens_current_agent": 6219,
+        "total_tokens_current_agent": 6625,
+        "guessed_moves + ground_truth_move": [
+            "[e7e2]",
+            "[g7e5]",
+            "[f7f5]",
+            "[e7e2]"
+        ],
+        "confidence_scores": [
+            88.0,
+            12.0,
+            38.0,
+            88.0
+        ],
+        "prediction_times": 72.46508883289061,
+        "guess_prediction_time": 12.576881861314178,
+        "guess_input_tokens": 536,
+        "guess_output_tokens": 1306,
+        "guess_total_tokens": 1842
+    },
+    "42": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P . . |\n 3 | . . . P . . P . |\n 2 | P P P . r . K P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g2h3], [g2f3], [g2h1], [g2g1], [g2f1]",
+        "current_move": "[g2h3]",
+        "time_taken_current_agent": 187.37510900292546,
+        "input_tokens_current_agent": 262,
+        "output_tokens_current_agent": 13067,
+        "total_tokens_current_agent": 13329,
+        "guessed_moves + ground_truth_move": [
+            "[g2f1]",
+            "[g2g1]",
+            "[g2h1]",
+            "[g2h3]"
+        ],
+        "confidence_scores": [
+            75.0,
+            60.0,
+            50.0,
+            25.0
+        ],
+        "prediction_times": 90.28641916695051,
+        "guess_prediction_time": 17.271995022892952,
+        "guess_input_tokens": 392,
+        "guess_output_tokens": 2202,
+        "guess_total_tokens": 2594
+    },
+    "43": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P . . |\n 3 | . . . P . . P K |\n 2 | P P P . r . . P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8d8], [e8c8], [e8b8], [e8a8], [e8e7], [e8e6], [e8e5], [e8e4], [e8e3], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [e2e7], [e2e6], [e2e5], [e2e4], [e2e3], [e2h2], [e2g2], [e2f2], [e2d2], [e2c2], [e2e1], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[e2f2]",
+        "time_taken_current_agent": 179.94828965328634,
+        "input_tokens_current_agent": 454,
+        "output_tokens_current_agent": 12427,
+        "total_tokens_current_agent": 12881,
+        "guessed_moves + ground_truth_move": [
+            "[f7f5]",
+            "[h7h5]",
+            "[c6c5]",
+            "[e2f2]"
+        ],
+        "confidence_scores": [
+            65.0,
+            75.0,
+            60.0,
+            25.0
+        ],
+        "prediction_times": 94.44121079100296,
+        "guess_prediction_time": 37.80589439254254,
+        "guess_input_tokens": 584,
+        "guess_output_tokens": 3482,
+        "guess_total_tokens": 4066
+    },
+    "44": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P . . |\n 3 | . . . P . . P K |\n 2 | P P P . . r . P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [h3h4], [h3g4], [b1c3], [b1a3], [b1d2], [f4f5], [g3g4], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]",
+        "current_move": "[c2c3]",
+        "time_taken_current_agent": 167.80464097764343,
+        "input_tokens_current_agent": 310,
+        "output_tokens_current_agent": 12043,
+        "total_tokens_current_agent": 12353,
+        "guessed_moves + ground_truth_move": [
+            "[b1c3]",
+            "[f4f5]",
+            "[h3h4]",
+            "[c2c3]"
+        ],
+        "confidence_scores": [
+            10.0,
+            40.0,
+            25.0,
+            70.0
+        ],
+        "prediction_times": 63.3727481670212,
+        "guess_prediction_time": 2.229741313494742,
+        "guess_input_tokens": 440,
+        "guess_output_tokens": 154,
+        "guess_total_tokens": 594
+    },
+    "45": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . r . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P . . |\n 3 | . . P P . . P K |\n 2 | P P . . . r . P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [e8f8], [e8d8], [e8c8], [e8b8], [e8a8], [e8e7], [e8e6], [e8e5], [e8e4], [e8e3], [e8e2], [e8e1], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [f2f4], [f2f3], [f2h2], [f2g2], [f2e2], [f2d2], [f2c2], [f2b2], [f2f1], [d4c3], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[e8e2]",
+        "time_taken_current_agent": 175.26493005175143,
+        "input_tokens_current_agent": 460,
+        "output_tokens_current_agent": 11851,
+        "total_tokens_current_agent": 12311,
+        "guessed_moves + ground_truth_move": [
+            "[f2h2]",
+            "[f2f4]",
+            "[e8e1]",
+            "[e8e2]"
+        ],
+        "confidence_scores": [
+            15.0,
+            5.0,
+            60.0,
+            85.0
+        ],
+        "prediction_times": 62.56889308290556,
+        "guess_prediction_time": 16.793788575567305,
+        "guess_input_tokens": 590,
+        "guess_output_tokens": 1306,
+        "guess_total_tokens": 1896
+    },
+    "46": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . . . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P . . |\n 3 | . . P P . . P K |\n 2 | P P . . r r . P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [h3h4], [h3g4], [b1a3], [b1d2], [c3d4], [f4f5], [g3g4], [c3c4], [b2b3], [a2a3], [b2b4], [a2a4]",
+        "current_move": "[h3g4]",
+        "time_taken_current_agent": 180.4786580428481,
+        "input_tokens_current_agent": 304,
+        "output_tokens_current_agent": 17099,
+        "total_tokens_current_agent": 17403,
+        "guessed_moves + ground_truth_move": [
+            "[f4f5]",
+            "[c3d4]",
+            "[b1d2]",
+            "[h3g4]"
+        ],
+        "confidence_scores": [
+            35.0,
+            30.0,
+            25.0,
+            70.0
+        ],
+        "prediction_times": 88.5581400829833,
+        "guess_prediction_time": 2.1692038141191006,
+        "guess_input_tokens": 434,
+        "guess_output_tokens": 218,
+        "guess_total_tokens": 652
+    },
+    "47": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . . . k . |\n 7 | p p . . . p b p |\n 6 | . . p . . . . . |\n 5 | . . . . . . . . |\n 4 | . . . p . P K . |\n 3 | . . P P . . P . |\n 2 | P P . . r r . P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [f2f4], [f2f3], [f2h2], [f2g2], [f2f1], [e2e8], [e2e7], [e2e6], [e2e5], [e2e4], [e2e3], [e2d2], [e2c2], [e2b2], [e2e1], [d4c3], [h7h6], [f7f6], [b7b6], [a7a6], [c6c5], [h7h5], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[h7h5]",
+        "time_taken_current_agent": 152.68640004098415,
+        "input_tokens_current_agent": 424,
+        "output_tokens_current_agent": 11659,
+        "total_tokens_current_agent": 12083,
+        "guessed_moves + ground_truth_move": [
+            "[f2f4]",
+            "[h7h5]",
+            "[f7f5]",
+            "[h7h5]"
+        ],
+        "confidence_scores": [
+            15.0,
+            80.0,
+            50.0,
+            80.0
+        ],
+        "prediction_times": 73.88135183299892,
+        "guess_prediction_time": 21.202432362362742,
+        "guess_input_tokens": 554,
+        "guess_output_tokens": 1626,
+        "guess_total_tokens": 2180
+    },
+    "48": {
+        "current_observation": "[GAME] You are playing White in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . . . k . |\n 7 | p p . . . p b . |\n 6 | . . p . . . . . |\n 5 | . . . . . . . p |\n 4 | . . . p . P K . |\n 3 | . . P P . . P . |\n 2 | P P . . r r . P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g4h5], [g4g5], [g4f5], [g4h4], [g4h3]",
+        "current_move": "[g4g5]",
+        "time_taken_current_agent": 183.18786002788693,
+        "input_tokens_current_agent": 262,
+        "output_tokens_current_agent": 11339,
+        "total_tokens_current_agent": 11601,
+        "guessed_moves + ground_truth_move": [
+            "[g4h5]",
+            "[g4g5]",
+            "[g4f5]",
+            "[g4g5]"
+        ],
+        "confidence_scores": [
+            35.0,
+            72.0,
+            28.0,
+            72.0
+        ],
+        "prediction_times": 121.50210641603917,
+        "guess_prediction_time": 23.46472887508571,
+        "guess_input_tokens": 392,
+        "guess_output_tokens": 602,
+        "guess_total_tokens": 994
+    },
+    "49": {
+        "current_observation": "[GAME] You are playing Black in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).\n[GAME] Current board:\n   +-----------------+\n 8 | . . . . . . k . |\n 7 | p p . . . p b . |\n 6 | . . p . . . . . |\n 5 | . . . . . . K p |\n 4 | . . . p . P . . |\n 3 | . . P P . . P . |\n 2 | P P . . r r . P |\n 1 | R N . . . . . . |\n   +-----------------+\n    a b c d e f g h \nValid moves: [g8h8], [g8f8], [g8h7], [g7h8], [g7f8], [g7h6], [g7f6], [g7e5], [f2f4], [f2f3], [f2h2], [f2g2], [f2f1], [e2e8], [e2e7], [e2e6], [e2e5], [e2e4], [e2e3], [e2d2], [e2c2], [e2b2], [e2e1], [d4c3], [f7f6], [b7b6], [a7a6], [c6c5], [h5h4], [f7f5], [b7b5], [a7a5]",
+        "current_move": "[g7h6]",
+        "time_taken_current_agent": 360.47319637425244,
+        "input_tokens_current_agent": 424,
+        "output_tokens_current_agent": 24843,
+        "total_tokens_current_agent": 25267,
+        "guessed_moves + ground_truth_move": [
+            "[e2e5]",
+            "[f7f6]",
+            "[g7h6]",
+            "[g7h6]"
+        ],
+        "confidence_scores": [
+            12.0,
+            85.0,
+            22.0,
+            22.0
+        ],
+        "prediction_times": 90.37539662513882,
+        "guess_prediction_time": 16.3512941012159,
+        "guess_input_tokens": 554,
+        "guess_output_tokens": 1370,
+        "guess_total_tokens": 1924
+    }
+}

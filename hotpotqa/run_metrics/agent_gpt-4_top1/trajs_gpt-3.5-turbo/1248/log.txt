@@ -1,0 +1,39 @@
+INFO 1248 Question: Who is the album "Look What You Made Me Do" is on being released through?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Look What You Made Me Do"]
+Action 1: Search["Look What You Made Me Do"]
+Observation 1: "Look What You Made Me Do" is a song by the American singer-songwriter Taylor Swift and the lead single from her sixth studio album, Reputation (2017). Big Machine Records released the song on August 24, 2017, following an approximately year-long hiatus due to the controversies that affected Swift's public image in 2016.. Written and produced by Swift and Jack Antonoff, "Look What You Made Me Do" has an electronic production combining electropop, dance-pop, progressive pop, and synth-punk with elements of hip-hop, electroclash, industrial, and electro. It contains an interpolation of "I'm Too Sexy" (1991) by the English pop group Right Said Fred, whose members received songwriting credits as a result. The melody incorporates strings, plinking piano, and synthesizers, and the chorus consists of drumbeats and rhythmic chants.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Look What You Made Me Do"]
+Action 1: Search["Look What You Made Me Do"]
+Observation 1: "Look What You Made Me Do" is a song by American singer-songwriter Taylor Swift, released on August 24, 2017, as the lead single from her sixth studio album, "Reputation" (2017). The song was written by Swift, Jack Antonoff, and Richard Fairbrass, Fred Fairbrass, and Rob Manzoli of the band Right Said Fred, as it interpolates a melody from their 1991 song "I'm Too Sexy." ".
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Big Machine Records]
+Action 2: Finish[Big Machine Records]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Reputation (album)]
+Action 2: Search[Reputation (album)]
+Observation 2: "Look What You Made Me Do" is a song by American singer-songwriter Taylor Swift, released on August 24, 2017, as the lead single from her sixth studio album, "Reputation" (2017). The song was written by Swift, Jack Antonoff, and Richard Fairbrass, Fred Fairbrass, and Rob Manzoli of the band Right Said Fred, as it interpolates a melody from their 1991 song "I'm Too Sexy." ".
+
+
+
+INFO {'steps': 3, 'answer': 'Big Machine Records', 'gt_answer': 'Big Machine Records', 'question_idx': 1117, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 9 
+Average reward: 0.5555555555555556 
+Average time 28.35910044776069
+
+-------------------------------------------------------
+

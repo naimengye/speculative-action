@@ -1,0 +1,67 @@
+INFO 4164 Question: What actor starred in "Word of Honor" and "Miami Vice"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Word of Honor]
+Action 1: Search[Word of Honor]
+Observation 1: Could not find [Word of Honor]. Similar: ['Word of Honor (TV series)', 'Word of Honor', 'Word of Honor (novel)', 'Word of Honor (2003 film)', 'Figure It Out (section Word of Honor)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Miami Vice]
+Action 1: Search[Miami Vice]
+Observation 1: {{Infobox television. | show_name = Word of Honor. | native_name = 山河令. | image = Word of Honor poster.jpg. | image_alt = Promotional poster for Word of Honor.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Word of Honor (2003 film)]
+Action 2: Search[Word of Honor (2003 film)]
+Observation 2: Word of Honor is a 2003 American drama television film directed by Robert Markowitz, based on the 1985 novel of the same name by Nelson DeMille. The film stars Don Johnson, Jeanne Tripplehorn, Sharon Lawrence, John Heard and Arliss Howard.[1] It aired on TNT on December 6, 2003.. 30 years after serving in Vietnam, ex-Army First Lieutenant Ben Tyson is brought forward for war crimes. Now a business executive, Tyson witnessed a massacre during the war. While he kept silent about it for decades, another veteran speaks out in a magazine article that mentions Tyson's involvement.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Word of Honor (film)]
+Action 2: Search[Word of Honor (film)]
+Observation 2: **Word of Honor** is a 2003 American direct-to-video war drama film directed by Robert Markowitz and starring Don Johnson, Jeanne Tripplehorn, and Sharon Lawrence. The film explores themes of military justice, loyalty, and the psychological toll of war.. **Plot:**. The story centers on Lieutenant Commander Benjamin Tyson (Don Johnson), a highly decorated U.S. Navy SEAL officer.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Miami Vice]
+Action 3: Search[Miami Vice]
+Observation 3: Miami Vice is an American crime drama television series created by Anthony Yerkovich and produced by Michael Mann for NBC.[1] It stars Don Johnson as James "Sonny" Crockett and Philip Michael Thomas as Ricardo "Rico" Tubbs, two Metro-Dade Police Department detectives working undercover in Miami, Florida. The series ran for five seasons on NBC from September 16, 1984 to June 28, 1989, airing on Friday nights.. Unlike traditional police procedurals, Miami Vice drew upon 1980s culture such as contemporary pop and rock music, sports cars (such as the Ferrari Testarossa and Lamborghini Countach), and stylized visuals. People states that Miami Vice was the "first show to look really new and different since color TV was invented".[2] Miami Vice heavily inspired the 2002 video game Grand Theft Auto: Vice City.. USA Network began airing reruns of Miami Vice on cable in 1988 and broadcast a previously unaired episode during its syndication run of the series on January 25, 1990.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Miami Vice]
+Action 3: Search[Miami Vice]
+Observation 3: **Miami Vice** was an iconic American crime drama television series created by Anthony Yerkovich and produced by Michael Mann for NBC. It aired for five seasons from September 16, 1984, to January 25, 1990, becoming a cultural phenomenon and a defining show of the 1980s.. **Premise:**. The series followed the lives of two undercover detectives, James "Sonny" Crockett (Don Johnson) and.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Don Johnson]
+Action 4: Finish[Don Johnson]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Don Johnson]
+Action 4: Finish[Don Johnson]
+Observation 4: **Miami Vice** was an iconic American crime drama television series created by Anthony Yerkovich and produced by Michael Mann for NBC. It aired for five seasons from September 16, 1984, to January 25, 1990, becoming a cultural phenomenon and a defining show of the 1980s.. **Premise:**. The series followed the lives of two undercover detectives, James "Sonny" Crockett (Don Johnson) and.
+
+
+
+INFO {'steps': 7, 'answer': 'Don Johnson', 'gt_answer': 'Donald Wayne Johnson', 'question_idx': 5473, 'reward': False, 'em': False, 'f1': 0.4}
+
+INFO Sum of rewards: 23 
+Number of steps: 49 
+Average reward: 0.46938775510204084 
+Average time 12.232166854702697
+
+-------------------------------------------------------
+

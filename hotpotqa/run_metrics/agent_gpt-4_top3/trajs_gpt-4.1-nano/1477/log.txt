@@ -1,0 +1,61 @@
+INFO 1477 Question: Ganjam district is located in an indian state located in which part of India ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for Ganjam district to find out which Indian state it's located in, and then determine which part of India that state is in.
+Action 1: [Search[Ganjam district]] 
+        Action 1: Search[Ganjam district]
+        Observation 1: Ganjam district is a district in the Indian state of Odisha. Ganjam's total area is 8,206 km² (3,168 mi²).. The district headquarters is Chhatrapur. Ganjam is divided into three sub-divisions: Chhatrapur, ODISHA, and Bhanjanagar.. As of 2011, it is the most populous district of Berhampur (out of 30).[2]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for Ganjam district and find in which Indian state it is located. Then, find in which part of India that state is located.
+Action 1: [Search[Ganjam district], Search[Indian States], Lookup[Ganjam]] 
+        Action 1: ['Search[Ganjam district]', 'Search[Indian States]', 'Lookup[Ganjam]']
+        Observation 1: Ganjam district is one of the prominent districts located in the eastern Indian state of Odisha. Known for its rich cultural heritage, diverse geography, and historical significance, Ganjam is often referred to as the "Silk City" of Odisha due to its thriving silk industry.. Geography:. Ganjam district covers an area of approximately 8,479 square kilometers. It is bordered by the Bay of Bengal to the southeast, Gajapati district to the north, Kandhamal district to."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Ganjam district is located in the state of Odisha. Now I need to figure out where Odisha is located in India.
+Action 2: Search[Odisha] 
+        Action 2: Search[Odisha]
+        Observation 2: This is an accepted version of this page. Odisha (Odia: oṛiśā, pronounced [oˈɽisa] ⓘ), formerly Orissa (the official name until 2011),[19] is a state located in Eastern India. It is the eighth-largest state by area, and the eleventh-largest by population, with over 41 million inhabitants. The state also has the third-largest population of Scheduled Tribes in India.[20] It neighbours the states of Jharkhand and West Bengal to the north, Chhattisgarh to the west, and Andhra Pradesh to the south. Odisha has a coastline of 485 kilometres (301 mi) along the Bay of Bengal in the Indian Ocean.[21] The region is also known as Utkaḷa and is mentioned by this name in India's national anthem, Jana Gana Mana.[22] The language of Odisha is Odia, which is one of the Classical languages of India.[23]."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Ganjam district is located in the eastern Indian state of Odisha. Now I need to determine in which part of India Odisha state is located.
+Action 2: [Search[Odisha], Lookup[eastern India], Finish[eastern India]] 
+        Action 2: ['Search[Odisha]', 'Lookup[eastern India]', 'Finish[eastern India]']
+        Observation 2: Odisha, formerly known as Orissa, is an eastern Indian state located on the Bay of Bengal. It is known for its rich cultural heritage, ancient temples, diverse wildlife, and vibrant traditions. The state covers an area of approximately 155,707 square kilometers and has a population of over 41 million people, making it the 9th largest state in India by area and the 11th by population.. Geography and Climate:. Odisha features a varied landscape that includes coastal plains,."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Odisha, the state where Ganjam district is located, is in Eastern India. Thus, Ganjam district is located in the eastern part of India.
+Action 3: Finish[Eastern India] 
+        Action 3: Finish[Eastern India]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Odisha is an eastern Indian state located on the Bay of Bengal. I have the information necessary to answer the question.
+
+Action 3: [Finish[eastern India], Search[Bay of Bengal], Lookup[Bay of Bengal]] 
+        Action 3: ['Search[Bay of Bengal]', 'Lookup[Bay of Bengal]', 'Finish[eastern India]']
+        Observation 3: Odisha, formerly known as Orissa, is an eastern Indian state located on the Bay of Bengal. It is known for its rich cultural heritage, ancient temples, diverse wildlife, and vibrant traditions. The state covers an area of approximately 155,707 square kilometers and has a population of over 41 million people, making it the 9th largest state in India by area and the 11th by population.. Geography and Climate:. Odisha features a varied landscape that includes coastal plains,."
+
+
+
+INFO {'steps': 5, 'answer': 'Eastern India', 'gt_answer': 'eastern India', 'question_idx': 6390, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 11 
+Average reward: 0.36363636363636365 
+Average time 39.44258936968717
+
+--------------------------------------------------
+

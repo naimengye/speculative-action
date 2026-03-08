@@ -1,0 +1,60 @@
+INFO 1248 Question: Which breed of Dog was developed in Germany, The Large Münsterländer or Bracco Italiano?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Large Münsterländer and Bracco Italiano, and find which was developed in Germany.
+Action 1: Search[Large Münsterländer] 
+        Action 1: Search[Large Münsterländer]
+        Observation 1: The Large Münsterländer or Großer Münsterländer is a modern German breed of continental pointing dog of spaniel type. It originated in Westphalia and Lower Saxony, and is named for the Münsterland region of northern Westphalia.. It shares the same origins as the German Long-haired Pointer, and was established as a separate breed when the breed society removed the black-and-white colouration from its breed standard.[1] A new breed society for black-and-white long-haired pointers was started in 1919, and the new breed was recognised in 1922. It was definitively accepted by the Fédération Cynologique Internationale in 1954.[2]. The pointing dog breeds of Europe all derive from the now-extinct Old Spanish Pointer, which spread through France and the Low Countries and reached the princely houses of the German-speaking world,[3]: 2 [4] where at first they were used in bird-hunting with nets or falcons, and later by huntsmen with guns.[4] Bird dogs were also brought from England; Carl von Heppe [de], in his Aufrichtiger Lehrprinz of 1751, describes these as taller and stronger than the local type.[5]: 523 [6]: 17  In the nineteenth century large numbers of dogs of Burgos Pointing Dog type were brought to Germany.[3]: 5  In the early part of that century the resulting mixed population had no specific name – the dogs were called Hühnerhunde ('bird dogs') or Jagdhunde ('hunting dogs').[5]: 523."
+
+SIMULATION TRAJECTORY:
+ Thought 1: The question asks which breed of dog, either The Large Münsterländer or Bracco Italiano, was developed in Germany. First I will need to search for The Large Münsterländer to find out where this breed was developed.
+Action 1: [Search[The Large Münsterländer], Search[Münsterländer], Lookup[Germany]] 
+        Action 1: ['Search[The Large Münsterländer]', 'Search[Münsterländer]', 'Lookup[Germany]']
+        Observation 1: The **Large Münsterländer** is a breed of versatile hunting dog originating in the Münster region of Germany. It is a large, well-muscled dog with a distinctive black and white coat, known for its intelligence, trainability, and strong hunting instincts.. ## History. The Large Münsterländer shares a common ancestry with the German Longhaired Pointer and the Small Münsterländer. All three breeds are believed to have descended from the long-haired bird dogs of the Middle Ages, which were used for."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Large Münsterländer breed was developed in Germany. Now I need to search for the origin of the Bracco Italiano to confirm the answer.
+Action 2: Search[Bracco Italiano] 
+        Action 2: Search[Bracco Italiano]
+        Observation 2: The Bracco Italiano[a] is an Italian breed of pointing dog.. The first dog registered by the Kennel Club Italiano, founded in 1882, was a Bracco Italiano.[2] Early in 1949 a breed standard was approved by the Ente Nazionale della Cinofilia Italiana, and later the same year a breed society, the Società Amatori Bracco Italiano, was formed.[3][4] The breed was fully accepted by the Fédération Cynologique Internationale in 1956.[5]. In the 41 years from 1970 to 2011, a total of 24,613 of the dogs were registered.[3] From 2010 to 2018 there were approximately 700 new registrations per year in Italy, of which in every year the majority were of white-and-orange colouration.[6]. The Bracco Italiano is roughly square in outline – the height at the withers is almost as great as the length of the body. The head is large, with long ears and long upper lips that hang below the lower jaw.[7]."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The Large Münsterländer was developed in Germany. I need to search Bracco Italiano next, even though I already know the answer to the question. 
+Action 2: [Search[Bracco Italiano], Lookup[Originate], Lookup[Germany]] 
+        Action 2: ['Search[Bracco Italiano]', 'Lookup[Originate]', 'Lookup[Germany]']
+        Observation 2: The Bracco Italiano is a breed of dog that originated in Italy. It is a large, powerful, and ancient breed of pointing dog, with a history dating back to the 4th or 5th century BC. The Bracco Italiano is known for its distinctive appearance, including its long, pendulous ears, deep-set eyes, and a short, dense coat that comes in various shades of white, orange, and chestnut.. **History**. The Bracco Italiano is one of."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The Bracco Italiano is an Italian breed. So the Large Münsterländer is the breed developed in Germany.
+Action 3: Finish[The Large Münsterländer] 
+        Action 3: Finish[The Large Münsterländer]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The Bracco Italiano breed originated in Italy, not Germany. So the breed of dog developed in Germany is Large Münsterländer.
+Action 3: Finish[Large Münsterländer] 
+        Action 3: ['Finish[Large Münsterländer]']
+        Observation 3: The Bracco Italiano is a breed of dog that originated in Italy. It is a large, powerful, and ancient breed of pointing dog, with a history dating back to the 4th or 5th century BC. The Bracco Italiano is known for its distinctive appearance, including its long, pendulous ears, deep-set eyes, and a short, dense coat that comes in various shades of white, orange, and chestnut.. **History**. The Bracco Italiano is one of."
+
+
+
+INFO {'steps': 5, 'answer': 'The Large Münsterländer', 'gt_answer': 'The Large Münsterländer', 'question_idx': 4774, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 9 
+Average reward: 0.4444444444444444 
+Average time 40.441535552342735
+
+--------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 4975 Question: Who was born first, Jaap Speyer or Bruce Conner?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Jaap Speyer]
+Action 1: Search[Jaap Speyer]
+Observation 1: Jaap Speyer (1891–1952) was a Dutch film director. He was married to the German actress Mia Pankau.. This article about a person from the Netherlands is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Jaap Speyer]
+Action 1: Search[Jaap Speyer]
+Observation 1: **Jaap Speyer** (born **Jacob Speyer**; 29 November 1894 – 22 September 1952) was a Dutch film actor. He appeared in over 50 films between 1917 and 1952.. Speyer was born in Amsterdam, Netherlands. He began his acting career in silent films, making his debut in the 1917 film *Het geheim van Delft* (The.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Bruce Conner]
+Action 2: Search[Bruce Conner]
+Observation 2: Bruce Conner (November 18, 1933 – July 7, 2008) was an American artist who worked with assemblage, film, drawing, sculpture, painting, collage, and photography.[1][2]. Bruce Conner was born November 18, 1933, in McPherson, Kansas.[3][4] His well-to-do middle-class family moved to Wichita, when Conner was four.[5] He attended high school in Wichita, Kansas.[3] Conner studied at Wichita University (now Wichita State University) and later at University of Nebraska, where he graduated in 1956 with a bachelor of fine arts degree.[4] During this time as a student he visited New York City.[3] Conner worked in a variety of media from an early age.. In 1955, Conner studied for six months at Brooklyn Museum Art School on a scholarship.[3] His first solo gallery show in New York City took place in 1956 and featured paintings.[4] In 1957 Bruce Conner dropped out of the Master of Fine Arts (MFA) program at the University of Colorado in Boulder, Colorado and moved to San Francisco.[6] His first solo shows in San Francisco, in 1958 and 1959, featured paintings, drawings, prints, collages, assemblages, and sculpture.[6] The Designer's Gallery in San Francisco held Bruce's third solo show. The gallery featured black panels which set off his drawings. One of his paintings, Venus, was displayed in the gallery window.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Bruce Conner]
+Action 2: Search[Bruce Conner]
+Observation 2: **Bruce Conner** (November 18, 1933 – July 7, 2008) was an American artist known for his work in various media, including assemblage, film, drawing, sculpture, and photography. He was a prominent figure in the San Francisco art scene from the 1950s onward and is often associated with the Beat Generation and the burgeoning counterculture movement.. **Early Life and Education:**. Born in McPherson, Kansas, Conner.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Jaap Speyer]
+Action 3: Finish[Jaap Speyer]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Jaap Speyer]
+Action 3: Finish[Jaap Speyer]
+Observation 3: **Bruce Conner** (November 18, 1933 – July 7, 2008) was an American artist known for his work in various media, including assemblage, film, drawing, sculpture, and photography. He was a prominent figure in the San Francisco art scene from the 1950s onward and is often associated with the Beat Generation and the burgeoning counterculture movement.. **Early Life and Education:**. Born in McPherson, Kansas, Conner.
+
+
+
+INFO {'steps': 5, 'answer': 'Jaap Speyer', 'gt_answer': 'Jaap Speyer', 'question_idx': 3956, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 11 
+Number of steps: 23 
+Average reward: 0.4782608695652174 
+Average time 30.009492252183996
+
+-------------------------------------------------------
+

@@ -1,0 +1,39 @@
+INFO 190 Question: Dawn Lake described the star of "I Love Lucy" as what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Dawn Lake]
+Action 1: Search[Dawn Lake]
+Observation 1: Dawn Alice Lake (20 January 1927 – 1 January 2006) was an Australian television comedian, singer, entertainer, and actor whose career spanned more than 50 years. She was particularly associated in show business with her husband Bobby Limb.. Entertainer Bert Newton described her as "our greatest comedienne – Australia's Lucille Ball".[1]. Dawn Alice Lake was born to a Balmain working-class family, the youngest of four children. She married entertainer Bobby Limb in 1953 and they had one daughter, Debbie, born in 1955..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Dawn Lake]
+Action 1: Search[Dawn Lake]
+Observation 1: **Dawn Lake**. Dawn Lake is a fictional character from the American animated television series *The Simpsons*. She is a recurring character, primarily appearing as a student at Springfield Elementary School. Dawn is a classmate of Lisa Simpson and a member of her social circle.. **Character Overview**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish["our greatest comedienne – Australia's Lucille Ball"]
+Action 2: Finish["our greatest comedienne – Australia's Lucille Ball"]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup["I Love Lucy"]
+Action 2: Lookup["I Love Lucy"]
+Observation 2: **Dawn Lake**. Dawn Lake is a fictional character from the American animated television series *The Simpsons*. She is a recurring character, primarily appearing as a student at Springfield Elementary School. Dawn is a classmate of Lisa Simpson and a member of her social circle.. **Character Overview**.
+
+
+
+INFO {'steps': 3, 'answer': '"our greatest comedienne\xa0– Australia\'s Lucille Ball"', 'gt_answer': 'our greatest comedienne', 'question_idx': 4919, 'reward': False, 'em': False, 'f1': 0.6}
+
+INFO Sum of rewards: 21 
+Number of steps: 46 
+Average reward: 0.45652173913043476 
+Average time 20.9560293270194
+
+-------------------------------------------------------
+

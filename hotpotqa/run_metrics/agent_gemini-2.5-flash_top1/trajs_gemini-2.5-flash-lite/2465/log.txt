@@ -1,0 +1,53 @@
+INFO 2465 Question: Are the Galata Tower and Süleymaniye Mosque located in the same city?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Galata Tower]
+Action 1: Search[Galata Tower]
+Observation 1: The Galata Tower (Turkish: Galata Kulesi), officially the Galata Tower Museum (Turkish: Galata Kulesi Müzesi), is a medieval Genoese tower in the Galata part of the Beyoğlu district of Istanbul, Turkey. Built as a watchtower at the highest point of the mostly demolished Walls of Galata,[2] the tower is now an exhibition space and museum, and a symbol of Beyoğlu and Istanbul.. During the Byzantine period the Emperor Justinian had a tower erected in what was to become Galata. This tower was destroyed by the Crusaders during the Sack of Constantinople in 1204.. In 1267 a Genoese colony was established in the Galata part of Constantinople.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Galata Tower]
+Action 1: Search[Galata Tower]
+Observation 1: The **Galata Tower** (Turkish: *Galata Kulesi*) is a medieval stone tower in the Beyoğlu district of Istanbul, Turkey. It is named after the Galata neighborhood of Istanbul.. **History:**. The tower was built in 1348 by the Genoese colony in Constantinople. It was originally called the **Tower of Christ** (*Christea Turris*).
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Süleymaniye Mosque]
+Action 2: Search[Süleymaniye Mosque]
+Observation 2: The Süleymaniye Mosque (Turkish: Süleymaniye Camii, pronounced [sylejˈmaːnije]) is an Ottoman imperial mosque located on the Third Hill of Istanbul, Turkey. The mosque was commissioned by Suleiman the Magnificent (r. 1520–1566) and designed by the imperial architect Mimar Sinan. An inscription specifies the foundation date as 1550 and the inauguration date as 1557, although work on the complex probably continued for a few years after this.[1]. The Süleymaniye Mosque is one of the best-known sights of Istanbul and from its location on the Third Hill it commands an extensive view of the city around the Golden Horn. It is considered a masterpiece of Ottoman architecture and one of Mimar Sinan's greatest works.[2][3][4][5] It is the largest Ottoman-era mosque in the city.[6][4].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Süleymaniye Mosque]
+Action 2: Search[Süleymaniye Mosque]
+Observation 2: The **Süleymaniye Mosque** (Turkish: *Süleymaniye Camii*) is an Ottoman imperial mosque located on the Third Hill of Istanbul, Turkey. It is the largest mosque in the city and one of the most famous landmarks. Commissioned by **Suleiman the Magnificent**, it was designed by the imperial architect **Mimar Sinan**. The mosque was built between **1550 and 1557**.. **Architecture and Design:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: The **Süleymaniye Mosque** (Turkish: *Süleymaniye Camii*) is an Ottoman imperial mosque located on the Third Hill of Istanbul, Turkey. It is the largest mosque in the city and one of the most famous landmarks. Commissioned by **Suleiman the Magnificent**, it was designed by the imperial architect **Mimar Sinan**. The mosque was built between **1550 and 1557**.. **Architecture and Design:**.
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 6276, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 16 
+Number of steps: 36 
+Average reward: 0.4444444444444444 
+Average time 11.887974454296959
+
+-------------------------------------------------------
+

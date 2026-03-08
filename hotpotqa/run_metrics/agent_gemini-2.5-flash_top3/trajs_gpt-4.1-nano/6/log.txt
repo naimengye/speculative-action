@@ -1,0 +1,60 @@
+INFO 6 Question: Are Ari Up and Boz Burrell both guitarists?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Ari Up and Boz Burrell, find their professions, then find if they are both guitarists.
+Action 1: [Search[Ari Up]] 
+        Action 1: Search[Ari Up]
+        Observation 1: Ariane Daniele Forster (17 January 1962 – 20 October 2010), known by her stage name Ari Up, was a German vocalist best known as a member of the English punk rock band the Slits.. Ari Up was born in Munich, West Germany.[1][2] Both her parents were involved in the music industry; her father, Frank Forster, was a German schlager singer who had some success in the 1950s and 1960s, and her mother Nora Forster was a friend of Jimi Hendrix and dated Chris Spedding for three years.[3] Ari's maternal grandfather was the German newspaper proprietor Franz Karl Maier, owner of Der Tagesspiegel. Her godfathers were Austrian singer/composer Udo Jürgens[4] and Jon Anderson, the singer of the group Yes.[5]. Nora Forster married the Sex Pistols' lead singer, John Lydon, in 1979. Their home was a punk domain where Nora would take in poor musicians."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to determine if Ari Up and Boz Burrell are both guitarists. I will start by searching for Ari Up.
+Action 1: Search[Ari Up], Search[Ari Up guitarist], Lookup[guitarist] 
+        Action 1: ['Search[Ari Up]', 'Search[Ari Up guitarist]', 'Lookup[guitarist]']
+        Observation 1: Ari Up (born Ariane Daniela Forster; 17 January 1962 – 20 October 2010) was a British singer and songwriter, best known as the lead vocalist of the influential punk rock band The Slits. Born in Munich, West Germany, she was the daughter of German artist and filmmaker Jono Forster and British singer and actress Nora Forster. Ari Up gained prominence in the late 1970s as a member of The Slits, a band formed in."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Ari Up was a vocalist. I need to search Boz Burrell next and find his profession.
+Action 2: Search[Boz Burrell] 
+        Action 2: Search[Boz Burrell]
+        Observation 2: Raymond "Boz" Burrell (1 August 1946 – 21 September 2006) was an English musician. Originally a vocalist and guitarist, Burrell is best known for being the vocalist and bassist of King Crimson from 1971 to 1972 and the original bassist of Bad Company from 1973 to their first disbandment in 1982 and once more from 1998 to 1999. He died of a heart attack in Spain in 2006, aged 60.[1]. Raymond Burrell was born on 1 August 1946 in Holbeach, Lincolnshire; he lived in Saracens Head and Holbeach Hurn. As a teen in the 1950s, he began playing rhythm guitar for the Tea Time 4, a group formed with his school pals Bernie Rudd and Brian Rocky Browne, at the George Farmer School."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Ari Up was a singer and songwriter. I need to search Boz Burrell next and find his profession.
+Action 2: Search[Boz Burrell], Lookup[Boz Burrell], Search[Boz Burrell (musician)] 
+        Action 2: ['Search[Boz Burrell]', 'Search[Boz Burrell (musician)]', 'Lookup[Boz Burrell]']
+        Observation 2: Boz Burrell (August 6, 1946 – September 21, 2006) was an English musician best known as the bassist and vocalist for the progressive rock band King Crimson and the rock band Bad Company. Born in South London, Burrell began his musical career in the late 1960s and quickly gained recognition for his distinctive bass playing and vocal style.. He initially gained prominence as a member of King Crimson during their 1970s era, contributing to albums such as."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Ari Up was a vocalist and Boz Burrell was a vocalist and guitarist/bassist. They are not both guitarists.
+Action 3: Finish[No] 
+        Action 3: Finish[No]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Ari Up was a vocalist and Boz Burrell was a bassist and vocalist. Neither of them were guitarists. So the answer is no.
+Action 3: [Finish[no], Search[King Crimson], Search[Bad Company]] 
+        Action 3: ['Search[King Crimson]', 'Search[Bad Company]', 'Finish[no]']
+        Observation 3: Boz Burrell (August 6, 1946 – September 21, 2006) was an English musician best known as the bassist and vocalist for the progressive rock band King Crimson and the rock band Bad Company. Born in South London, Burrell began his musical career in the late 1960s and quickly gained recognition for his distinctive bass playing and vocal style.. He initially gained prominence as a member of King Crimson during their 1970s era, contributing to albums such as."
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 6367, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 16.486369103193283
+
+--------------------------------------------------
+

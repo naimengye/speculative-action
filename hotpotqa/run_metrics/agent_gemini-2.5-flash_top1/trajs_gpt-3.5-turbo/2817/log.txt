@@ -1,0 +1,53 @@
+INFO 2817 Question: Which tennis player is older, Emilio Sánchez or Andrei Olhovskiy?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Emilio Sánchez]
+Action 1: Search[Emilio Sánchez]
+Observation 1: Emilio Ángel Sánchez Vicario (Spanish pronunciation: [eˈmiljo ˈaŋxel ˈsantʃeθ βiˈkaɾjo]; born 29 May 1965) is a Spanish former doubles world No. 1 tennis player. He won five Grand Slam doubles titles and the men's doubles silver medal at the 1988 Olympic Games. Sánchez is the older brother of multiple Grand Slam winner Arantxa Sánchez Vicario, with whom he partnered to win the Hopman Cup in 1990. After retiring, he captained Spain to Davis Cup victory in 2008..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Emilio Sánchez]
+Action 1: Search[Emilio Sánchez]
+Observation 1: Emilio Sánchez is a former professional tennis player from Spain. He was born on May 29, 1965, in Madrid, Spain. Sánchez achieved a career-high singles ranking of No. 7 in the world in 1990. He won a total of 15 singles titles and 50 doubles titles during his career.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Andrei Olhovskiy]
+Action 2: Search[Andrei Olhovskiy]
+Observation 2: 1993 French open champion, 1994 finalist. 1994 Australian open champion. Andrei Stanislavovich Olhovskiy (Russian: Андре́й Станисла́вович Ольхо́вский; pronounced [ɐnˈdrʲej ɐlʲˈxofskʲɪj] ⓘ; born 15 April 1966) is a former tennis player from Russia, who turned professional in 1989.. Olhovskiy represented the Soviet Union at the 1988 Summer Olympics in Seoul and Russia at the 1996 Summer Olympics in Atlanta, where he reached the quarterfinals as a wild card before falling to Brazil's Fernando Meligeni.. The right-hander won two career titles in singles (Copenhagen, 1993 and Shanghai, 1996) and 20 titles in doubles, French Open (1993) and Australian Open (1994) champion in mixed doubles.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Andrei Olhovskiy]
+Action 2: Search[Andrei Olhovskiy]
+Observation 2: Andrei Valeryevich Olhovskiy is a former professional tennis player from Russia. He was born on January 9, 1966, in Moscow, Soviet Union. Olhovskiy achieved his highest singles ranking of No. 34 in the world in 1990. He is best known for winning the Wimbledon men's doubles title in 1994, partnering with Yevgeny Kafelnikov.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Emilio Sánchez]
+Action 3: Finish[Emilio Sánchez]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Emilio Sánchez]
+Action 3: Finish[Emilio Sánchez]
+Observation 3: Andrei Valeryevich Olhovskiy is a former professional tennis player from Russia. He was born on January 9, 1966, in Moscow, Soviet Union. Olhovskiy achieved his highest singles ranking of No. 34 in the world in 1990. He is best known for winning the Wimbledon men's doubles title in 1994, partnering with Yevgeny Kafelnikov.
+
+
+
+INFO {'steps': 5, 'answer': 'Emilio Sánchez', 'gt_answer': 'Emilio Ángel Sánchez Vicario', 'question_idx': 4788, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 6 
+Number of steps: 16 
+Average reward: 0.375 
+Average time 17.402284935116768
+
+-------------------------------------------------------
+

@@ -1,0 +1,109 @@
+INFO 6 Question: Students from approximately how many nations attend the University from which Shawn Arévalo McCollough received his Masters of Education ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Shawn Arévalo McCollough]
+Action 1: Search[Shawn Arévalo McCollough]
+Observation 1: Shawn Arévalo McCollough (born 1971)[1] is president and CEO of the American Board for Certification of Teacher Excellence in Washington, DC. A former superintendent of schools, principal, and teacher, McCollough's reform efforts have been recognized by  George W. Bush,[2] and U.S. Secretary of Education Arne Duncan,[3] U.S. Secretary of Education Margaret Spellings and U.S.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Shawn Arévalo McCollough]
+Action 1: Search[Shawn Arévalo McCollough]
+Observation 1: Shawn Arévalo McCollough is an American actor and comedian. He is best known for his role as Todd in the ABC sitcom *The Middle*.. McCollough was born and raised in Los Angeles, California. He began his acting career in the early 2000s, appearing in various television shows and films. His early work includes guest roles on *CSI: Crime Scene Investigation*, *ER*, and *The Office*..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Masters of Education]
+Action 2: Lookup[Masters of Education]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Shawn Arévalo McCollough Masters of Education]
+Action 2: Search[Shawn Arévalo McCollough Masters of Education]
+Observation 2: Shawn Arévalo McCollough is an American actor and comedian. He is best known for his role as Todd in the ABC sitcom *The Middle*.. McCollough was born and raised in Los Angeles, California. He began his acting career in the early 2000s, appearing in various television shows and films. His early work includes guest roles on *CSI: Crime Scene Investigation*, *ER*, and *The Office*..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Shawn Arévalo McCollough Masters of Education]
+Action 3: Search[Shawn Arévalo McCollough Masters of Education]
+Observation 3: Could not find Shawn Arévalo McCollough Masters of Education. Similar: ['Shawn Arévalo McCollough', 'American Board for Certification of Teacher Excellence'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Shawn Arévalo McCollough Masters of Education]
+Action 3: Search[Shawn Arévalo McCollough Masters of Education]
+Observation 3: Shawn Arévalo McCollough is an American educator and administrator. He holds a Master of Education (M.Ed.) degree.. McCollough has been involved in various educational leadership roles. His career has focused on improving educational outcomes and fostering inclusive learning environments. He has experience in curriculum development, teacher training, and school management..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Shawn Arévalo McCollough education]
+Action 4: Search[Shawn Arévalo McCollough education]
+Observation 4: Could not find Shawn Arévalo McCollough education. Similar: ['Shawn Arévalo McCollough', 'American Board for Certification of Teacher Excellence (category United States Department of Education)'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Shawn Arévalo McCollough university]
+Action 4: Search[Shawn Arévalo McCollough university]
+Observation 4: Shawn Arévalo McCollough is an American politician and businessman. He is a member of the Republican Party.. **Early Life and Education:**. Shawn Arévalo McCollough was born and raised in Texas. He attended Texas A&M University, where he earned a Bachelor of Business Administration degree..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Shawn Arévalo McCollough]
+Action 5: Search[Shawn Arévalo McCollough]
+Observation 5: Shawn Arévalo McCollough (born 1971)[1] is president and CEO of the American Board for Certification of Teacher Excellence in Washington, DC. A former superintendent of schools, principal, and teacher, McCollough's reform efforts have been recognized by  George W. Bush,[2] and U.S. Secretary of Education Arne Duncan,[3] U.S. Secretary of Education Margaret Spellings and U.S.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Shawn Arévalo McCollough Masters of Education university]
+Action 5: Search[Shawn Arévalo McCollough Masters of Education university]
+Observation 5: Shawn Arévalo McCollough is an American actor and comedian. He is best known for his role as Todd in the ABC sitcom *The Middle*.. McCollough was born and raised in Los Angeles, California. He began his acting career in the early 2000s, appearing in various television shows and films. His early work includes guest roles on *CSI: Crime Scene Investigation*, *ER*, and *The Office*..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Shawn Arévalo McCollough education history]
+Action 6: Search[Shawn Arévalo McCollough education history]
+Observation 6: Could not find Shawn Arévalo McCollough education history. Similar: ['American Board for Certification of Teacher Excellence (category United States Department of Education)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[American Board for Certification of Teacher Excellence]
+Action 6: Search[American Board for Certification of Teacher Excellence]
+Observation 6: Shawn Arévalo McCollough is an American politician and businessman. He is a member of the Republican Party.. **Early Life and Education:**. Shawn Arévalo McCollough was born and raised in Texas. He attended **Texas A&M University**, where he earned a Bachelor of Business Administration (BBA) degree.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Shawn Arévalo McCollough educational background]
+Action 7: Search[Shawn Arévalo McCollough educational background]
+Observation 7: Could not find Shawn Arévalo McCollough educational background. Similar: ['American Board for Certification of Teacher Excellence (category Educational organizations established in 2001)'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Shawn Arévalo McCollough Masters of Education university]
+Action 7: Search[Shawn Arévalo McCollough Masters of Education university]
+Observation 7: Shawn Arévalo McCollough is an American politician and businessman. He is a member of the Republican Party.. McCollough's educational background includes attending the University of Texas at Austin, where he studied business. He later pursued further education in business and finance..
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'approximately 85 nations.', 'question_idx': 2995, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 8 
+Average reward: 0.125 
+Average time 9.378294616937637
+
+-------------------------------------------------------
+

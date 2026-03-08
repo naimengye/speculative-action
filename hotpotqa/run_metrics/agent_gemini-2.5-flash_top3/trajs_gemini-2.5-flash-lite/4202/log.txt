@@ -1,0 +1,44 @@
+INFO 4202 Question: What institution does 2017 Texas Tech Red Raiders baseball team and Dan Law Field at Rip Griffin Park have in common?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for 2017 Texas Tech Red Raiders baseball team and Dan Law Field at Rip Griffin Park to find out their common institution. I will start with the baseball team.
+Action 1: Search[2017 Texas Tech Red Raiders baseball team] 
+        Action 1: Search[2017 Texas Tech Red Raiders baseball team]
+        Observation 1: The 2017 Texas Tech Red Raiders baseball team represented Texas Tech University during the 2017 NCAA Division I baseball season. The Red Raiders played their home games at Dan Law Field at Rip Griffin Park as a member of the Big 12 Conference. They were led by head coach Tim Tadlock, in his 5th season at Texas Tech.. ^ Collegiate Baseball ranked 40 teams in their preseason poll, but only ranked 30 teams weekly during the season.† NCBWA ranks 35 teams in their preseason poll, but only ranks 30 teams weekly during the season.* A new poll was not released for this week, so for comparison purposes, the previous week's ranking is inserted in this week's slot.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find what institution 2017 Texas Tech Red Raiders baseball team and Dan Law Field at Rip Griffin Park have in common. I should start by searching for one of them, for example, 2017 Texas Tech Red Raiders baseball team.
+Action 1: [Search[2017 Texas Tech Red Raiders baseball team], Search[2017 Texas Tech Red Raiders], Search[Texas Tech Red Raiders baseball team]] 
+        Action 1: ['Search[2017 Texas Tech Red Raiders baseball team]', 'Search[2017 Texas Tech Red Raiders]', 'Search[Texas Tech Red Raiders baseball team]']
+        Observation 1: The 2017 Texas Tech Red Raiders baseball team represented Texas Tech University in the 2017 NCAA Division I baseball season. The Red Raiders were coached by Tim Tadlock, in his fourth season as head coach. They played their home games at Dan Law Field at Rip Griffin Park in Lubbock, Texas.. The team finished the regular season with a record of 42-15 (17-7 in Big 12 play), winning the Big 1."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The 2017 Texas Tech Red Raiders baseball team represented Texas Tech University. The question is asking for a common institution between the team and the field. The result for the team already mentions the field is their home games' location and the institution. So I can immediately return the common institution as Texas Tech University.
+Action 2: Finish[Texas Tech University] 
+        Action 2: Finish[Texas Tech University]
+        Observation 2: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The 2017 Texas Tech Red Raiders baseball team represented Texas Tech University and played their home games at Dan Law Field at Rip Griffin Park. It seems "Texas Tech University" is the common institution. I need to make sure Dan Law Field at Rip Griffin Park is also associated with Texas Tech University.
+Action 2: [Search[Dan Law Field at Rip Griffin Park], Lookup[Texas Tech University], Finish[Texas Tech University]] 
+        Action 2: ['Search[Dan Law Field at Rip Griffin Park]', 'Lookup[Texas Tech University]', 'Finish[Texas Tech University]']
+        Observation 2: The 2017 Texas Tech Red Raiders baseball team represented Texas Tech University in the 2017 NCAA Division I baseball season. The Red Raiders were coached by Tim Tadlock, in his fourth season as head coach. They played their home games at Dan Law Field at Rip Griffin Park in Lubbock, Texas.. The team finished the regular season with a record of 42-15 (17-7 in Big 12 play), winning the Big 1."
+
+
+
+INFO {'steps': 3, 'answer': 'Texas Tech University', 'gt_answer': 'Texas Tech University', 'question_idx': 2291, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 6 
+Average reward: 0.5 
+Average time 8.933401862780253
+
+--------------------------------------------------
+

@@ -1,0 +1,8 @@
+openai
+google-genai
+gymnasium
+requests
+beautifulsoup4
+numpy
+pandas
+matplotlib

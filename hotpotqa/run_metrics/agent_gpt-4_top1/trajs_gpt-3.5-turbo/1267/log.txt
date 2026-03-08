@@ -1,0 +1,53 @@
+INFO 1267 Question: What country is the Selun located in?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Selun]
+Action 1: Search[Selun]
+Observation 1: The Selun is one of the peaks of the Churfirsten range, located in the Appenzell Alps. It lies between the valley of Toggenburg and Lake Walenstadt in the canton of St. Gallen. The summit is easily accessible by a trail on the northern side.. The peak is named for the extended alpine pasture Selunalp to the peak's north-west, situated above c.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Selun]
+Action 1: Search[Selun]
+Observation 1: Selun is a fictional character in the popular fantasy book series "The Chronicles of Narnia" by C.S. Lewis. He is a centaur, a mythical creature with the body of a horse and the torso of a human. Selun is known for his wisdom, strength, and loyalty to Aslan, the great lion who is the true king of Narnia. He plays a significant role in the battle against the White Witch and her forces, fighting bravely alongside the other creatures.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[canton of St. Gallen]
+Action 2: Search[canton of St. Gallen]
+Observation 2: The canton of St. Gallen or St Gall (German: Kanton St. Gallen [zaŋkt ˈɡalən] ⓘ; Romansh: Chantun Son Gagl; French: Canton de Saint-Gall; Italian: Canton San Gallo) is a canton of Switzerland. Its capital is St. Gallen..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Selun Mountain]
+Action 2: Search[Selun Mountain]
+Observation 2: The Canton of St. Gallen is a canton in the eastern part of Switzerland. It is named after its capital, the city of St. Gallen. The canton is located in the northeast of Switzerland and is bordered by the cantons of Appenzell Ausserrhoden, Appenzell Innerrhoden, Glarus, Graubünden, Schwyz, Thurgau, and Zurich, as well as the countries of Austria and Liechtenstein..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Switzerland]
+Action 3: Finish[Switzerland]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Switzerland]
+Action 3: Finish[Switzerland]
+Observation 3: The Canton of St. Gallen is a canton in the eastern part of Switzerland. It is named after its capital, the city of St. Gallen. The canton is located in the northeast of Switzerland and is bordered by the cantons of Appenzell Ausserrhoden, Appenzell Innerrhoden, Glarus, Graubünden, Schwyz, Thurgau, and Zurich, as well as the countries of Austria and Liechtenstein..
+
+
+
+INFO {'steps': 5, 'answer': 'Switzerland', 'gt_answer': 'Switzerland', 'question_idx': 5679, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 5 
+Average reward: 0.8 
+Average time 24.476047658920287
+
+-------------------------------------------------------
+

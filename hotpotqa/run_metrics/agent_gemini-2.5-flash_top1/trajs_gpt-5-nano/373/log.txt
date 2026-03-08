@@ -1,0 +1,20 @@
+INFO 373 Question: Undiscovered Country is a reference to the concept of the afterlife as the "undiscovered country" from which opening phrase of a soliloquy spoken by Prince Hamlet in the so-called "nunnery scene" of William Shakespeare's play "Hamlet"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find the opening phrase that contains the term "undiscovered country" in Hamlet's soliloquy during the "nunnery scene". I can directly search for "undiscovered country Hamlet soliloquy".
+Action 1: Search[undiscovered country Hamlet soliloquy] 
+        Action 1: Search[undiscovered country Hamlet soliloquy]
+        Observation 1: Could not find undiscovered country Hamlet soliloquy. Similar: ['Star Trek VI: The Undiscovered Country', 'Undiscovered country', 'Undiscovered Country', 'Hamlet', 'To be, or not to be (category Hamlet)']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: The question states that "Undiscovered Country" is a reference to the phrase "undiscovered country" from a soliloquy spoken by Prince Hamlet. I need to find the opening phrase of that soliloquy. I should search for "Hamlet soliloquy undiscovered country" or similar to locate the specific soliloquy.
+Action 1: Search[Hamlet soliloquy undiscovered country] 
+        Action 1: ['Search[Hamlet soliloquy undiscovered country]']
+        Observation 1: "
+
+
+
+STEP: 2
+

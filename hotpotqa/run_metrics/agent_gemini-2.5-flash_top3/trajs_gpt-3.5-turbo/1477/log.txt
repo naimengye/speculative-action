@@ -1,0 +1,44 @@
+INFO 1477 Question: Seth MacFarlane was the creator of the two animated short films that were created while studying at what college?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find out what college Seth MacFarlane studied at, and that college should be where he created two animated short films. I will start by searching for Seth MacFarlane.
+Action 1: Search[Seth MacFarlane] 
+        Action 1: Search[Seth MacFarlane]
+        Observation 1: Seth Woodbury MacFarlane (/məkˈfɑːrlɪn/; born October 26, 1973) is an American actor, animator, writer, producer, director, comedian, and singer. He is best known as the creator and star of the television series Family Guy (since 1999) and The Orville (2017–2022), and co-creator of the television series American Dad! (since 2005) and The Cleveland Show (2009–2013). He also co-wrote, co-produced, directed, and starred in the films Ted (2012) and its sequel Ted 2 (2015), and A Million Ways to Die in the West (2014).. MacFarlane is a graduate of the Rhode Island School of Design (RISD), where he studied animation.[1] He was recruited to Hollywood as an animator and writer for Hanna-Barbera's television series Johnny Bravo, Cow and Chicken and Dexter's Laboratory, During this time, he created the animated short Larry & Steve—a loose precursor of Family Guy—for What a Cartoon!. In 2008, he created the online series Seth MacFarlane's Cavalcade of Cartoon Comedy."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the college where Seth MacFarlane studied and created two animated short films. I should start by searching for Seth MacFarlane.
+Action 1: Search[Seth MacFarlane] 
+        Action 1: ['Search[Seth MacFarlane]']
+        Observation 1: Seth Woodbury MacFarlane is an American actor, animator, writer, producer, director, and singer. He is best known for creating the animated television series "Family Guy," "American Dad!," and "The Cleveland Show." MacFarlane also created and starred in the live-action series "The Orville." He has won several awards for his work, including multiple Primetime Emmy Awards. In addition to his work in television, MacFarlane has also released several albums showcasing his singing."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The passage states that MacFarlane is a graduate of the Rhode Island School of Design (RISD), where he studied animation. It also mentions that he created the animated short Larry & Steve during this time. This seems to be the college where he created animated short films.
+Action 2: Finish[Rhode Island School of Design] 
+        Action 2: Finish[Rhode Island School of Design]
+        Observation 2: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The current paragraph describes Seth MacFarlane's career achievements but doesn't mention his college or animated short films. I need to find information about his education. I will try to look up "college" in the text or perform a new search.
+Action 2: Search[Seth MacFarlane college], Lookup[college], Search[Seth MacFarlane education] 
+        Action 2: ['Search[Seth MacFarlane college]', 'Search[Seth MacFarlane education]', 'Lookup[college]']
+        Observation 2: Seth Woodbury MacFarlane is an American actor, animator, writer, producer, director, and singer. He is best known for creating the animated television series "Family Guy," "American Dad!," and "The Cleveland Show." MacFarlane also created and starred in the live-action series "The Orville." He has won several awards for his work, including multiple Primetime Emmy Awards. In addition to his work in television, MacFarlane has also released several albums showcasing his singing."
+
+
+
+INFO {'steps': 3, 'answer': 'Rhode Island School of Design', 'gt_answer': 'Rhode Island School of Design', 'question_idx': 5220, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 11 
+Average reward: 0.5454545454545454 
+Average time 11.930289095098322
+
+--------------------------------------------------
+

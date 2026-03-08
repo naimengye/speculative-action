@@ -1,0 +1,44 @@
+INFO 7090 Question: Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to determine if Elko Regional Airport and Gerald R. Ford International Airport are both located in Michigan. I will start by searching for Elko Regional Airport to find its location.
+Action 1: [Search[Elko Regional Airport]] 
+        Action 1: Search[Elko Regional Airport]
+        Observation 1: Elko Regional Airport (IATA: EKO, ICAO: KEKO, FAA LID: EKO) – formerly Elko Municipal Airport – is a public airport located approximately 1 mile (1.6 km) west of downtown Elko, in Elko County, Nevada, United States.[1]. The airport was named J.C. Harris Field in 1975 in honor of Jess C. Harris, a sheriff from Elko known as "The Flying Sheriff".[2]. Originally called Elko Airport, the airfield took on the name Keddie Field by 1935, then Elko Municipal Airport by 1947 and ultimately Elko Regional Airport by the 2000s.[3]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to determine if both airports are in Michigan. I will search for Elko Regional Airport first to find its location.
+Action 1: Search[Elko Regional Airport], Lookup[Elko Regional Airport], Finish[No] 
+        Action 1: ['Search[Elko Regional Airport]', 'Lookup[Elko Regional Airport]', 'Finish[No]']
+        Observation 1: **Elko Regional Airport** (IATA: **EKO**, ICAO: **KELY**, FAA LID: **ELY**), also known as **J.C. Harris Field**, is a public airport located one nautical mile (2 km) west of the central business district of Elko, a city in Elko County, Nevada, United States. It is owned by Elko County. The airport is primarily used for general aviation, but is also served by one commercial airline.."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Elko Regional Airport is located in Nevada, not Michigan. Therefore, the answer is no.
+Action 2: Finish[No] 
+        Action 2: Finish[No]
+        Observation 2: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: Elko Regional Airport is located in Nevada, not Michigan. Therefore, the answer to the question is no.
+Action 2: [Finish[No], Search[Gerald R. Ford International Airport], Lookup[Michigan]] 
+        Action 2: ['Search[Gerald R. Ford International Airport]', 'Lookup[Michigan]', 'Finish[No]']
+        Observation 2: **Elko Regional Airport** (IATA: **EKO**, ICAO: **KELY**, FAA LID: **ELY**), also known as **J.C. Harris Field**, is a public airport located one nautical mile (2 km) west of the central business district of Elko, a city in Elko County, Nevada, United States. It is owned by Elko County. The airport is primarily used for general aviation, but is also served by one commercial airline.."
+
+
+
+INFO {'steps': 3, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 38, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 13 
+Average reward: 0.46153846153846156 
+Average time 15.389657699144804
+
+--------------------------------------------------
+

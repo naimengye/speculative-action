@@ -1,0 +1,53 @@
+INFO 211 Question: Venus is a play by an American playwrite who what what prize?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Venus (play)]
+Action 1: Search[Venus (play)]
+Observation 1: Venus is a 1996 play written by American playwright Suzan-Lori Parks about the life of Khoekhoe woman Sarah Baartman. Set during the 19th century, the play opens in South Africa where Baartman was born, before transitioning to Europe as Baartman begins to perform in freak shows in London. The play then transitions to Paris where she continues her freak show act before dying in 1815 after being under the study of a group of French scientists led by Georges Cuvier.[1] Her deceased body becomes the subject of a pseudoscientific autopsy that focuses on Baartman's steatopygia– a condition which Cuvier (who appears as the Baron Docteur in Venus), uses to his academic advantage.[1] Parks' work is not intended to be historically accurate, but rather uses the concept of Baartman's career to explore colonialism, racialization, and the historical sexualization of Black women;[2] as Parks explains, "most of it's fabricated... It's questioning the history of history... It embraces the unrecorded truth."[3] Venus won 2 OBIE Awards in 1995-1996.[4].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Venus (play)]
+Action 1: Search[Venus (play)]
+Observation 1: **Venus** is a 1996 play by the British playwright Suzan-Lori Parks.. **Synopsis:**. The play is a reimagining of the myth of Venus and Tannhäuser, set in a contemporary, post-apocalyptic America. It follows the story of The Well Traveled Woman, a Black woman who is put on display as a sideshow attraction due to her unusual beauty. She is referred to as "Venus" and is subjected to the gaze and desires.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Suzan-Lori Parks]
+Action 2: Search[Suzan-Lori Parks]
+Observation 2: Suzan-Lori Parks (born May 10, 1963) is an American playwright, screenwriter, and novelist. Among her most popular plays are The America Play (1994), Venus (1996), In The Blood (1999), Fuckin A (2000), Topdog/Underdog (2001), and White Noise (2019). These works and others have been performed on and off Broadway and the West End.[1]. Among numerous awards and honors, Parks is the recipient of MacArthur Fellowship, Guggenheim Fellowship, The Dorothy and Lillian Gish Prize,  The Windham–Campbell Literature Prize, an Outer Critics Circle Award, an Obie Award, and two Tony Award.[2] In 2003 she became the first African-American woman to win the Pulitzer Prize for Drama.[3]. Parks served as creator and showrunner for the 2017 USA limited series Genius: Aretha, which was nominated for three Primetime Emmy Awards.[4][5] Her screenwriting credits include Girl 6 (1996), Their Eyes Were Watching God (2005), Native Son (2019), and The United States vs.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Suzan-Lori Parks]
+Action 2: Search[Suzan-Lori Parks]
+Observation 2: Suzan-Lori Parks (born May 10, 1963) is an American playwright, screenwriter, and novelist. She is the first African-American woman to win the Pulitzer Prize for Drama, for her play *Topdog/Underdog* in 2002.. **Early Life and Education:**. Parks was born in Fort Knox, Kentucky. Her father was a retired U.S.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[the Pulitzer Prize for Drama]
+Action 3: Finish[the Pulitzer Prize for Drama]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Pulitzer Prize for Drama]
+Action 3: Finish[Pulitzer Prize for Drama]
+Observation 3: Suzan-Lori Parks (born May 10, 1963) is an American playwright, screenwriter, and novelist. She is the first African-American woman to win the Pulitzer Prize for Drama, for her play *Topdog/Underdog* in 2002.. **Early Life and Education:**. Parks was born in Fort Knox, Kentucky. Her father was a retired U.S.
+
+
+
+INFO {'steps': 5, 'answer': 'the Pulitzer Prize for Drama', 'gt_answer': 'Pulitzer Prize', 'question_idx': 3252, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 12 
+Number of steps: 30 
+Average reward: 0.4 
+Average time 29.0404718319575
+
+-------------------------------------------------------
+

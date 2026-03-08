@@ -1,0 +1,102 @@
+INFO 7356 Question: TACA Airlines, is an airline owned by a conglomerate owned by who ?
+
+STEP: 1
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 1: I should open the Wikipedia page for TACA Airlines to find who owns the conglomerate that owns the airline.
+Action 1: Search[TACA Airlines] 
+        Action 1: Search[TACA Airlines]
+        Observation 1: Transportes Aéreos del Continente Americano, S.A. (Spanish for "Air Transport of the American Continent"),[4] known and formerly branded as TACA International Airlines,[5] and operating as Avianca El Salvador, is an airline owned by Kingsland Holdings and based in San Salvador, El Salvador. It is one of the seven national branded airlines in the Avianca Group of Latin American airlines, and it serves as the flag carrier of El Salvador.[citation needed]. Founded in 1931, the airline owned and operated five other airlines in Central America. Its name was originally an acronym meaning Central American Air Transport (Transportes Aéreos Centroamericanos) but was later changed to Air Transport of the American Continent (Transportes Aéreos del Continente Americano) to reflect its expansion to North, Central, and South America.."
+
+SIMULATION TRAJECTORY:
+ Thought 1:  
+        Action 1: ['Search[TACA Airlines]', 'Lookup[owned by]', 'Finish[German Efromovich]']
+        Observation 1: **TACA Airlines**. TACA Airlines (Spanish: *Transportes Aéreos del Continente Americano*) was the flag carrier of El Salvador and one of the major airlines in Central America. Founded in 1931, TACA was a significant player in regional air travel for decades, connecting numerous destinations across the Americas.. **History**. TACA was originally founded as *Transportes Aéreos Centro-Americanos* in Tegucigalpa, Honduras, on."
+
+
+
+STEP: 2
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 3
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 3:  
+        Action 3: Search[TACA Airlines]
+        Observation 3: Transportes Aéreos del Continente Americano, S.A. (Spanish for "Air Transport of the American Continent"),[4] known and formerly branded as TACA International Airlines,[5] and operating as Avianca El Salvador, is an airline owned by Kingsland Holdings and based in San Salvador, El Salvador. It is one of the seven national branded airlines in the Avianca Group of Latin American airlines, and it serves as the flag carrier of El Salvador.[citation needed]. Founded in 1931, the airline owned and operated five other airlines in Central America. Its name was originally an acronym meaning Central American Air Transport (Transportes Aéreos Centroamericanos) but was later changed to Air Transport of the American Continent (Transportes Aéreos del Continente Americano) to reflect its expansion to North, Central, and South America.."
+
+SIMULATION TRAJECTORY:
+ Thought 3:  
+        Action 3: ['Search[TACA Airlines]', 'Lookup[owned by]', 'Finish[the Kriete family (notably Roberto Kriete)]']
+        Observation 3: **TACA Airlines**. TACA Airlines (Spanish: *Transportes Aéreos del Continente Americano*) was the flag carrier of El Salvador and one of the major airlines in Central America. Founded in 1931, TACA operated a significant network of routes across the Americas, connecting Central America with North and South America.. **History:**. TACA was founded on August 21, 1931, in Tegucigalpa, Honduras, by."
+
+
+
+STEP: 4
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 4:  
+        Action 4: Search[TACA Airlines]
+        Observation 4: Transportes Aéreos del Continente Americano, S.A. (Spanish for "Air Transport of the American Continent"),[4] known and formerly branded as TACA International Airlines,[5] and operating as Avianca El Salvador, is an airline owned by Kingsland Holdings and based in San Salvador, El Salvador. It is one of the seven national branded airlines in the Avianca Group of Latin American airlines, and it serves as the flag carrier of El Salvador.[citation needed]. Founded in 1931, the airline owned and operated five other airlines in Central America. Its name was originally an acronym meaning Central American Air Transport (Transportes Aéreos Centroamericanos) but was later changed to Air Transport of the American Continent (Transportes Aéreos del Continente Americano) to reflect its expansion to North, Central, and South America.."
+
+SIMULATION TRAJECTORY:
+ Thought 4: We need to identify who owns the conglomerate that owns TACA; this likely refers to Grupo TACA or Kingsland Holdings, so we should look up the owner of either entity.
+Action 4: Search[Grupo TACA], Search[Kingsland Holdings], Lookup[Kingsland] 
+        Action 4: ['Search[Grupo TACA]', 'Search[Kingsland Holdings]', 'Lookup[Kingsland]']
+        Observation 4: **TACA Airlines**. TACA Airlines (Spanish: *Transportes Aéreos del Continente Americano*) was the flag carrier of El Salvador and one of the major airlines in Central America. Founded in 1931, TACA was a significant player in the Latin American aviation market for decades, known for its extensive network connecting cities across North, Central, and South America.. **History:**. TACA was originally founded as *Transportes Aéreos Centro-American."
+
+
+
+STEP: 5
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 6
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 7
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+INFO {'steps': 7, 'answer': '', 'gt_answer': 'Germán Efromovich', 'question_idx': 5144, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 3 
+Average reward: 0.0 
+Average time 215.81555596987405
+
+--------------------------------------------------
+

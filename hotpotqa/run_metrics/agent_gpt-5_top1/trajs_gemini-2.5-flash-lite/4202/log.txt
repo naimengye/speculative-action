@@ -1,0 +1,53 @@
+INFO 4202 Question: Until what year did the Chief of Justice of the Supreme Court that administered the presidential oath of office to Abraham Lincoln on his first inauguration as the 16th President of the United States hold that office?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to identify who administered the oath at Abraham Lincoln’s first inauguration, then find until what year that Chief Justice held office. I will start by searching for the first inauguration page to get the administrator’s name.
+Action 1: Search[First inauguration of Abraham Lincoln]
+Observation 1: The first inauguration of Abraham Lincoln as the 16th president of the United States was held on Monday, March 4, 1861, at the East Portico of the United States Capitol in Washington, D.C. This was the 19th inauguration and marked the commencement of the first, and eventually only full term of Abraham Lincoln as president and the only term of Hannibal Hamlin as vice president. The presidential oath of office was administered to Lincoln by Chief Justice Roger B. Taney.[2] John C. Breckinridge became the first outgoing vice president to administer the vice-presidential oath of office to his successor..
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to identify which Chief Justice administered Lincoln’s first oath of office, then find the year he served until as Chief Justice. I’ll start by searching the page for the First inauguration of Abraham Lincoln to get the administering Chief Justice.
+Action 1: Search[First inauguration of Abraham Lincoln]
+Observation 1: Abraham Lincoln's first inauguration took place on **March 4, 1861**, at the East Portico of the United States Capitol in Washington, D.C. This event marked the formal commencement of his first term as the 16th President of the United States.. **Context:**. Lincoln's election in November 1860 had been a catalyst for the secession of seven Southern states, forming the Confederate States of America. The nation was on the brink.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The oath was administered by Chief Justice Roger B. Taney. I need to find the year until which Taney served as Chief Justice.
+Action 2: Search[Roger B. Taney]
+Observation 2: Roger Brooke Taney (/ˈtɔːni/ TAW-nee; March 17, 1777 – October 12, 1864) was an American lawyer and politician who served as the fifth chief justice of the United States, holding that office from 1836 until his death in 1864. Taney delivered the majority opinion in Dred Scott v. Sandford (1857), ruling that African Americans could not be considered U.S. citizens and that Congress could not prohibit slavery in the U.S. territories.
+
+SIMULATION TRAJECTORY:
+ Thought 2: I need to find who administered the oath on that page; I'll look for a sentence mentioning "administered."
+Action 2: Lookup[administered]
+Observation 2: Roger Brooke Taney (April 17, 1777 – October 12, 1864) was an American lawyer and politician who served as the fifth Chief Justice of the United States from 1836 until his death in 1864. He was the first Catholic to hold the position of Chief Justice.. Born in Westmoreland County, Maryland, Taney came from a prominent Federalist family. He graduated from Dickinson College in 1.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Roger B. Taney served as Chief Justice until his death in 1864, so the answer is 1864.
+Action 3: Finish[1864]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: The Roger B. Taney page states he served as Chief Justice until his death in 1864, so I can provide the year.
+Action 3: Finish[1864]
+Observation 3: Roger Brooke Taney (April 17, 1777 – October 12, 1864) was an American lawyer and politician who served as the fifth Chief Justice of the United States from 1836 until his death in 1864. He was the first Catholic to hold the position of Chief Justice.. Born in Westmoreland County, Maryland, Taney came from a prominent Federalist family. He graduated from Dickinson College in 1.
+
+
+
+INFO {'steps': 5, 'answer': '1864', 'gt_answer': '1864', 'question_idx': 7389, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 6 
+Average reward: 0.5 
+Average time 118.81441537539165
+
+-------------------------------------------------------
+

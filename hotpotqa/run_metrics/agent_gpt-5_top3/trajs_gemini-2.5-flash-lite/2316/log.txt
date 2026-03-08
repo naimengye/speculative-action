@@ -1,0 +1,77 @@
+INFO 2316 Question: Were Guillermo Cabrera Infante and Guillaume Apollinaire of the same nationality?
+
+STEP: 1
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find each person's nationality; I'll start by searching Guillermo Cabrera Infante.
+Action 1: Search[Guillermo Cabrera Infante] 
+        Action 1: Search[Guillermo Cabrera Infante]
+        Observation 1: Guillermo Cabrera Infante (Spanish pronunciation: [ɡiˈʝeɾmo kaˈβɾeɾa iɱˈfante]; Gibara, 22 April 1929 – 21 February 2005) was a Cuban novelist, essayist, translator, screenwriter,[1] and critic; in the 1950s he used the pseudonym G. Caín, and used Guillermo Cain for the screenplay of the cult classic film Vanishing Point (1971).. A one-time supporter of the politics of Fidel Castro, Cabrera Infante went into exile to London in 1965. He is best known for the novel Tres tristes tigres (literally: "three sad tigers", published in English as Three Trapped Tigers), which has been compared favorably to James Joyce's Ulysses.. Born in Gibara in Cuba's former Oriente Province (now part of Holguín Province), in 1941 he moved with his parents, to Havana, which would be the setting of nearly all of his writings other than his critical works."
+
+SIMULATION TRAJECTORY:
+ Thought 1:  
+        Action 1: ['Search[Guillermo Cabrera Infante]', 'Search[Guillaume Apollinaire]', 'Finish[no]']
+        Observation 1: **Guillermo Cabrera Infante** (1929 – 2005) was a Cuban novelist, essayist, translator, and critic. He is widely regarded as one of the most important and innovative writers of the Latin American Boom.. Born in Gibara, Cuba, Cabrera Infante's early life was marked by his family's political activism, which led to their persecution and his father's imprisonment. This experience, along with the broader political climate of Cuba."
+
+
+
+STEP: 2
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 3
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 3: We have Cabrera Infante as Cuban; next, find Guillaume Apollinaire’s nationality to compare.
+Action 3: Search[Guillaume Apollinaire] 
+        Action 3: Search[Guillaume Apollinaire]
+        Observation 3: Guillaume Apollinaire (/əpɒlɪˈnɛər/;[1] French: [ɡijom apɔlinɛʁ]; born Kostrowicki;[a] 26 August 1880 – 9 November 1918) was a French poet, playwright, short story writer, novelist and art critic of Polish descent.. Apollinaire is considered one of the foremost poets of the early 20th century, as well as one of the most impassioned defenders of Cubism and a forefather of Surrealism. He is credited with coining the term "Cubism"[2] in 1911 to describe the emerging art movement, the term Orphism in 1912, and the term "Surrealism" in 1917 to describe the works of Erik Satie. He wrote poems without punctuation, in his attempt to be resolutely modern in both form and subject.[3]  Apollinaire wrote one of the earliest Surrealist literary works, the play The Breasts of Tiresias (1917), which became the basis for Francis Poulenc's 1947 opera Les mamelles de Tirésias.. Influenced by Symbolist poetry in his youth, he was admired during his lifetime by the young poets who later formed the nucleus of the Surrealist group (Breton, Aragon, Soupault)."
+
+SIMULATION TRAJECTORY:
+ Thought 3:  
+        Action 3: ['Search[Guillermo Cabrera Infante]', 'Search[Guillaume Apollinaire]', 'Finish[No]']
+        Observation 3: **Guillaume Apollinaire** (born Wilhelm Albert Włodzimierz Apolinary de Kostrowitzky; 26 August 1880 – 9 November 1918) was a Polish-French poet, critic, writer, and one of the most important figures in European literary modernism. He is best known for his innovative poetry, which explored themes of love, war, and the modern world, and for his role in the development of Cubism and Surrealism."
+
+
+
+STEP: 4
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 4: Cabrera Infante is Cuban; Apollinaire is French. They are not of the same nationality.
+Action 4: Finish[no] 
+        Action 4: Finish[no]
+        Observation 4: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4:  
+        Action 4: ['Search[Guillermo Cabrera Infante]', 'Search[Guillaume Apollinaire]']
+        Observation 4: **Guillaume Apollinaire** (born Wilhelm Albert Włodzimierz Apolinary de Kostrowitzky; 26 August 1880 – 9 November 1918) was a Polish-French poet, critic, writer, and one of the most important figures in European literary modernism. He is best known for his innovative poetry, which explored themes of love, war, and the modern world, and for his role in the development of Cubism and Surrealism."
+
+
+
+INFO {'steps': 5, 'answer': 'no', 'gt_answer': 'no', 'question_idx': 6546, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 4 
+Average reward: 0.5 
+Average time 185.40170049667358
+
+--------------------------------------------------
+

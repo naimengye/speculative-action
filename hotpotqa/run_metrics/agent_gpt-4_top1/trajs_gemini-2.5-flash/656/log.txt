@@ -1,0 +1,39 @@
+INFO 656 Question: Which sport has been played at the BayArena in Leverkusen, Germany, since 1958?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[BayArena]
+Action 1: Search[BayArena]
+Observation 1: BayArena (German pronunciation: [ˈbaɪʔaˌʁeːnaː]) is a football stadium in Leverkusen, North Rhine-Westphalia, Germany, which has been the home ground of Bundesliga club Bayer 04 Leverkusen since 1958.. The stadium was originally known as Ulrich-Haberland-Stadion (pronounced [ˌʔʊlʁɪçˈhaːbɐlantˌʃtaːdi̯ɔn]; English: Ulrich Haberland Stadium), named after a former chairman of Bayer AG, the club's founders.[3] Its original capacity was 20,000.[4]. In 1986, a rebuilding project began to convert it into a modern facility; the project continued over the following decade and was completed in 1997, creating a modern all-seater stadium with a capacity of 22,500.[5] The stadium was renamed BayArena in 1998.[6] The former name was then used for the youth team stadium next to it.. In 1999, a hotel attached to the stadium was completed, with some rooms having a view of the pitch.[7] The stadium complex also includes a restaurant, which also overlooks the pitch, and conference facilities.. The city of Leverkusen originally bid to become a venue for the 2006 World Cup, with an expanded Bay Arena as the site.[citation needed] However, the city, Bayer Leverkusen, and the German organizing committee soon agreed that expanding Bay Arena to the FIFA-mandated minimum 40,000 capacity for World Cup matches would not be practical, and the city withdrew its bid.[citation needed] Instead, it was agreed that Bay Arena  would be the main training facility for the German national team during the 2006 finals.[citation needed] Jürgen Klinsmann, former national coach, however decided against Leverkusen and opted for Berlin as the main training facility.[citation needed] As compensation, BayArena would supposedly host two national matches, though they were never played..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[BayArena]
+Action 1: Search[BayArena]
+Observation 1: The **BayArena** is a football stadium in Leverkusen, North Rhine-Westphalia, Germany. It is the home ground of Bundesliga club Bayer 04 Leverkusen.. **History and Development:**. Originally known as the **Ulrich-Haberland-Stadion**, the stadium was built in 1958 and had an initial capacity of 20,000. It was named after Ulrich Haberland, a former chairman of Bayer AG, the pharmaceutical company that.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[football]
+Action 2: Finish[football]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[football]
+Action 2: Finish[football]
+Observation 2: The **BayArena** is a football stadium in Leverkusen, North Rhine-Westphalia, Germany. It is the home ground of Bundesliga club Bayer 04 Leverkusen.. **History and Development:**. Originally known as the **Ulrich-Haberland-Stadion**, the stadium was built in 1958 and had an initial capacity of 20,000. It was named after Ulrich Haberland, a former chairman of Bayer AG, the pharmaceutical company that.
+
+
+
+INFO {'steps': 3, 'answer': 'football', 'gt_answer': 'football', 'question_idx': 7246, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 14 
+Number of steps: 34 
+Average reward: 0.4117647058823529 
+Average time 21.787517147905685
+
+-------------------------------------------------------
+

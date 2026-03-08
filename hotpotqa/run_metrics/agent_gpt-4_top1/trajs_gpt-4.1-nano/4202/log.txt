@@ -1,0 +1,95 @@
+INFO 4202 Question: Wendy Ayche was featured in 2016 in an annual production created by Youtube and what other organization?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Wendy Ayche]
+Action 1: Search[Wendy Ayche]
+Observation 1: This is an accepted version of this page. Wendy Ayche (born 9 January 1986), better known as Wengie or WRAYA, is a Chinese-Australian YouTuber, pop singer, and voice actress.[2][3]. In 2013, Ayche started the YouTube channel, "Wengie", inspired by her Chinese name, Wenjie. Her videos focused on beauty, fashion, and "Do It Yourself" (DIY) tips. As of 2016, she was one of the fastest-growing stars on YouTube, having garnered over 4 million subscribers in three years.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Wendy Ayche]
+Action 1: Search[Wendy Ayche]
+Observation 1: Wendy Ayche is a notable individual known for her contributions in her respective field. She has gained recognition for her work in areas such as community development, education, or other professional pursuits. Details about her early life, career achievements, and personal background highlight her influence and dedication. Her efforts have been acknowledged through various awards and recognitions, reflecting her commitment to making a positive impact. Further specific information about her biography, accomplishments, and current activities can be found through dedicated sources or official profiles..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[annual production]
+Action 2: Lookup[annual production]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[annual production]
+Action 2: Lookup[annual production]
+Observation 2: Wendy Ayche is a notable individual known for her contributions in her respective field. She has gained recognition for her work in areas such as community development, education, or other professional pursuits. Details about her early life, career achievements, and personal background highlight her influence and dedication. Her efforts have been acknowledged through various awards and recognitions, reflecting her commitment to making a positive impact. Further specific information about her biography, accomplishments, and current activities can be found through dedicated sources or official profiles..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Wendy Ayche annual production 2016]
+Action 3: Search[Wendy Ayche annual production 2016]
+Observation 3: There were no results matching the query.. The page "Wendy Ayche annual production 2016" does not exist. You can create a draft and submit it for review or request that a redirect be created.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Wendy Ayche annual production 2016]
+Action 3: Search[Wendy Ayche annual production 2016]
+Observation 3: Wendy Ayche's annual production in 2016 is not documented in publicly available sources or Wikipedia. There is no publicly accessible information regarding her specific production figures for that year..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Youtube annual production 2016]
+Action 4: Search[Youtube annual production 2016]
+Observation 4: Could not find Youtube annual production 2016. Similar: ['YouTube (YouTube channel)', 'YouTube', 'YouTube Rewind', 'History of YouTube', 'Dulquer Salmaan (redirect from Wayfarer Films Production)'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Youtube annual production 2016]
+Action 4: Search[Youtube annual production 2016]
+Observation 4: YouTube Annual Production 2016. In 2016, YouTube experienced significant growth in content creation and consumption, solidifying its position as a leading platform for video sharing worldwide. The platform saw an increase in the number of active users, with over 1.3 billion logged-in monthly users by the end of the year. Content creators uploaded more than 400 hours of video every minute, reflecting a substantial rise from previous years.. During 2016, YouTube expanded its features to enhance.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[YouTube Rewind]
+Action 5: Search[YouTube Rewind]
+Observation 5: YouTube Rewind (stylized as YouTube ЯEWIND) was an annual year-in-review web series that was produced by YouTube and Portal A Interactive from 2010 to 2019. The videos were summaries of each year's viral videos, events, trends, and music.[8] The series' annual installments were uploaded onto YouTube's official channel.. The series' 2018 and 2019 installments (Everyone Controls Rewind and For the Record) were received poorly, with the former becoming the most-disliked video of all time on the platform. YouTube opted to not produce a Rewind video in 2020, before announcing the series' cancellation the following year.. The first Rewind video was created by YouTube in 2010 and featured a list of the 50 most popular YouTube videos of that year.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Wendy Ayche]
+Action 5: Lookup[Wendy Ayche]
+Observation 5: YouTube Rewind is an annual video series produced and created by YouTube and Portal A Interactive, which showcases the most popular videos, trends, music, and creators on the platform for a given year. The series was launched in 2010 and typically features a compilation of highlights from the year's most significant moments on YouTube, along with appearances by popular YouTubers and celebrities.. The purpose of YouTube Rewind is to celebrate the platform's community and its most influential content creators, as well.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[Portal A Interactive]
+Action 6: Finish[Portal A Interactive]
+Observation 6: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Portal A Interactive]
+Action 6: Finish[Portal A Interactive]
+Observation 6: YouTube Rewind is an annual video series produced and created by YouTube and Portal A Interactive, which showcases the most popular videos, trends, music, and creators on the platform for a given year. The series was launched in 2010 and typically features a compilation of highlights from the year's most significant moments on YouTube, along with appearances by popular YouTubers and celebrities.. The purpose of YouTube Rewind is to celebrate the platform's community and its most influential content creators, as well.
+
+
+
+INFO {'steps': 11, 'answer': 'Portal A Interactive', 'gt_answer': 'Portal A Interactive', 'question_idx': 399, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 6 
+Average reward: 0.3333333333333333 
+Average time 22.58810583750407
+
+-------------------------------------------------------
+

@@ -1,0 +1,60 @@
+INFO 1477 Question: When did the HBO series that Alice Wetterlund star in premier?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To find the premier date of the HBO series that Alice Wetterlund starred in, I first need to find out which HBO series she was in.
+Action 1: Search[Alice Wetterlund] 
+        Action 1: Search[Alice Wetterlund]
+        Observation 1: Alice Wetterlund (born May 16, 1981) is an American stand-up comedian, actress, and podcast host.[2] She played Carla Walton on the HBO sitcom Silicon Valley,[3] and played D'arcy Bloom on the SyFy/USA Network TV series Resident Alien.[4]. Wetterlund was born in Minneapolis and moved to New York City in 1999, where she attended Cooper Union, a college in Lower Manhattan.[5] She began doing stand-up comedy in the late 2000s, and performed with the Upright Citizens Brigade Theatre improv group from 2008 on. That led to an audition[6] for MTV's Girl Code,[7] where one of her notable parts was in a parody TV commercial for "Culture Culture Probiotics", a "cure" for diarrhea.[8] Since then she has been featured in many television commercials for companies such as BMW, LensCrafters, Scotch-Brite, and Southwest Airlines.[9] She appeared on Cave Comedy Radio as a teacher of meditation and cat whispering.[10]. Wetterlund and Veronica Osorio co-host the Star Trek: The Next Generation podcast Treks and the City. Wetterlund and Kevin Porter co-host the Maisel Goys (hosted under the Gilmore Guys podcast) about Amazon Prime's television series The Marvelous Mrs."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for Alice Wetterlund to see which HBO series she starred in, and then find out when that particular series premiered.
+Action 1: Search[Alice Wetterlund], Lookup[Alice Wetterlund], Search[HBO series] 
+        Action 1: ['Search[Alice Wetterlund]', 'Search[HBO series]', 'Lookup[Alice Wetterlund]']
+        Observation 1: Alice Wetterlund is an American stand-up comedian, actress, and writer. She is best known for her role as Carla Walton on the HBO series "Silicon Valley." Wetterlund has also appeared in various television shows such as "People of Earth," "New Girl," and "Girl Code." Additionally, she has performed stand-up comedy on shows like "Conan" and "Adam Ruins Everything." Wetterlund has gained a following for her sharp wit and unique comedic style.."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Alice Wetterlund starred in the HBO sitcom Silicon Valley. I now need to find out when Silicon Valley premiered.
+Action 2: Search[Silicon Valley (TV series)] 
+        Action 2: Search[Silicon Valley (TV series)]
+        Observation 2: Silicon Valley is an American comedy television series created by Mike Judge, John Altschuler and Dave Krinsky. It premiered on HBO on April 6, 2014, and concluded on December 8, 2019, running for six seasons for a total of 53 episodes.[1][2][3][4] Parodying the culture of the technology industry in Silicon Valley, the series focuses on Richard Hendricks (Thomas Middleditch), a programmer who founds a startup company called Pied Piper, and chronicles his struggles to maintain his company while facing competition from larger entities.[5][6] Co-stars include T.J. Miller, Josh Brener, Martin Starr, Kumail Nanjiani, Zach Woods, Amanda Crew, Matt Ross, and Jimmy O. Yang.. The series received critical acclaim, with praise for its writing and humor."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Alice Wetterlund starred in the HBO series "Silicon Valley." I now need to find out when the series "Silicon Valley" premiered on HBO.
+Action 2: Search[Silicon Valley (TV series)], Search[HBO Silicon Valley], Lookup[Silicon Valley] 
+        Action 2: ['Search[Silicon Valley (TV series)]', 'Search[HBO Silicon Valley]', 'Lookup[Silicon Valley]']
+        Observation 2: "Silicon Valley" is an American comedy television series created by Mike Judge, John Altschuler, and Dave Krinsky. The show premiered on HBO on April 6, 2014, and concluded with its sixth season on December 8, 2019. The series is set in the high-tech hub of Silicon Valley and follows a group of software engineers as they navigate the challenges of launching a startup company called Pied Piper.. The show received critical acclaim for its humor, writing,."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The HBO series Silicon Valley, which Alice Wetterlund starred in, premiered on April 6, 2014.
+Action 3: Finish[April 6, 2014] 
+        Action 3: Finish[April 6, 2014]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The HBO series "Silicon Valley", where Alice Wetterlund starred in, premiered on April 6, 2014. I have the information to answer the question now.
+Action 3: [Finish[April 6, 2014], Lookup[premiered on], Lookup[Alice Wetterlund]] 
+        Action 3: ['Lookup[premiered on]', 'Lookup[Alice Wetterlund]', 'Finish[April 6, 2014]']
+        Observation 3: "Silicon Valley" is an American comedy television series created by Mike Judge, John Altschuler, and Dave Krinsky. The show premiered on HBO on April 6, 2014, and concluded with its sixth season on December 8, 2019. The series is set in the high-tech hub of Silicon Valley and follows a group of software engineers as they navigate the challenges of launching a startup company called Pied Piper.. The show received critical acclaim for its humor, writing,."
+
+
+
+INFO {'steps': 5, 'answer': 'April 6, 2014', 'gt_answer': 'April 6, 2014', 'question_idx': 5509, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 11 
+Average reward: 0.45454545454545453 
+Average time 33.531515706669204
+
+--------------------------------------------------
+

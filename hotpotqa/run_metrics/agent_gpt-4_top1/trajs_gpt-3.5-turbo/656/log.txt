@@ -1,0 +1,53 @@
+INFO 656 Question: A Pair of Brown Eyes and Wild Mountain Thyme is based from what artists song?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[A Pair of Brown Eyes]
+Action 1: Search[A Pair of Brown Eyes]
+Observation 1: "A Pair of Brown Eyes" is a single by The Pogues, released on 18 March 1985.[1] It featured on the band's second album, Rum Sodomy & the Lash, and was composed by Pogues front man Shane MacGowan. The single was their first to make the UK Top 100, peaking at Number 72.[2] The Los Angeles Times listed it among "The 10 Essential Shane MacGowan Songs."[3]. ABC Australia writes that the song is "an unflinching take on World War I from the perspective of a drunken veteran."[4]. Its melody is loosely based on that of "Wild Mountain Thyme" (also known as "Will Ye Go Lassie Go"), a song by Francis McPeake in a traditional folk style. Album producer Elvis Costello contributed mandolin to the melody.[5].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["A Pair of Brown Eyes"]
+Action 1: Search["A Pair of Brown Eyes"]
+Observation 1: "A Pair of Brown Eyes" is a song by The Pogues, written by the band's frontman Shane MacGowan. It was released as a single in 1985 and also appeared on their album "Rum Sodomy & the Lash." The song tells the story of a man who falls in love with a woman with brown eyes, but their relationship is complicated by various challenges and ultimately ends tragically. "A Pair of Brown Eyes" is considered one of The P.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Wild Mountain Thyme]
+Action 2: Search[Wild Mountain Thyme]
+Observation 2: "Wild Mountain Thyme" (also known as "Purple Heather" and "Will Ye Go, Lassie, Go?") is a Scottish/Irish folk song. The lyrics and melody are a variant of the song "The Braes of Balquhither" by Scottish poet Robert Tannahill (1774–1810) and Scottish composer Robert Archibald Smith (1780–1829), but were adapted by Belfast musician Francis McPeake (1885–1971) into "Wild Mountain Thyme" and first recorded by his family in the 1950s.[1]. Tannahill's original song, first published in Robert Archibald Smith's Scottish Minstrel (1821–24), is about the hills (braes) around Balquhidder near Lochearnhead. Tannahill collected and adapted traditional songs, and "The Braes of Balquhither" may have been based on the traditional song "The Braes o' Bowhether".. The existing tune of "Wild Mountain Thyme" is significantly different from Tannahill's "The Braes of Balquhither", which was most likely based on a traditional air.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Wild Mountain Thyme]
+Action 2: Search[Wild Mountain Thyme]
+Observation 2: "Wild Mountain Thyme" is a traditional Irish and Scottish folk song. It is also known as "Will Ye Go, Lassie, Go?" or "Red is the Rose." The song's origins are unclear, but it has been popularized by various artists over the years. The lyrics typically describe a romantic longing for the beauty of the countryside and a desire to be with a loved one. The melody is often played on the tin whistle or other traditional instruments. The song has been recorded.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Francis McPeake]
+Action 3: Finish[Francis McPeake]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Francis McPeake]
+Action 3: Finish[Francis McPeake]
+Observation 3: "Wild Mountain Thyme" is a traditional Irish and Scottish folk song. It is also known as "Will Ye Go, Lassie, Go?" or "Red is the Rose." The song's origins are unclear, but it has been popularized by various artists over the years. The lyrics typically describe a romantic longing for the beauty of the countryside and a desire to be with a loved one. The melody is often played on the tin whistle or other traditional instruments. The song has been recorded.
+
+
+
+INFO {'steps': 5, 'answer': 'Francis McPeake', 'gt_answer': 'Francis McPeake', 'question_idx': 3456, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 12 
+Number of steps: 34 
+Average reward: 0.35294117647058826 
+Average time 25.099019555484546
+
+-------------------------------------------------------
+

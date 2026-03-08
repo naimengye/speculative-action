@@ -1,0 +1,96 @@
+INFO 7107 Question: What was the budget of the film in which Kodi Smit-McPhee voiced Norman Babcock?
+
+STEP: 1
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 1:  
+        Action 1: Search[ParaNorman]
+        Observation 1: ParaNorman is a 2012 American animated comedy horror film produced by Laika. Directed by Sam Fell and Chris Butler (the latter's feature directorial debut), and written by Butler,[4] the film stars the voices of Kodi Smit-McPhee, Jodelle Ferland, Bernard Hill, Tucker Albrizzi, Anna Kendrick, Casey Affleck, Christopher Mintz-Plasse, Leslie Mann, Jeff Garlin, Elaine Stritch,  Tempestt Bledsoe, Alex Borstein, and John Goodman. It is the first stop-motion film to use a 3-D color printer to create character faces, and only the second to be shot in 3-D.[5] In the film, Norman Babcock, a young boy who can communicate with ghosts, is given the task of ending a 300-year-old witch's curse on his Massachusetts town.. The idea of ParaNorman came from Butler, who thought making such a movie for kids could help express the challenges kids face growing up, after realizing that zombie films often contained a degree of social commentary. Production of the stop-motion animation feature took place at Laika's studio in Hillsboro, Oregon for three years, with the animating stage of production lasting about two years and beginning in late 2009."
+
+SIMULATION TRAJECTORY:
+ Thought 1: Thought: Identify the film where Kodi Smit-McPhee voiced Norman Babcock (likely ParaNorman) and then look up its budget; starting by searching the film or character page is most direct.
+
+Action 1: Search[ParaNorman], Search[Norman Babcock], Search[Kodi Smit-McPhee] 
+        Action 1: ['Search[ParaNorman]', 'Search[Norman Babcock]', 'Search[Kodi Smit-McPhee]']
+        Observation 1: ParaNorman is a 2012 American animated comedy horror film produced by Laika and distributed by Focus Features. Directed by Sam Fell and Chris Butler, the film features a blend of stop-motion animation and 3D technology. The story follows Norman Babcock, a young boy who can see and communicate with ghosts, as he tries to save his town from a centuries-old curse and a zombie uprising. The film explores themes of acceptance, bravery, and understanding of the supernatural.. The voice cast."
+
+
+
+STEP: 2
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 2: We know the film is ParaNorman; now we need its budget from the page. Look up "budget" in the current passage.
+Action 2: Lookup[budget] 
+        Action 2: Lookup[budget]
+        Observation 2: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2:  
+        Action 2: ['Search[ParaNorman]', 'Lookup[budget]', 'Finish[$60 million]']
+        Observation 2: ParaNorman is a 2012 American animated comedy horror film produced by Laika and distributed by Focus Features. Directed by Sam Fell and Chris Butler, the film features a blend of stop-motion animation and 3D technology. The story follows Norman Babcock, a young boy who can see and communicate with ghosts, as he tries to save his town from a centuries-old curse and a zombie uprising. The film explores themes of acceptance, bravery, and understanding of the supernatural.. The voice cast."
+
+
+
+STEP: 3
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 4
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 5
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 6
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 6:  
+        Action 6: Lookup[grossed]
+        Observation 6: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 6:  
+        Action 6: ['Search[ParaNorman]']
+        Observation 6: ParaNorman is a 2012 American animated comedy horror film produced by Laika and distributed by Focus Features. Directed by Sam Fell and Chris Butler, the film features a blend of stop-motion animation and 3D technology. The story follows Norman Babcock, a young boy who can see and communicate with ghosts, as he tries to save his town from a centuries-old curse and a zombie uprising. The film explores themes of acceptance, bravery, and understanding of the supernatural.. The voice cast."
+
+
+
+STEP: 7
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+INFO {'steps': 7, 'answer': '', 'gt_answer': '$60 million', 'question_idx': 3497, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 524.3744518756866
+
+--------------------------------------------------
+

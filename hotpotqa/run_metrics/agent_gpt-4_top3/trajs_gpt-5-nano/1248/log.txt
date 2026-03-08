@@ -1,0 +1,125 @@
+INFO 1248 Question: The first of the Simon Bloom books was optioned by a company founded in what year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search the first of the Simon Bloom books and find the company that optioned it, then search for the company and find out when it was founded.
+Action 1: Search[Simon Bloom]
+        Action 1: Search[Simon Bloom]
+        Observation 1: Simon Bloom is a series of young adult novels by Michael Reisman. Set in the fictional town of Lawnville, New Jersey, it is about a boy who finds a book that lets him control the laws of physics. The first of the books was acquired by Walden Media.[1]. There are three novels in the series:. The first book in the series, Simon Bloom, The Gravity Keeper, was published February 1, 2008.[2][3]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To answer, I need to first know which company optioned the first book of the Simon Bloom series. I'll start by learning more about the Simon Bloom series.
+Action 1: [Search[Simon Bloom], Search[Simon Bloom series], Lookup[Simon Bloom]]
+        Action 1: ['Search[Simon Bloom]', 'Search[Simon Bloom series]', 'Lookup[Simon Bloom]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The first of the Simon Bloom books was acquired by Walden Media. So I need to search Walden Media next and find out when it was founded.
+Action 2: Search[Walden Media]
+        Action 2: Search[Walden Media]
+        Observation 2: Walden Media, LLC is an American independent studio that develops, produces, and finances feature films and television series for the U.S. and global markets. Its films focus on stories of courage drawn from biographies, historical events, and literature adaptations, as well as original screenplays. The company has also produced feature documentaries.. The corporate headquarters of Walden Media are located in Los Angeles, California."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Thought 1: The search for Simon Bloom did not return information about the first of the Simon Bloom books being optioned. I may need to refine the search.
+Action 1: [Search[Simon Bloom books], Lookup[optioned by], Search[first Simon Bloom book]]
+        Action 2: ['Search[Simon Bloom books]', 'Search[first Simon Bloom book]', 'Lookup[optioned by]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The information I found does not mention the year the company was founded. I need to look up "founded" in the current passage.
+Action 3: Lookup[founded]
+        Action 3: Lookup[founded]
+        Observation 3: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Now that I have found out about Walden Media I need to extract the year it was founded.
+Action 3: Lookup[founded]
+        Action 3: ['Lookup[founded]']
+        Observation 3: "
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The information about when Walden Media was founded is not in the current passage. So I need to search Walden Media and find it specifically. 
+Action 4: [Search[Walden Media (company)]]
+        Action 4: Search[Walden Media (company)]
+        Observation 4: Could not find Walden Media (company). Similar: ['Walden Media', 'Dana Walden', 'Waldenbooks (redirect from Walden Book Company, Inc.)', 'Walden', 'Bristol Bay Productions (category Company articles with topics of unclear notability)']."
+
+SIMULATION TRAJECTORY:
+ Thought 4: The current passage does not contain the information about the year Walden Media was founded. There could be a mistake in the Lookup, or the information about the foundation year is not in the dominant version of the text. I will now attempt to obtain this information via a new search. 
+Action 4: [Search[Walden Media founding year], Search[Walden Media history], Lookup[established]]
+        Action 4: ['Search[Walden Media founding year]', 'Search[Walden Media history]', 'Lookup[established]']
+        Observation 4: "
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: The information about when Walden Media was founded wasn't found. I should search more specifically in the section on the company's history.
+Action 5: [Search[Walden Media history]]
+        Action 5: Search[Walden Media history]
+        Observation 5: Could not find Walden Media history. Similar: ['Walden Media', 'Dana Walden', 'Walden', 'Saffron Walden', 'Walden Pond']."
+
+SIMULATION TRAJECTORY:
+ Thought 5: Unfortunately, my last search still didn't provide the founding year for Walden Media. I might have to perform the search again more precisely, look for any other sentences in the current passage that may contain the information, or try a different search entity.
+Action 5: [Search[Walden Media founding year], Lookup[Walden Media], Search[Walden Media history]]
+        Action 5: ['Search[Walden Media founding year]', 'Search[Walden Media history]', 'Lookup[Walden Media]']
+        Observation 5: "
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: The information about when Walden Media was founded wasn't found in the previous searches. It's possible that the information isn't available through the used search database.
+Action 6: [Search[Walden Media founding year]]
+        Action 6: Search[Walden Media founding year]
+        Observation 6: Could not find Walden Media founding year. Similar: ['Walden Media', 'Walden', 'Robert Lee Walden', 'Walden, a game', 'Saffron Walden']."
+
+SIMULATION TRAJECTORY:
+ Thought 6: The information about when Walden Media was founded wasn't found again. It seems the required information is not directly available. I may need to use a more specific search term, or try a lookup with a different word related to the founding of the company.
+Action 6: [Search[Walden Media founding year], Search[Walden Media creation], Lookup[established]]
+        Action 6: ['Search[Walden Media founding year]', 'Search[Walden Media creation]', 'Lookup[established]']
+        Observation 6: "
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: The specific founding year of Walden Media is hard to find through the available search resources. However, I feel confident it might be available in a full search of 'Walden Media'.
+Action 7: [Search[Walden Media]]
+        Action 7: Search[Walden Media]
+        Observation 7: Walden Media, LLC is an American independent studio that develops, produces, and finances feature films and television series for the U.S. and global markets. Its films focus on stories of courage drawn from biographies, historical events, and literature adaptations, as well as original screenplays. The company has also produced feature documentaries.. The corporate headquarters of Walden Media are located in Los Angeles, California."
+
+SIMULATION TRAJECTORY:
+ Thought 7: The information about when Walden Media was founded still wasn't found. The search results keep suggesting the same page that was already checked. Maybe I can attempt to find a founding year by searching for the founders of the company and looking at their history.
+
+Action 7: [Search[Walden Media founders]], [Lookup[Walden Media]], [Search[Walden Media background]]
+        Action 7: ['Search[Walden Media founders]', 'Search[Walden Media background]', 'Lookup[Walden Media]']
+        Observation 7: "
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '1912', 'question_idx': 3401, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 4 
+Average reward: 0.75 
+Average time 51.318510472774506
+
+--------------------------------------------------
+

@@ -1,0 +1,97 @@
+INFO 6904 Question: The World War I Air Force pilot who has been credited with 80 air combat victories has been the subject of what forms of media?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I should identify the WWI pilot with 80 victories (likely Manfred von Richthofen, the Red Baron) and then check his page for mentions of the forms of media he has been the subject of.
+Action 1: Search[Manfred von Richthofen]
+Observation 1: Manfred Albrecht Freiherr von Richthofen (German: [ˈmanfreːt fɔn ˈʁɪçthoːfn̩]; 2 May 1892 – 21 April 1918), known in English as Baron von Richthofen or the Red Baron, was a fighter pilot with the German Air Force during World War I. He is considered the ace-of-aces of the war, being officially credited with 80 air combat victories.. Originally a cavalryman, Richthofen transferred to the Air Service in 1915, becoming one of the first members of fighter squadron Jagdstaffel 2 in 1916. He quickly distinguished himself as a fighter pilot, and during 1917 became the leader of Jasta 11. Later he led the larger fighter wing Jagdgeschwader I, better known as "The Flying Circus" or "Richthofen's Circus" because of the bright colours of its aircraft, and perhaps also because of the way the unit was transferred from one area of Entente air activity to another – moving like a travelling circus, and frequently setting up in tents on improvised airfields.
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to identify the WWI pilot credited with 80 victories (Manfred von Richthofen) and then find what forms of media he has been the subject of.
+Action 1: Search[Manfred von Richthofen]
+Observation 1: Manfred Albrecht Freiherr von Richthofen (2 May 1892 – 21 April 1918), popularly known as the "Red Baron," was a German fighter pilot and flying ace during World War I. He is considered one of the most skilled and famous aviators of the war, credited with shooting down 80 enemy aircraft, making him the top-scoring ace of the war.. Born in Breslau, Prussia (now Wrocław, Poland), Richthofen.
+
+
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 2: I should look within the Richthofen article for a sentence mentioning he "has been the subject" to find the forms of media listed.
+Action 2: Lookup[subject]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: None
+Action 2: Lookup[subject]
+Observation 2: Manfred Albrecht Freiherr von Richthofen (2 May 1892 – 21 April 1918), popularly known as the "Red Baron," was a German fighter pilot and flying ace during World War I. He is considered one of the most skilled and famous aviators of the war, credited with shooting down 80 enemy aircraft, making him the top-scoring ace of the war.. Born in Breslau, Prussia (now Wrocław, Poland), Richthofen.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The keyword search failed in the Richthofen article. I should try the "Red Baron" page, which may mention the forms of media he has been the subject of in its lead.
+Action 3: Search[Red Baron]
+Observation 3: Manfred Albrecht Freiherr von Richthofen (German: [ˈmanfreːt fɔn ˈʁɪçthoːfn̩]; 2 May 1892 – 21 April 1918), known in English as Baron von Richthofen or the Red Baron, was a fighter pilot with the German Air Force during World War I. He is considered the ace-of-aces of the war, being officially credited with 80 air combat victories.. Originally a cavalryman, Richthofen transferred to the Air Service in 1915, becoming one of the first members of fighter squadron Jagdstaffel 2 in 1916. He quickly distinguished himself as a fighter pilot, and during 1917 became the leader of Jasta 11. Later he led the larger fighter wing Jagdgeschwader I, better known as "The Flying Circus" or "Richthofen's Circus" because of the bright colours of its aircraft, and perhaps also because of the way the unit was transferred from one area of Entente air activity to another – moving like a travelling circus, and frequently setting up in tents on improvised airfields.
+
+SIMULATION TRAJECTORY:
+ Thought 3: The previous lookup didn’t surface the media mention. I should scan the article for a sentence listing forms of media, starting with the keyword “books.”
+Action 3: Lookup[books]
+Observation 3: Red Baron. The Red Baron was the nickname of Manfred von Richthofen, a German fighter pilot who became one of the most famous and celebrated aces of World War I. Born on May 2, 1892, in Breslau, Prussia (now Wrocław, Poland), von Richthofen achieved legendary status for his aerial combat skills and his distinctive aircraft markings.. Early Life and Military Career. Manfred von Richthofen was born into a noble family and initially pursued.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: I should search within the article for mentions of "popular culture" or "media" to find the forms he's been the subject of.
+Action 4: Lookup[popular culture]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: The Manfred von Richthofen page likely says he "has been the subject of many books, films, and other media." I’ll look up a keyword like "books" to find that sentence.
+Action 4: Lookup[books]
+Observation 4: Red Baron. The Red Baron was the nickname of Manfred von Richthofen, a German fighter pilot who became one of the most famous and celebrated aces of World War I. Born on May 2, 1892, in Breslau, Prussia (now Wrocław, Poland), von Richthofen achieved legendary status for his aerial combat skills and his distinctive aircraft markings.. Early Life and Military Career. Manfred von Richthofen was born into a noble family and initially pursued.
+
+
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: None
+Action 5: Lookup[books]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: I should scan the Richthofen page for a line listing the forms of media, likely containing words like "books" or "films."
+Action 5: Lookup[books]
+Observation 5: Red Baron. The Red Baron was the nickname of Manfred von Richthofen, a German fighter pilot who became one of the most famous and celebrated aces of World War I. Born on May 2, 1892, in Breslau, Prussia (now Wrocław, Poland), von Richthofen achieved legendary status for his aerial combat skills and his distinctive aircraft markings.. Early Life and Military Career. Manfred von Richthofen was born into a noble family and initially pursued.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+INFO {'steps': 11, 'answer': '', 'gt_answer': 'books, films and other media', 'question_idx': 5620, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 4 
+Average reward: 0.5 
+Average time 199.11303794384003
+
+-------------------------------------------------------
+

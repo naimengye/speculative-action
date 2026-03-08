@@ -1,0 +1,46 @@
+INFO 6 Question: Which happened first? The scarp was first imaged by Voyager 2 or The play All's Well That Ends Well was written by William Shakespeare
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 7
+
+ERROR Action not found in I should 
+Retrying to get action...
+
+INFO {'steps': 1, 'answer': '', 'gt_answer': "All's Well That Ends Well", 'question_idx': 3121, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 5 
+Average reward: 0.4 
+Average time 151.75808720588685
+
+-------------------------------------------------------
+

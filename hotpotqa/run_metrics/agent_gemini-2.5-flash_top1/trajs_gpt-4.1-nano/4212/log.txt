@@ -1,0 +1,39 @@
+INFO 4212 Question: In what town is the university which the Bryant Bulldogs represent?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Bryant Bulldogs]
+Action 1: Search[Bryant Bulldogs]
+Observation 1: The Bryant Bulldogs are the athletic teams representing Bryant University in Smithfield, Rhode Island. As of July 1, 2022, the Bulldogs compete in most National Collegiate Athletic Association (NCAA) Division I sports as members of the America East Conference (AmEast).[2] The move to the AmEast followed a 14-year tenure in the Northeast Conference (NEC), which it joined in 2008 when it began a transition from NCAA Division II to Division I. Bryant's largest rivalry during its Division II years was Bentley College, both founders of the Northeast-10 Conference (NE-10) and both have prominent business programs. Bryant University athletics started out as a member of the National Association of Intercollegiate Athletics (NAIA) before it transitioned into Division II. Bryant competed in the NE-10 from the conference's founding in 1980 until 2008 when the university began the transition to Division I.[3] In 2012, Bryant became a full Division I member..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Bryant Bulldogs]
+Action 1: Search[Bryant Bulldogs]
+Observation 1: The Bryant Bulldogs are the athletic teams that represent Bryant University, located in Smithfield, Rhode Island. The Bulldogs compete at the NCAA Division I level and are members of the America East Conference. The university's athletic program includes a variety of men's and women's sports, such as basketball, soccer, baseball, softball, volleyball, and more.. Bryant University was founded in 1863 and has developed a strong athletic tradition over the years. The Bulldogs' teams are known for their competitive spirit and commitment to excellence both on and off the field.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Smithfield]
+Action 2: Finish[Smithfield]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Smithfield]
+Action 2: Finish[Smithfield]
+Observation 2: The Bryant Bulldogs are the athletic teams that represent Bryant University, located in Smithfield, Rhode Island. The Bulldogs compete at the NCAA Division I level and are members of the America East Conference. The university's athletic program includes a variety of men's and women's sports, such as basketball, soccer, baseball, softball, volleyball, and more.. Bryant University was founded in 1863 and has developed a strong athletic tradition over the years. The Bulldogs' teams are known for their competitive spirit and commitment to excellence both on and off the field.
+
+
+
+INFO {'steps': 3, 'answer': 'Smithfield', 'gt_answer': 'Smithfield, Rhode Island', 'question_idx': 6764, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 10 
+Number of steps: 25 
+Average reward: 0.4 
+Average time 14.666036853790283
+
+-------------------------------------------------------
+

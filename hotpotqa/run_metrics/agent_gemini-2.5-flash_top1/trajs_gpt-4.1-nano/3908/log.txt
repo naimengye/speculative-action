@@ -1,0 +1,53 @@
+INFO 3908 Question: Is Xingcheng or Ulan Hot located in the Inner Mongolia region of China?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Xingcheng]
+Action 1: Search[Xingcheng]
+Observation 1: Xingcheng (simplified Chinese: 兴城; traditional Chinese: 興城; pinyin: Xīngchéng), former name Ningyuan (宁远),[4] is a county-level city under the administration of Huludao, in southwest Liaoning province, China, with a population of approximately 220,000 urban inhabitants, and is located on the Liaodong Bay, i.e. the northern coast of the Bohai Sea. The area is steeped in history, and contains one of the best preserved Ming Dynasty towns in China, as well as functioning as a laidback summer resort.. Xingcheng has a long and distinguished history, and was established as a county as far back as the Liao Dynasty in CE 990.[5] After being dissolved by the Yuan, it was resurrected during the Ming Dynasty under the name Ningyuan, and gained strategic importance as the first defensive outpost outside the Great Wall. Xingcheng's city walls have stood since they were first constructed in 1428 and were instrumental in helping the Ming defeat the great Manchu commander Nurhaci at the pivotal Battle of Ningyuan in 1626..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Xingcheng]
+Action 1: Search[Xingcheng]
+Observation 1: Xingcheng is a historic city located in Liaoning Province, China. Known for its rich cultural heritage and well-preserved ancient city walls, Xingcheng has a history that dates back over a thousand years. The city is renowned for its traditional architecture, scenic coastal landscapes, and as a center of maritime trade during various dynasties.. Geographically, Xingcheng is situated along the Bohai Sea, offering picturesque views and a mild climate conducive to tourism and fishing industries. The city features notable landmarks.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Ulan Hot]
+Action 2: Search[Ulan Hot]
+Observation 2: Ulanhot[a] is a county-level city and the administrative center of Hinggan League in the east of Inner Mongolia, China. Formerly known as Wangin Süm,[b] the city became the first capital of Inner Mongolia, the first autonomous region in China, on 1 May 1947,[3] until the regional capital moved to Zhangjiakou in late December 1949; the regional capital moved again in June 1952 to Hohhot, which remains the capital to this day.[4]. The city is connected to Baicheng, Jilin by the Baicheng–Arxan railway (Chinese: 白阿铁路), which runs through the pass south of Ulanhot[citation needed]. China's National Highway 302 runs from Tumen, Jilin to Ulanhot. In the 7918 Network of Highways it will be on the route from Hunchun to Ulanhot [clarification needed].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Ulan Hot]
+Action 2: Search[Ulan Hot]
+Observation 2: Ulan Hot (also known as Ulanhot or Ulaanchab) is a city located in the eastern part of Inner Mongolia Autonomous Region, China. It serves as the administrative seat of the Hinggan League. The city is situated in a region characterized by a semi-arid climate, with cold winters and warm summers, and is known for its rich history and cultural diversity.. Ulan Hot has a strategic geographical position, acting as a transportation hub connecting various parts of Inner Mongolia and neighboring provinces.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Ulan Hot]
+Action 3: Finish[Ulan Hot]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Ulan Hot]
+Action 3: Finish[Ulan Hot]
+Observation 3: Ulan Hot (also known as Ulanhot or Ulaanchab) is a city located in the eastern part of Inner Mongolia Autonomous Region, China. It serves as the administrative seat of the Hinggan League. The city is situated in a region characterized by a semi-arid climate, with cold winters and warm summers, and is known for its rich history and cultural diversity.. Ulan Hot has a strategic geographical position, acting as a transportation hub connecting various parts of Inner Mongolia and neighboring provinces.
+
+
+
+INFO {'steps': 5, 'answer': 'Ulan Hot', 'gt_answer': 'Ulanhot', 'question_idx': 4868, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 11 
+Number of steps: 25 
+Average reward: 0.44 
+Average time 16.009870357513428
+
+-------------------------------------------------------
+

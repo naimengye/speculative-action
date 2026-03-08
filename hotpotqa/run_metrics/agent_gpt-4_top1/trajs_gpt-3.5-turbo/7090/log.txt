@@ -1,0 +1,53 @@
+INFO 7090 Question: Both José Aponte de la Torre Airport and Boulder City Municipal Airport are classified as what type of airport?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[José Aponte de la Torre Airport]
+Action 1: Search[José Aponte de la Torre Airport]
+Observation 1: José Aponte de la Torre Airport (IATA: NRR, ICAO: TJRV, FAA LID: RVR) is a public use airport owned by Puerto Rico Ports Authority and located 2.3 mi (3.7 km) from  Ceiba, a coastal town in Puerto Rico. It is included in the National Plan of Integrated Airport Systems for 2011–2015, which categorized it as a general aviation airport.[4] The airport also offers scheduled passenger service via three commercial airlines to the islands of Vieques and  Culebra, Puerto Rico.. The airport opened in November 2008 on the site of the former Roosevelt Roads Naval Station, replacing the Diego Jiménez Torres Airport (IATA: FAJ, ICAO: TJFA, FAA LID: X95) in Fajardo.[5] The airport was used as a testing site for Google Loon, a project to deliver high-speed internet using high-altitude balloons.[6]. José Aponte de la Torre Airport covers an area of 1,646 acres (666 ha) at an elevation of 38 ft (12 m) above mean sea level. It has one operating runway designated 7/25 with asphalt and concrete surface measuring 11,000 ft × 150 ft (3,353 m × 46 m).
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[José Aponte de la Torre Airport]
+Action 1: Search[José Aponte de la Torre Airport]
+Observation 1: José Aponte de la Torre Airport (IATA: NRR, ICAO: TJNR) is a public airport located in Ceiba, Puerto Rico. The airport serves the eastern region of Puerto Rico, including the towns of Fajardo, Luquillo, and Naguabo. It is named after José Aponte de la Torre, a Puerto Rican politician and former mayor of Ceiba.. The airport has one runway and operates as a general aviation facility, handling mainly.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Boulder City Municipal Airport]
+Action 2: Search[Boulder City Municipal Airport]
+Observation 2: Boulder City Municipal Airport (IATA: BLD[2], ICAO: KBVU, FAA LID: BVU, formerly 61B[3]) is a public use airport located one nautical mile (2 km) southwest of the central business district of Boulder City, in Clark County, Nevada, United States. In operation since 1990, it is owned by the Boulder City Municipality.[1]. According to the FAA, this airport had 300,553 passenger boardings (enplanements) in calendar year 2008,[4] 194,838 in 2009, and 169,923 in 2010.[5] The National Plan of Integrated Airport Systems for 2011–2015 categorized it as a primary commercial service airport.[6]. Although many U.S. airports use the same three-letter location identifier for the FAA and IATA, Boulder City Municipal Airport is assigned BVU by the FAA[1] and BLD by the IATA[2] (which assigned BVU to Beluga Airport in Beluga, Alaska).[7].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Boulder City Municipal Airport]
+Action 2: Search[Boulder City Municipal Airport]
+Observation 2: Boulder City Municipal Airport (IATA: BLD, ICAO: KBVU, FAA LID: BVU) is a public airport located in Boulder City, Nevada, United States. The airport covers an area of 1,145 acres and has one runway designated 9/27 with an asphalt surface measuring 5,001 by 75 feet. It is situated approximately 3 miles southwest of the central business district of Boulder City.. The airport primarily serves general aviation and is.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[general aviation airport]
+Action 3: Finish[general aviation airport]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[general aviation airport]
+Action 3: Finish[general aviation airport]
+Observation 3: Boulder City Municipal Airport (IATA: BLD, ICAO: KBVU, FAA LID: BVU) is a public airport located in Boulder City, Nevada, United States. The airport covers an area of 1,145 acres and has one runway designated 9/27 with an asphalt surface measuring 5,001 by 75 feet. It is situated approximately 3 miles southwest of the central business district of Boulder City.. The airport primarily serves general aviation and is.
+
+
+
+INFO {'steps': 5, 'answer': 'general aviation airport', 'gt_answer': 'public use airport', 'question_idx': 2735, 'reward': False, 'em': False, 'f1': 0.3333333333333333}
+
+INFO Sum of rewards: 7 
+Number of steps: 13 
+Average reward: 0.5384615384615384 
+Average time 30.891208245204044
+
+-------------------------------------------------------
+

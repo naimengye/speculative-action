@@ -1,0 +1,76 @@
+INFO 7356 Question:  Kenneth Anderson served under the General who was which President of the United States?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To find out the answer, I first need to search Kenneth Anderson to find out who the General he served under was.
+Action 1: [Search[Kenneth Anderson]] 
+        Action 1: Search[Kenneth Anderson]
+        Observation 1: Could not find [Kenneth Anderson]. Similar: ['Kenneth Anderson (writer)', 'Kenneth Anderson', 'Kenneth Kitchen', 'Tiger attack', 'Kenneth Anderson (British Army officer)']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Kenneth Anderson, find the General he served under, then search this General to find which President of the United States he was.
+Action 1: [Search[Kenneth Anderson], Lookup[General], Lookup[President of the United States]] 
+        Action 1: ['Search[Kenneth Anderson]', 'Lookup[General]', 'Lookup[President of the United States]']
+        Observation 1: Kenneth Anderson is a retired professional wrestler, better known by his ring name "Mr. Kennedy." He was born on March 6, 1976, in Wisconsin, United States. Anderson is best known for his time in World Wrestling Entertainment (WWE), where he gained popularity for his charismatic persona and microphone skills.. Anderson made his WWE debut in 2005 and quickly rose to prominence, winning the WWE United States Championship and Money in the Bank briefcase during his tenure with the company.."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The information about Kenneth Anderson is not clear. Given the context, Kenneth Anderson appears to be a military individual so it would be relevant to search for 'Kenneth Anderson (British Army officer)'.
+Action 2: [Search[Kenneth Anderson (British Army officer)]] 
+        Action 2: Search[Kenneth Anderson (British Army officer)]
+        Observation 2: General Sir Kenneth Arthur Noel Anderson, KCB, MC (25 December 1891 – 29 April 1959) was a senior British Army officer who saw service in both world wars. He is mainly remembered as the commander of the British First Army during Operation Torch, the Allied invasion of North Africa and the subsequent Tunisian campaign which ended with the capture of almost 250,000 Axis soldiers. An outwardly reserved character, he did not court popularity either with his superiors or with the public.. His American superior, General Dwight D. Eisenhower, wrote that he was "blunt, at times to the point of rudeness"."
+
+SIMULATION TRAJECTORY:
+ Thought 2: It seems there may have been some confusion here, this Kenneth Anderson is a wrestler, not someone who would have served under a General. Could be there is also a significant military figure with the same name. I should search for a military-related Kenneth Anderson.
+Action 2: [Search[Kenneth Anderson (military)], Search[Kenneth Anderson (general)], Search[Kenneth Anderson (army)]] 
+        Action 2: ['Search[Kenneth Anderson (military)]', 'Search[Kenneth Anderson (general)]', 'Search[Kenneth Anderson (army)]']
+        Observation 2: Kenneth Anderson (British Army officer) was a senior British Army officer who served during World War II. He was born on 25 December 1891 and died on 29 April 1959. Anderson is best known for his role as the commander of the British First Army during the North African Campaign. He also served as the Commander-in-Chief of the British Army of the Rhine after the war. Anderson was known for his strategic planning and leadership skills, which played a crucial role in."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The information provided indicates that Kenneth Anderson's American superior was General Dwight D. Eisenhower. The next step would be to confirm if Dwight D. Eisenhower was a President of the United States.
+Action 3: [Search[Dwight D. Eisenhower]] 
+        Action 3: Search[Dwight D. Eisenhower]
+        Observation 3: Dwight David "Ike" Eisenhower[a] (born David Dwight Eisenhower; October 14, 1890 – March 28, 1969) was the 34th president of the United States, serving from 1953 to 1961. During World War II, he was Supreme Commander of the Allied Expeditionary Force in Europe and achieved the five-star rank as General of the Army. Eisenhower planned and supervised two of the most consequential military campaigns of World War II: Operation Torch in the North Africa campaign in 1942–1943 and the invasion of Normandy in 1944.. Eisenhower was born in Denison, Texas, and raised in Abilene, Kansas. His family had a strong religious background, and his mother became a Jehovah's Witness."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The observation contains information about Kenneth Anderson serving as a commander during World War II. However, it does not provide information on the General he served under, which is key to finding out which President of the United States that individual was. I need to try to get more specific information about Kenneth Anderson's military service.
+Action 3: [Lookup[World War II], Lookup[commander], Lookup[General]] 
+        Action 3: ['Lookup[World War II]', 'Lookup[commander]', 'Lookup[General]']
+        Observation 3: Dwight David "Ike" Eisenhower (October 14, 1890 – March 28, 1969) was an American military officer and statesman who served as the 34th President of the United States from 1953 to 1961. During World War II, he was a five-star general in the United States Army and served as Supreme Commander of the Allied Expeditionary Forces in Europe. Eisenhower was instrumental in the planning and execution of the D-Day invasion in June."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Dwight D. Eisenhower was the 34th president of the United States, thus fulfilling the roles of both a general and president. 
+Action 4: [Finish[Dwight D. Eisenhower]] 
+        Action 4: Finish[Dwight D. Eisenhower]
+        Observation 4: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: The information confirms that Dwight D. Eisenhower was the 34th President of the United States. Thus, Kenneth Anderson served under the General who was the 34th President of the United States. 
+Action 4: [Finish[34th President of the United States], Finish[Dwight D. Eisenhower], Finish[Eisenhower]] 
+        Action 4: ['Finish[34th President of the United States]', 'Finish[Dwight D. Eisenhower]', 'Finish[Eisenhower]']
+        Observation 4: Dwight David "Ike" Eisenhower (October 14, 1890 – March 28, 1969) was an American military officer and statesman who served as the 34th President of the United States from 1953 to 1961. During World War II, he was a five-star general in the United States Army and served as Supreme Commander of the Allied Expeditionary Forces in Europe. Eisenhower was instrumental in the planning and execution of the D-Day invasion in June."
+
+
+
+INFO {'steps': 7, 'answer': 'Dwight D. Eisenhower', 'gt_answer': '34th', 'question_idx': 6513, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 10 
+Average reward: 0.4 
+Average time 34.69275648593903
+
+--------------------------------------------------
+

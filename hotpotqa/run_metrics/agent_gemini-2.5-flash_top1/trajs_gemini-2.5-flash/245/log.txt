@@ -1,0 +1,53 @@
+INFO 245 Question: Are both Dziga Vertov and Roger Donaldson are involved in the film industry?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Dziga Vertov]
+Action 1: Search[Dziga Vertov]
+Observation 1: Dziga Vertov[a][b] (born David Abelevich Kaufman;[c] 2 January 1896 [O.S. 21 December 1895] – 12 February 1954) was a Soviet pioneer documentary film and newsreel director, as well as a cinema theorist.[1] His filming practices and theories influenced the cinéma vérité style of documentary movie-making and the Dziga Vertov Group, a radical film-making cooperative which was active from 1968 to 1972. He was a member of the Kinoks collective, with Elizaveta Svilova and Mikhail Kaufman.. In the 2012 Sight & Sound poll, critics voted Vertov's Man with a Movie Camera (1929) the eighth-greatest film ever made.[2]. Vertov's younger brothers Boris Kaufman and Mikhail Kaufman were also noted filmmakers, as was his wife, Yelizaveta Svilova.[3] He worked with Boris Kaufman and cinematographer Mikhail Kaufman on his most famous film Man with a Movie Camera..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Dziga Vertov]
+Action 1: Search[Dziga Vertov]
+Observation 1: **Dziga Vertov** (Russian: Дзи́га Ве́ртов; born **David Abelevich Kaufman**; January 2, 1896 – February 12, 1954) was a Soviet pioneer documentary film director and film theorist, whose practice of "Kino-Eye" (literally "film-eye") was a radical approach to filmmaking that sought to capture "life unawares." He is widely considered one of the most important and.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Roger Donaldson]
+Action 2: Search[Roger Donaldson]
+Observation 2: Roger Lindsey Donaldson ONZM (born 15 November 1945) is an Australian and New Zealand film director, screenwriter, and producer. His 1977 debut film, Sleeping Dogs, is considered a landmark work of New Zealand cinema, as one of the country’s first films to attract large-scale critical and commercial success.[1] He has subsequently directed 17 feature films, working in Hollywood and the United Kingdom, as well as his native country.. Donaldson’s best-known films include the historical drama The Bounty (1984), the neo-noir No Way Out (1987), the romantic comedy Cocktail (1988), the Cuban Missile Crisis docudrama Thirteen Days (2000), the science-fiction horror film Species (1995), the disaster film Dante's Peak (1997), the Burt Munro biopic The World's Fastest Indian (2005), and the historical thriller The Bank Job (2008).[2]. Donaldson has worked twice each with actors Kevin Costner, Pierce Brosnan, Anthony Hopkins and Michael Madsen. He is a recipient of three New Zealand Film and Television Awards.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Roger Donaldson]
+Action 2: Search[Roger Donaldson]
+Observation 2: **Roger Donaldson** (born 1945) is a New Zealand film director, producer, and screenwriter. He is known for directing a variety of films across different genres, often characterized by strong narratives and compelling performances.. **Early Life and Career:**. Born in Ballarat, Victoria, Australia, Donaldson moved to New Zealand in 1965. He initially worked in advertising and television, gaining experience in directing commercials and documentaries.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: **Roger Donaldson** (born 1945) is a New Zealand film director, producer, and screenwriter. He is known for directing a variety of films across different genres, often characterized by strong narratives and compelling performances.. **Early Life and Career:**. Born in Ballarat, Victoria, Australia, Donaldson moved to New Zealand in 1965. He initially worked in advertising and television, gaining experience in directing commercials and documentaries.
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 1131, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 18 
+Number of steps: 41 
+Average reward: 0.43902439024390244 
+Average time 12.28672056663327
+
+-------------------------------------------------------
+

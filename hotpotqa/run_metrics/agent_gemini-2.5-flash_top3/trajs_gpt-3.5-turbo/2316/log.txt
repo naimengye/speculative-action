@@ -1,0 +1,44 @@
+INFO 2316 Question: Which dog is based in Switzerland, Appenzeller Sennenhund or Drentse Patrijshond?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for both dog breeds and determine which one is based in Switzerland.
+Action 1: Search[Appenzeller Sennenhund] 
+        Action 1: Search[Appenzeller Sennenhund]
+        Observation 1: The Appenzeller Sennenhund is a Swiss breed of medium-sized working dog. It originates in the Appenzell region of north-eastern Switzerland, and is one of four regional breeds of Sennenhund or Swiss mountain dog, all of which are characterised by a distinctive tricolour coat.. The Appenzeller Sennenhund is the traditional working dog of the Sennen – Alpine cattle-herders and dairymen[2] – of the Appenzell region of north-eastern Switzerland. The earliest written description of it is that of Friedrich von Tschudi in Das Thierleben der Alpenwelt, published in 1853.[3][4]: 553  In the late nineteenth century Max Sieber, a forester who had seen the dogs at cattle shows in eastern Switzerland, asked the Schweizerische Kynologische Gesellschaft [de] to recognise the breed;[5] a commission was established with financing from the canton of St. Gallen[5] and the Appenzeller Sennenhund was recognised in either 1896[6] or 1898.[3][7]: 88  Eight of the dogs were shown at the international dog show in Winterthur in 1898; they were entered in a new Sennenhunde class.[5]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Appenzeller Sennenhund and Drentse Patrijshond, and find which one is based in Switzerland.
+Action 1: Search[Appenzeller Sennenhund] 
+        Action 1: ['Search[Appenzeller Sennenhund]']
+        Observation 1: The Appenzeller Sennenhund is a medium-sized breed of dog, one of the four regional breeds of Sennenhund-type dogs from the Swiss Alps. It is also known as the Appenzeller Mountain Dog or Appenzeller. The breed is known for its agility, intelligence, and protective nature. Appenzeller Sennenhunds are typically tri-color, with a black or brown base coat and symmetrical white and rust markings. They have a distinctive appearance with their floppy ears."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Appenzeller Sennenhund is a Swiss breed, so it is based in Switzerland. I can conclude the answer now.
+Action 2: Finish[Appenzeller Sennenhund] 
+        Action 2: Finish[Appenzeller Sennenhund]
+        Observation 2: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The Appenzeller Sennenhund is from the Swiss Alps, meaning it's based in Switzerland. I can confirm this by checking the other dog breed.
+Action 2: Search[Drentse Patrijshond], Lookup[Swiss Alps], Finish[Appenzeller Sennenhund] 
+        Action 2: ['Search[Drentse Patrijshond]', 'Lookup[Swiss Alps]', 'Finish[Appenzeller Sennenhund]']
+        Observation 2: The Appenzeller Sennenhund is a medium-sized breed of dog, one of the four regional breeds of Sennenhund-type dogs from the Swiss Alps. It is also known as the Appenzeller Mountain Dog or Appenzeller. The breed is known for its agility, intelligence, and protective nature. Appenzeller Sennenhunds are typically tri-color, with a black or brown base coat and symmetrical white and rust markings. They have a distinctive appearance with their floppy ears."
+
+
+
+INFO {'steps': 3, 'answer': 'Appenzeller Sennenhund', 'gt_answer': 'Appenzeller Sennenhund', 'question_idx': 2121, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 7 
+Average reward: 0.5714285714285714 
+Average time 10.66913400377546
+
+--------------------------------------------------
+

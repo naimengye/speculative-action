@@ -1,0 +1,60 @@
+INFO 1477 Question: Marco de la O stars in the title role of El Chapo which premiered on which network in April 2017?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To answer the question, I need to find in which network the series El Chapo, starring Marco de la O, premiered in April 2017. So, I will start by searching El Chapo.
+Action 1: Search[El Chapo] 
+        Action 1: Search[El Chapo]
+        Observation 1: Joaquín Archivaldo Guzmán Loera (Spanish: [xoaˈkin aɾtʃiˈβaldo ɣusˈman loˈeɾa]; born 4 April 1957), commonly known as "El Chapo", is a former Mexican drug lord and the former top leader of the Sinaloa Cartel. Guzmán is believed to be responsible for the deaths of over 34,000 people,[5] and was considered to be the most powerful drug trafficker in the world until he was extradited to the United States and sentenced to life in prison.[6][7]. Guzmán was born in Sinaloa and raised in a poor farming family. He endured much physical abuse at the hands of his father, through whom he also entered the drug trade, helping him grow marijuana for local dealers during his early adulthood. Guzmán began working with Héctor Luis Palma Salazar by the late 1970s, one of the nation's rising drug lords."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To answer this question, I'll first need to know about the series "El Chapo". I can then look for information about its premiere network.
+Action 1: [Search[El Chapo], Lookup[Marco de la O], Lookup[premiered]] 
+        Action 1: ['Search[El Chapo]', 'Lookup[Marco de la O]', 'Lookup[premiered]']
+        Observation 1: Joaquín Guzmán Loera, commonly known as "El Chapo" (Spanish for "Shorty"), is a Mexican former drug lord and narcoterrorist who was the leader of the Sinaloa Cartel, a criminal organization. He was one of the most powerful drug traffickers in the world.. **Early Life and Rise to Power:**. Born in La Tuna, Badiraguato, Sinaloa, Mexico, Guzmán's early life was marked by poverty. He began his criminal career."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The information obtained from the search refers to the real person known as El Chapo, not the TV show where Marco de la O stars. I need to adjust my search to El Chapo (TV series) to obtain the right information.
+Action 2: Search[El Chapo (TV series)] 
+        Action 2: Search[El Chapo (TV series)]
+        Observation 2: El Chapo is a biographical crime thriller television series, co-produced by Netflix and Univision, about the life of Joaquín "El Chapo" Guzmán.[1] The series premiered on April 23, 2017 on Univision before airing on Netflix worldwide.[2] It stars Marco de la O as the title character.[3]. The series recounts the beginnings of Joaquín "El Chapo" Guzmán in 1985, when he was a low-level member of the Guadalajara Cartel, his rise to power as head of the Sinaloa Cartel, and his downfall.. On May 12, 2017, Univision confirmed that the series would be renewed for a second season. Season 2 premiered on September 17, 2017.[4]. Netflix released the first season, comprising nine episodes, on June 16, 2017.[5] The second season was released on December 15, 2017.[6]."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search results for "El Chapo" didn't provide any information about the network on which the series premiered. So I need to refine my search.
+Action 2: [Search[El Chapo (TV series)], Lookup[premiered], Lookup[Marco de la O]] 
+        Action 2: ['Search[El Chapo (TV series)]', 'Lookup[premiered]', 'Lookup[Marco de la O]']
+        Observation 2: **El Chapo** is a Spanish-language biographical drama television series created by Silvana Aguirre and Carlos Contreras. The series chronicles the life of Joaquín "El Chapo" Guzmán, a notorious Mexican drug lord and former leader of the Sinaloa Cartel.. The series premiered on the American network Univision on January 15, 2017, and later aired on Netflix internationally. It consists of three seasons, with the final season released on Netflix in December 201."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The series El Chapo, in which Marco de la O stars, premiered on Univision in April 2017. This is the answer to the question.
+Action 3: Finish[Univision] 
+        Action 3: Finish[Univision]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The series El Chapo, where Marco de la O stars, premiered on the American network Univision. Therefore, that is the answer to the question.
+Action 3: [Finish[Univision], Lookup[El Chapo], Search[Marco de la O]] 
+        Action 3: ['Search[Marco de la O]', 'Lookup[El Chapo]', 'Finish[Univision]']
+        Observation 3: **El Chapo** is a Spanish-language biographical drama television series created by Silvana Aguirre and Carlos Contreras. The series chronicles the life of Joaquín "El Chapo" Guzmán, a notorious Mexican drug lord and former leader of the Sinaloa Cartel.. The series premiered on the American network Univision on January 15, 2017, and later aired on Netflix internationally. It consists of three seasons, with the final season released on Netflix in December 201."
+
+
+
+INFO {'steps': 5, 'answer': 'Univision', 'gt_answer': 'Univision', 'question_idx': 2560, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 11 
+Average reward: 0.45454545454545453 
+Average time 24.50914326581088
+
+--------------------------------------------------
+

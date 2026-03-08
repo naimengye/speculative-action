@@ -1,0 +1,128 @@
+[
+    {
+        "observations": [
+            "Question: The series in which Sharon Gless played Debbie Novotny was developed and written by who?",
+            "Could not find Sharon Gless Debbie Novotny. Similar: ['Sharon Gless', 'List of Queer as Folk characters (redirect from Debbie Novotny)', 'Queer as Folk (2000 TV series)', 'Queer as Folk season 5', 'Queer as Folk season 1'].",
+            "",
+            "Queer as Folk is a drama television series that ran from December 3, 2000, to August 7, 2005. The series was produced for Showtime and Showcase by Cowlip Productions, Tony Jonas Productions, Temple Street Productions, and Showtime Networks, in association with Crowe Entertainment and Warner Bros. Television. It was developed and written by Ron Cowen and Daniel Lipman, who were the showrunners and also the executive producers along with Tony Jonas, former president of Warner Bros. Television..",
+            "",
+            "Episode finished, reward = 1\n",
+            "Episode finished, reward = 1\n"
+        ],
+        "actions": [
+            "search[Sharon Gless Debbie Novotny]",
+            "search[Sharon Gless Debbie Novotny]",
+            "search[Queer as Folk (2000 TV series)]",
+            "search[Queer as Folk (2000 TV series)]",
+            "finish[Ron Cowen and Daniel Lipman]",
+            "finish[Ron Cowen and Daniel Lipman]"
+        ],
+        "steps": 5,
+        "answer": "Ron Cowen and Daniel Lipman",
+        "gt_answer": "Ron Cowen and Daniel Lipman",
+        "question_idx": 5770,
+        "reward": true,
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "observations": [
+            "Question: Which founder of Alcatraz East was born on March 31, 1956?",
+            "Alcatraz East is a privately owned for-profit crime museum in Pigeon Forge, Tennessee.[1] Opened in 2008 as the National Museum of Crime and Punishment in Washington, D.C., the museum moved in 2016 to its present site in Pigeon Forge.[2] The museum gives a behind-the-scenes look at crime history in America. It was created and built by attorney John Morgan and chief operating officer Janine Vaccarello.. Alcatraz East is 24,000 square feet, two stories, and is themed as a 19th-century prison inspired by the infamous Alcatraz island prison in San Francisco. Alcatraz East includes interactive displays and artifacts that cover criminal intent, criminal profiles, the penal system, victims' stories, law enforcement, crime prevention, forensic science, and the U.S. justice system..",
+            "",
+            "Could not find [John Morgan]. Similar: ['John Morgan (lawyer)', 'Morgan & Morgan', 'John Adams Morgan', 'J. P. Morgan', 'John Morgan'].",
+            "",
+            "John Bryan Morgan (born March 31, 1956)[1] is an American attorney based in Florida, best known as founder of personal injury law firm Morgan & Morgan.[2] He is a billionaire.[3]. Politico has described Morgan as \"the godfather of Florida's medical marijuana amendment and a Democratic fundraiser.\"[4]. Morgan was born on March 31, 1956, in Lexington, Kentucky. He is the eldest of five children, to Ramon Morgan and Patricia Morgan.[5] When Morgan was fourteen years old, his family moved to Winter Park, Florida.[5] Morgan began working in various jobs at an early age, as his family struggled financially.[5][2] In 1974, he entered the University of Florida, where he earned a bachelor's degree in arts in 1978. He took an 18-month hiatus selling ads to pay for his studies at the University of Florida Levin College of Law.[5] He received his Juris Doctor in 1982.",
+            "",
+            "Episode finished, reward = 1\n",
+            "Episode finished, reward = 1\n"
+        ],
+        "actions": [
+            "search[Alcatraz East]",
+            "search[Alcatraz East]",
+            "search[John Morgan]",
+            "search[John Morgan]",
+            "search[John Morgan (lawyer)]",
+            "search[John Morgan (lawyer)]",
+            "finish[John Morgan]",
+            "finish[John Morgan]"
+        ],
+        "steps": 7,
+        "answer": "John Morgan",
+        "gt_answer": "John Morgan",
+        "question_idx": 1391,
+        "reward": true,
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "observations": [
+            "Question: Is Awolnation an American alternative rock band and This Mortal Coil was a music collective",
+            "Awolnation (stylized in all caps) is an American rock band from Los Angeles formed and fronted by Aaron Bruno, formerly of Under the Influence of Giants, Home Town Hero, and Insurgence. The band is signed to Better Noise Music and formerly was signed to Red Bull Records. Their first EP, Back from Earth, was released on iTunes on May 18, 2010. They released their first studio album, Megalithic Symphony, on March 15, 2011; it featured their most notable hit, \"Sail\", which peaked at number 17 on the Billboard Hot 100,[2] number 4 on the Billboard Rock Songs chart,[3] and number 5 on the Billboard Alternative Songs chart.[4]. On June 14, 2021, Sail became just the 57th song to be certified diamond by the RIAA[5][6] and has sold 10,000,000 copies in the United States.[7] As of February 29, 2016, the album has been certified platinum.[8].",
+            "",
+            "This Mortal Coil were a British music collective led by Ivo Watts-Russell, founder of the British record label 4AD.[5] Although Watts-Russell and John Fryer were the only two official members, the band's recorded output featured a large rotating cast of supporting artists, many of whom were otherwise associated with 4AD, including members of Cocteau Twins, Cindytalk, Dead Can Dance, Breathless, The Breeders and Belly.[6][7][8]. The project is known for its gothic, dream pop and ethereal wave sound. Throughout their run, they released one extended play (EP), Sixteen Days / Gathering Dust, and three studio albums: It'll End in Tears (1984), Filigree & Shadow (1986) and Blood (1991).[9] The former produced their modestly successful cover of Tim Buckley's \"Song to the Siren\", which peaked at number 66 on the UK Singles Chart. After the group broke up in 1991, former member Watts-Russell formed the similar group The Hope Blister.. Watts-Russell had founded 4AD in 1980, and the label established itself as one of the key labels in the British post-punk movement.[citation needed] Following several releases, Watts-Russell developed the idea of collaborating under the name This Mortal Coil.[10] The name is taken from a line in the\u00a0song Dream Within a Dream by Spirit (\"...Stepping off this mortal coil will be my pleasure...\"),[11] which in turn alludes to Shakespeare's Hamlet (\"...",
+            "",
+            "Episode finished, reward = 1\n",
+            "Episode finished, reward = 1\n"
+        ],
+        "actions": [
+            "search[Awolnation]",
+            "search[Awolnation]",
+            "search[This Mortal Coil]",
+            "search[This Mortal Coil]",
+            "finish[yes]",
+            "finish[yes]"
+        ],
+        "steps": 5,
+        "answer": "yes",
+        "gt_answer": "yes",
+        "question_idx": 7177,
+        "reward": true,
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "observations": [
+            "Question: The first of the Simon Bloom books was optioned by a company founded in what year?",
+            "Simon Bloom is a series of young adult novels by Michael Reisman. Set in the fictional town of Lawnville, New Jersey, it is about a boy who finds a book that lets him control the laws of physics. The first of the books was acquired by Walden Media.[1]. There are three novels in the series:. The first book in the series, Simon Bloom, The Gravity Keeper, was published February 1, 2008.[2][3].",
+            "",
+            "Walden Media, LLC is an American independent studio that develops, produces, and finances feature films and television series for the U.S. and global markets. Its films focus on stories of courage drawn from biographies, historical events, and literature adaptations, as well as original screenplays. The company has also produced feature documentaries.. The corporate headquarters of Walden Media are located in Los Angeles, California.",
+            "",
+            "No more results.\n",
+            "No more results.\n",
+            "Could not find Walden Media (company). Similar: ['Walden Media', 'Dana Walden', 'Waldenbooks (redirect from Walden Book Company, Inc.)', 'Walden', 'Bristol Bay Productions (category Company articles with topics of unclear notability)'].",
+            "",
+            "Could not find Walden Media history. Similar: ['Walden Media', 'Dana Walden', 'Walden', 'Saffron Walden', 'Walden Pond'].",
+            "",
+            "Could not find Walden Media founding year. Similar: ['Walden Media', 'Walden', 'Robert Lee Walden', 'Walden, a game', 'Saffron Walden'].",
+            "",
+            "Walden Media, LLC is an American independent studio that develops, produces, and finances feature films and television series for the U.S. and global markets. Its films focus on stories of courage drawn from biographies, historical events, and literature adaptations, as well as original screenplays. The company has also produced feature documentaries.. The corporate headquarters of Walden Media are located in Los Angeles, California.",
+            "",
+            "Episode finished, reward = 0\n"
+        ],
+        "actions": [
+            "search[Simon Bloom]",
+            "search[Simon Bloom]",
+            "search[Walden Media]",
+            "search[Walden Media]",
+            "lookup[founded]",
+            "lookup[founded]",
+            "search[Walden Media (company)]",
+            "search[Walden Media (company)]",
+            "search[Walden Media history]",
+            "search[Walden Media history]",
+            "search[Walden Media founding year]",
+            "search[Walden Media founding year]",
+            "search[Walden Media]",
+            "search[Walden Media]",
+            "finish[]"
+        ],
+        "steps": 15,
+        "answer": "",
+        "gt_answer": "1912",
+        "question_idx": 3401,
+        "reward": false,
+        "em": false,
+        "f1": 0
+    }
+]

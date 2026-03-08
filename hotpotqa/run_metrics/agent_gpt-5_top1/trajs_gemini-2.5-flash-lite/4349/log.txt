@@ -1,0 +1,91 @@
+INFO 4349 Question: Para Hills West, South Australia lies within a city with what estimated population?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find the page for Para Hills West to identify which city it lies within, then look up that city's estimated population.
+Action 1: Search[Para Hills West, South Australia]
+Observation 1: Para Hills West  is a suburb of Adelaide, South Australia, and is within the City of Salisbury. It is on the eastern side of Main North Road, opposite Parafield Airport. The other boundaries are McIntyre Road, Bridge Road and Maxwell Road.[2]. It has two schools, Para Hills West Primary School and Para Hills High School.. This article about a place in Adelaide is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the Wikipedia page for Para Hills West, identify the city it lies within, then look up that city's estimated population.
+Action 1: Search[Para Hills West, South Australia]
+Observation 1: Para Hills West is a suburb of Adelaide, South Australia, located within the City of Salisbury. It is situated approximately 18 kilometers north of the Adelaide city center.. **History and Development:**. Para Hills West, like many suburbs in the northern Adelaide region, experienced significant growth and development from the mid-20th century onwards. It was primarily developed as a residential area, catering to the growing population of Adelaide.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: I should look up the City of Salisbury to find its estimated population.
+Action 2: Search[City of Salisbury]
+Observation 2: The City of Salisbury is a local government area (LGA) located in the northern suburbs of Adelaide, South Australia. Its neighbours are the City of Playford, City of Tea Tree Gully and City of Port Adelaide Enfield.. Encompassing an area of 158 square kilometres (61 square miles), the city is one of the most populous and fast-growing council areas in South Australia: the local government area's population in 2021, of 145,806,[4] was an increase of 32% over the 2001 population of 110,676[5] and of 13% over the 2011 population of 129,109.[6]. The Local Government Area's main town centre – Salisbury City Centre – is on the main street of the town of Salisbury, John Street. The centre also hosts the council's principal office, council chambers and library, on Church Street.[7] There is also a centre at Mawson Lakes, a master-planned development that surrounds the large Sir Douglas Mawson Lake..
+
+SIMULATION TRAJECTORY:
+ Thought 2: I should open the City of Salisbury (South Australia) page to find its estimated population.
+Action 2: Search[City of Salisbury (South Australia)]
+Observation 2: Salisbury is a historic cathedral city in Wiltshire, England. It is the only city in Wiltshire and is the administrative centre of the Salisbury district. The city is located in the south of Wiltshire, near the edge of the Salisbury Plain.. **History**. The original settlement of Salisbury was established in the 11th century, near the site of Old Sarum, a Norman castle and fortified settlement.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: I should search within the City of Salisbury passage for the word "estimated" to find the specific estimated population figure.
+Action 3: Lookup[estimated]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: The previous search pulled up Salisbury in England. I need the local government area in South Australia to find its estimated population.
+Action 3: Search[City of Salisbury (South Australia)]
+Observation 3: Salisbury is a historic cathedral city in Wiltshire, England. It is the only city in Wiltshire and is the administrative centre of the Salisbury district. The city is located in the south of Wiltshire, near the edge of the Salisbury Plain.. **History**. The original settlement of Salisbury was established in the 11th century, near the site of Old Sarum, a Norman castle and fortified settlement.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The current passage doesn't include the word "estimated." I should search the specific Wikipedia page title to get the first paragraph that likely states the estimated population.
+Action 4: Search[City of Salisbury (South Australia)]
+Observation 4: Could not find City of Salisbury (South Australia). Similar: ['Salisbury, South Australia', 'City of Salisbury', 'Salisbury North, South Australia', 'Salisbury (disambiguation)', 'Paralowie, South Australia'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: My previous lookup pulled the wrong Salisbury. I should refine to the specific LGA page for City of Salisbury in South Australia and then find its estimated population.
+Action 4: Search[City of Salisbury (South Australia)]
+Observation 4: The **City of Salisbury** is a local government area in Adelaide, South Australia. It is located in the northern suburbs of Adelaide, approximately 20 kilometres north of the Adelaide city centre.. **History:**. The City of Salisbury was established in 1955 as the District Council of Salisbury. It was proclaimed a city in 1973.
+
+
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: I should look for sentences in the City of Salisbury passage that mention population to find an estimated figure.
+Action 7: Lookup[population]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: I should look for the population figure within the City of Salisbury page by searching for the keyword "population."
+Action 7: Lookup[population]
+Observation 7: The **City of Salisbury** is a local government area in Adelaide, South Australia. It is located in the northern suburbs of Adelaide, approximately 20 kilometres north of the Adelaide city centre.. **History:**. The City of Salisbury was established in 1955 as the District Council of Salisbury. It was proclaimed a city in 1973.
+
+
+
+INFO {'steps': 11, 'answer': '', 'gt_answer': '138,535', 'question_idx': 1699, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 6 
+Average reward: 0.16666666666666666 
+Average time 201.69896550973257
+
+-------------------------------------------------------
+

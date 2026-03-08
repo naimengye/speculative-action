@@ -1,0 +1,60 @@
+INFO 7107 Question: Are both Days of the New and TV on the Radio from New York?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To answer the question, I need to search for the locations of both "Days of the New" and "TV on the Radio".
+Action 1: Search[Days of the New] 
+        Action 1: Search[Days of the New]
+        Observation 1: Days of the New was an American rock band from Charlestown, Indiana, formed in 1995.[5] The band later relocated to Louisville, Kentucky.[3] They consisted of vocalist/guitarist Travis Meeks and a variety of supporting musicians. They are best known for the hit singles "Touch, Peel and Stand", "The Down Town", "Shelf in the Room", and "Enemy". "Touch, Peel and Stand" was named "Greatest of All-Time Mainstream Rock Song" by Billboard.[6]. The band was formed by Meeks as an acoustic solo project during his teenage years. Their debut album, Days of the New, informally known as the Yellow or Orange album, was released in 1997 and featured Meeks, along with Jesse Vest, Todd Whitener and Matt Taul."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Days of the New and TV on the Radio, and find if both are from New York.
+Action 1: [Search[Days of the New], Search[TV on the Radio], Lookup[New York]] 
+        Action 1: ['Search[Days of the New]', 'Search[TV on the Radio]', 'Lookup[New York]']
+        Observation 1: Days of the New is an American rock band formed in 1995. The band's music is known for its fusion of alternative rock, post-grunge, and acoustic elements. Days of the New gained popularity in the late 1990s with their self-titled debut album, which included the hit singles "Touch, Peel and Stand" and "Shelf in the Room." The band's lineup has changed multiple times over the years, with singer-songwriter Travis Meeks being the only consistent."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: "Days of the New" is from Charlestown, Indiana, not New York. I'll look up "TV on the Radio" to complete the task.
+Action 2: Search[TV on the Radio] 
+        Action 2: Search[TV on the Radio]
+        Observation 2: TV on the Radio (TVOTR[2][3]) is an American rock band from Brooklyn, New York, formed in 2001. The band consists of Tunde Adebimpe (vocals, loops), Dave Sitek (guitars, keyboards, loops), Kyp Malone (vocals, guitars, bass, loops), and Jaleel Bunton (drums, bass, vocals, loops, guitars). Gerard Smith (bass, keyboards, loops) was a member of the band from 2005 until his death in 2011.. TVOTR has released five studio albums: Desperate Youth, Blood Thirsty Babes (2004), Return to Cookie Mountain (2006), Dear Science (2008), Nine Types of Light (2011), and Seeds (2014), alongside several EPs.. The first release from TV on the Radio (initially just founding members Adebimpe and Sitek) was the self-released OK Calculator (the title being a reference to Radiohead's album OK Computer.[4]) They were later joined by Kyp Malone and released the Young Liars EP in 2003."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The information about Days of the New doesn't mention where they're from. I need to find out where they originated.
+Action 2: Lookup[formed in], Lookup[origin], Lookup[New York] 
+        Action 2: ['Lookup[formed in]', 'Lookup[origin]', 'Lookup[New York]']
+        Observation 2: TV on the Radio is an American rock band formed in 2001 in Brooklyn, New York. The band's music incorporates various genres, including indie rock, electronic, and soul. TV on the Radio gained critical acclaim for their unique sound and innovative approach to music. The band's lineup consists of Tunde Adebimpe, David Andrew Sitek, Kyp Malone, Jaleel Bunton, and Gerard Smith (until his passing in 2011). TV on the Radio has released."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: "TV on the Radio" is from Brooklyn, New York. However, "Days of the New" is from Charlestown, Indiana, therefore they are not both from New York. 
+Action 3: Finish[no] 
+        Action 3: Finish[no]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: "TV on the Radio" is from Brooklyn, New York. Since one band is from New York and the other isn't, the answer to the question is no. 
+Action: [Finish[no], Lookup[New York], Search[New York]] 
+        Action 3: ['Search[New York]', 'Lookup[New York]', 'Finish[no]']
+        Observation 3: TV on the Radio is an American rock band formed in 2001 in Brooklyn, New York. The band's music incorporates various genres, including indie rock, electronic, and soul. TV on the Radio gained critical acclaim for their unique sound and innovative approach to music. The band's lineup consists of Tunde Adebimpe, David Andrew Sitek, Kyp Malone, Jaleel Bunton, and Gerard Smith (until his passing in 2011). TV on the Radio has released."
+
+
+
+INFO {'steps': 5, 'answer': 'no', 'gt_answer': 'no', 'question_idx': 5331, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 21.413298845291138
+
+--------------------------------------------------
+

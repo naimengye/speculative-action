@@ -1,0 +1,53 @@
+INFO 191 Question: what year did the band that sang Gives You Hell form?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Gives You Hell]
+Action 1: Search[Gives You Hell]
+Observation 1: "Gives You Hell" is a song by American rock band the All-American Rejects, released as the lead single from their third studio album, When the World Comes Down on September 30, 2008.. The song is The All-American Rejects' most successful song to date, receiving positive reviews and topping the Billboard's Mainstream Top 40 and Adult Top 40 charts as well as peaking at number four on the Hot 100 chart. In 2024 It was certified RIAA 9× Platinum for nine million shipments.. On May 28, 2025 the song charted on the TikTok Viral Top 50, debuting at 37.. The song went viral on TikTok in 2025 which gained  a resurgence in popularity on YouTube and Spotify..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Gives You Hell]
+Action 1: Search[Gives You Hell]
+Observation 1: "Gives You Hell" is a song by American rock band The All-American Rejects, released as the lead single from their third studio album, "When the World Comes Down," in 2008. The song was written by band members Tyson Ritter and Nick Wheeler, and it was produced by Eric Valentine. "Gives You Hell" became one of the band's most successful singles, reaching the top 5 on the Billboard Hot 100 chart in the United States. The song's lyrics.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[the All-American Rejects]
+Action 2: Search[the All-American Rejects]
+Observation 2: The All-American Rejects (often abbreviated as AAR) are an American rock band formed in Stillwater, Oklahoma, in 1999.[4][5] The band consists of lead vocalist and bassist Tyson Ritter, lead guitarist and backing vocalist Nick Wheeler, rhythm guitarist and backing vocalist Mike Kennerty, and drummer Chris Gaylor. Wheeler and Ritter serve as the band's songwriters; Wheeler is the primary composer and Ritter is the primary lyricist. Although Kennerty and Gaylor are not founding members, they have appeared in all of the band's music videos and on all studio releases except for the band's self-titled debut.. The group achieved mainstream success with their debut self-titled studio album The All-American Rejects, released in 2002 on the DreamWorks Records label. The album was certified platinum by the Recording Industry Association of America (RIAA) and spawned the successful single "Swing, Swing".[6] The band's second studio album Move Along brought the group further mainstream success in 2005, producing the hit singles "Dirty Little Secret", "Move Along", and "It Ends Tonight", all of which charted in the top fifteen on the Billboard Hot 100 chart,[7] while Move Along was certified triple platinum in 2024 by the RIAA.[6] Their third studio album When the World Comes Down was released in 2008 and was later certified platinum in 2024 by the RIAA.[6] Its lead single "Gives You Hell" became The All-American Rejects' most successful song to date, peaking at number 4 on the Billboard Hot 100 chart and the top 5 in many other countries.[7][8][9] "Gives You Hell" was certified 9× multi-platinum for sales of over 9 million shipments in the United States by the RIAA in 2024.[10] Kids in the Street, the band's fourth studio album, was released on March 26, 2012, and debuted at number 18 on the US Billboard 200.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[The All-American Rejects]
+Action 2: Search[The All-American Rejects]
+Observation 2: The All-American Rejects are an American rock band formed in Stillwater, Oklahoma in 1999. The band consists of lead vocalist and bassist Tyson Ritter, lead guitarist and backing vocalist Nick Wheeler, rhythm guitarist and backing vocalist Mike Kennerty, and drummer Chris Gaylor. The band achieved mainstream success with their self-titled debut album released in 2002, which spawned the hit singles "Swing, Swing" and "The Last Song". They have since released several more albums,.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[1999]
+Action 3: Finish[1999]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[1999]
+Action 3: Finish[1999]
+Observation 3: The All-American Rejects are an American rock band formed in Stillwater, Oklahoma in 1999. The band consists of lead vocalist and bassist Tyson Ritter, lead guitarist and backing vocalist Nick Wheeler, rhythm guitarist and backing vocalist Mike Kennerty, and drummer Chris Gaylor. The band achieved mainstream success with their self-titled debut album released in 2002, which spawned the hit singles "Swing, Swing" and "The Last Song". They have since released several more albums,.
+
+
+
+INFO {'steps': 5, 'answer': '1999', 'gt_answer': '1999', 'question_idx': 1680, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 13 
+Number of steps: 30 
+Average reward: 0.43333333333333335 
+Average time 16.944042428334555
+
+-------------------------------------------------------
+

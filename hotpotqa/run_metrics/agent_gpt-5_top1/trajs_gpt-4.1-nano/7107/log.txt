@@ -1,0 +1,78 @@
+INFO 7107 Question: Reeves Plains Power Station is a proposal from a company owned by who?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Reeves Plains Power Station]
+Observation 1: Reeves Plains Power Station is a proposal from Alinta Energy to build a gas-fired power station at Reeves Plains between Gawler and Mallala in South Australia. The proposed site borders both the Moomba-Adelaide gas pipe and an electricity transmission line.[1] The power station is proposed to use six gas turbines to produce up to 300 megawatts (400,000 hp) of electricity. It is expected to be operated as a peaking plant rather than running full time. The primary source of fuel will be the gas pipeline, however the plant will also be able to operate on diesel fuel, and will have diesel storage on site.[2] Stage 1 is expected to only be two or three of the turbines, generating 100 to 150 MW of electricity.[3] The power station was originally expected to take 12 months to build, and be commissioned in January 2019.[4] An extension of time request granted an additional 12 months in February 2019, but as of November 2019, the Alinta board had not yet decided to make the investment.[5]. Alinta Energy had previously operated the coal-fired power stations in South Australia known as Northern Power Station and the older Playford A and Playford B Power Stations, all near Port Augusta.
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for Reeves Plains Power Station to find the company behind the proposal and identify who owns that company.
+Action 1: Search[Reeves Plains Power Station]
+Observation 1: Reeves Plains Power Station is a proposed or existing energy facility located near Reeves Plains in South Australia. The power station is part of South Australia's efforts to diversify its energy sources and increase renewable energy capacity. It is designed to contribute to the regional power grid, supporting the stability and reliability of electricity supply in the area.. The project aims to incorporate renewable energy technologies, potentially including solar, wind, or hybrid systems, to generate clean electricity. Reeves Plains Power Station is part of South Australia's broader strategy to.
+
+
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: I need to find who owns the company behind the proposal (Alinta Energy). I will look for ownership information in the current passage.
+Action 3: Lookup[owned]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: None
+Action 3: Lookup[owned]
+Observation 3: Reeves Plains Power Station is a proposed or existing energy facility located near Reeves Plains in South Australia. The power station is part of South Australia's efforts to diversify its energy sources and increase renewable energy capacity. It is designed to contribute to the regional power grid, supporting the stability and reliability of electricity supply in the area.. The project aims to incorporate renewable energy technologies, potentially including solar, wind, or hybrid systems, to generate clean electricity. Reeves Plains Power Station is part of South Australia's broader strategy to.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The proponent is Alinta Energy; I need to find who owns Alinta Energy.
+Action 4: Search[Alinta Energy]
+Observation 4: Alinta Energy is an Australian electricity generating and gas retailing private company owned by Hong Kong–based Chow Tai Fook Enterprises (CTFE). The sale for $4 billion was approved by Treasurer Scott Morrison in 2017.[2] Alinta Energy has an owned and contracted generation portfolio of up to 1,957 MW, approximately 1.1 million combined electricity and gas retail customers and around 800 employees across Australia and New Zealand.[1]. In March 2011, due to a deleveraging transaction by the TPG Group, Alinta became Alinta Energy.[3] Alinta Energy was acquired by Hong Kong–based Chow Tai Fook Enterprises in 2017. Chow Tai Fook Enterprises also acquired Loy Yang B power station with assists from Alinta Energy staff.[4][5]. In May 2018, Alinta Energy was announced as the principal partner of the Australian Men's cricket team on a four-year deal, the longest in Australian Cricket history.[6][7] The Alinta Energy logo will feature on the players' kits for all international matches played in Australia..
+
+SIMULATION TRAJECTORY:
+ Thought 4: I should find who owns Alinta Energy, the company proposing the Reeves Plains Power Station.
+Action 4: Search[Alinta Energy]
+Observation 4: Alinta Energy is an Australian energy company that supplies electricity and natural gas to residential and commercial customers across Australia. Founded in 1995, the company has grown to become one of the leading energy providers in the country. Alinta Energy operates a diverse portfolio of energy assets, including power generation plants and retail operations.. Headquartered in Perth, Western Australia, Alinta Energy's operations extend across multiple states, including Western Australia, South Australia, Victoria, and New South Wales. The company is involved in.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: The Alinta Energy page states it is owned by Chow Tai Fook Enterprises (CTFE), so I can answer the question.
+Action 5: Finish[Chow Tai Fook Enterprises]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: I need to find who owns Alinta Energy; I'll look for "Chow Tai Fook" on the Alinta Energy page.
+Action 5: Lookup[Chow Tai Fook]
+Observation 5: Alinta Energy is an Australian energy company that supplies electricity and natural gas to residential and commercial customers across Australia. Founded in 1995, the company has grown to become one of the leading energy providers in the country. Alinta Energy operates a diverse portfolio of energy assets, including power generation plants and retail operations.. Headquartered in Perth, Western Australia, Alinta Energy's operations extend across multiple states, including Western Australia, South Australia, Victoria, and New South Wales. The company is involved in.
+
+
+
+INFO {'steps': 7, 'answer': 'Chow Tai Fook Enterprises', 'gt_answer': 'Chow Tai Fook Enterprises', 'question_idx': 7065, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 221.22201776504517
+
+-------------------------------------------------------
+

@@ -1,0 +1,60 @@
+INFO 7107 Question: hree Men on a Horse is a play by a playwright born in which year ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for "Three Men on a Horse" to find information about the playwright, and then determine their birth year.
+Action 1: Search[Three Men on a Horse] 
+        Action 1: Search[Three Men on a Horse]
+        Observation 1: Three Men on a Horse is a three-act farce co-authored by John Cecil Holm and George Abbott. The comedy focuses on a man who discovers he has a talent for choosing the winning horse in a race as long as he never places a bet himself. Originally titled Hobby Horse by John Cecil Holm, Three Men On A Horse was a property controlled and produced by Alex Yokel, who reached out to Warner Bros. for  financial assistance; Warners agreed to provide financing on the condition Yokel find someone to doctor the script and direct the Broadway production. George Abbott, the director, who had since 1932 directed and produced each of his Broadway productions, immediately saw the potential and rewrote the script and agreed to direct if he received co-author credit and split the author's royalties with Holm."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the playwright of "Three Men on a Horse" and then find the birth year of that playwright.
+Action 1: Search[Three Men on a Horse] 
+        Action 1: ['Search[Three Men on a Horse]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The question asks about the birth year of one of the playwrights. The play is co-authored by John Cecil Holm and George Abbott. I should search for each of them to find their birth years. I'll start with John Cecil Holm.
+Action 2: [Search[John Cecil Holm]] 
+        Action 2: Search[John Cecil Holm]
+        Observation 2: John Cecil Holm (November 4, 1904, in Philadelphia, Pennsylvania – October 24, 1981, in Westerly, Rhode Island) was an American dramatist, theatre director and actor. He is best known for his 1935 play Three Men on a Horse, co-written with George Abbott.[1] He was often billed as Cecil Holm as an actor, reserving his full name for his writing credits.[2]. Holm was educated at West Philadelphia High School and Perkiomen School[3] and was a graduate of the University of Pennsylvania, where he acted in productions of the Mask and Wig organization. He worked in stock theater for three years before moving to New York and acting there.[2]. On October 24, 1981, Holm died in Westerly, Rhode Island, at age 76.[3]."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search result gives information about the play, including the author, John Cecil Holm. I need to find his birth year.
+Action 2: Search[John Cecil Holm] 
+        Action 2: ['Search[John Cecil Holm]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The birth year of John Cecil Holm is 1904. The question asks for the birth year of "a playwright," so I have found one.
+Action 3: [Finish[1904]] 
+        Action 3: Finish[1904]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: I have found John Cecil Holm's birth year. Now I need to find George Abbott's birth year to cover both playwrights and determine.
+Action 3: [Search[George Abbott]] 
+        Action 3: ['Search[George Abbott]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': '1904', 'gt_answer': '1887', 'question_idx': 106, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 18.593812942504883
+
+--------------------------------------------------
+

@@ -1,0 +1,126 @@
+INFO 1267 Question: Who was the Goal keeper for Iraq in the 1996 AFC Asian Cup played in the United Arab Emirates?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To find who the goalkeeper was for Iraq in the 1996 AFC Asian Cup, I need to search for the 1996 AFC Asian Cup and then look up information on the Iraq team.
+Action 1: Search[1996 AFC Asian Cup] 
+        Action 1: Search[1996 AFC Asian Cup]
+        Observation 1: The 1996 AFC Asian Cup was the 11th edition of the men's AFC Asian Cup, a quadrennial international football tournament organised by the Asian Football Confederation (AFC). The finals were held in the United Arab Emirates between 4 and 21 December 1996. Saudi Arabia defeated hosts United Arab Emirates in the final match in Abu Dhabi. As the runners-up, the United Arab Emirates represented the AFC in the 1997 FIFA Confederations Cup as the winners Saudi Arabia had qualified automatically as host.. 33 teams participated in a preliminary tournament."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To know the answer, I have to search for the 1996 AFC Asian Cup and find who was the goal keeper for Iraq. 
+
+Action 1: [Search[1996 AFC Asian Cup], Search[Iraq in 1996 AFC Asian Cup], Lookup[goal keeper for Iraq]] 
+        Action 1: ['Search[1996 AFC Asian Cup]', 'Search[Iraq in 1996 AFC Asian Cup]', 'Lookup[goal keeper for Iraq]']
+        Observation 1: The 1996 AFC Asian Cup was the 11th edition of the AFC Asian Cup, a quadrennial international football tournament organised by the Asian Football Confederation (AFC). It was hosted by the United Arab Emirates between 4 and 21 December 1996. Saudi Arabia won their third title, defeating the hosts United Arab Emirates in the final.. **Host Nation:** United Arab Emirates. **Dates:** 4 – 21 December 199."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The observed text provides information about the 1996 AFC Asian Cup, but it does not contain details about Iraq's team or who the goalkeeper was during the tournament. It will be necessary to look up "Iraq" to find more specific information.
+Action 2: Lookup[Iraq] 
+        Action 2: Lookup[Iraq]
+        Observation 2: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: Thought 1: The observation does not include information on the goal keeper for Iraq, but it does confirm the 1996 AFC Asian Cup was held in the United Arab Emirates. The next idea could be to lookup any information specific to the Iraq team within this tournament. 
+Action 1: [Lookup[Iraq team], Lookup[Iraq in 1996 AFC Asian Cup], Lookup[Goal keeper for Iraq]] 
+        Action 2: ['Lookup[Iraq team]', 'Lookup[Iraq in 1996 AFC Asian Cup]', 'Lookup[Goal keeper for Iraq]']
+        Observation 2: The 1996 AFC Asian Cup was the 11th edition of the AFC Asian Cup, a quadrennial international football tournament organised by the Asian Football Confederation (AFC). It was hosted by the United Arab Emirates between 4 and 21 December 1996. Saudi Arabia won their third title, defeating the hosts United Arab Emirates in the final.. **Host Nation:** United Arab Emirates. **Dates:** 4 – 21 December 199."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The search for "Iraq" in the article about the 1996 AFC Asian Cup yielded no results. There is other way to find out the goalkeeper for Iraq in the 1996 AFC Asian Cup by searching for the Iraq national football team in 1996.
+Action 3: [Search[Iraq national football team 1996]] 
+        Action 3: Search[Iraq national football team 1996]
+        Observation 3: Could not find Iraq national football team 1996. Similar: ['Iraq national football team', 'Iraq national under-20 football team', 'Iraq national football team results', 'Iraq national under-23 football team', 'Iraq national under-17 football team']."
+
+SIMULATION TRAJECTORY:
+ Thought 3: It seems the document doesn't mention the details about Iraq's team in the 1996 AFC Asian Cup, including the name of the goalkeeper. Perhaps searching for "Iraq team 1996 AFC Asian Cup" will provide more specific results.
+Action 3: [Search[Iraq team 1996 AFC Asian Cup], Lookup[goalkeeper], Search[Iraq football]] 
+        Action 3: ['Search[Iraq team 1996 AFC Asian Cup]', 'Search[Iraq football]', 'Lookup[goalkeeper]']
+        Observation 3: The Iraq national football team in 1996 was a period of significant challenge and transition, marked by the ongoing international sanctions against Iraq following the Gulf War. Despite these difficulties, the team continued to compete, primarily in regional tournaments, and sought to maintain its presence in Asian football.. **Background:**. *   **Political and Economic Context:** Iraq was under severe international sanctions, which heavily impacted all aspects of life, including sports. Travel restrictions, limited access to equipment, and financial constraints."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The specific search for the Iraq national football team in 1996 didn't yield results. It could be helpful to search for the general Iraq national football team and later look for details pertaining to the year 1996. 
+Action 4: [Search[Iraq national football team]] 
+        Action 4: Search[Iraq national football team]
+        Observation 4: The Iraq national football team (Arabic: منتخب الْعِرَاق لِكُرَةُ الْقَدَم), nicknamed the Lions of Mesopotamia,[3] represents Iraq in men's international football and is controlled by the Iraq Football Association (IFA), the governing body for football in Iraq. Iraq's usual home venue is the Basra International Stadium.[4]. Iraq have made one FIFA World Cup appearance in 1986, scoring a solitary goal against Belgium. Iraq are one of eight current AFC nations to have won the AFC Asian Cup, claiming the title in 2007 in spite of difficult conditions and limited preparation. Iraq defeated some of the favourites in the competition including Australia, South Korea and Saudi Arabia."
+
+SIMULATION TRAJECTORY:
+ Thought 4: The information on the Iraq National Football Team in 1996 doesn't include specifics regarding the team's participation in the AFC Asian Cup, and doesn't mention their goalkeeper. I should try another angle to find this information.
+Action 4: [Search[1996 AFC Asian Cup Iraq squad]], [Search[Iraq AFC Asian Cup history]], [Lookup[AFC Asian Cup]] 
+        Action 4: ['Search[1996 AFC Asian Cup Iraq squad]', 'Search[Iraq AFC Asian Cup history]', 'Lookup[AFC Asian Cup]']
+        Observation 4: The Iraq national football team (Arabic: منتخب الْعِرَاق لِكُرَّةُ الْقَدَم), nicknamed *Usood Al-Rafidain* (Lions of Mesopotamia), represents Iraq in international football and is controlled by the Iraq Football Association (IFA). The team is a member of the Asian Football Confederation (AFC) and the West Asian Football Federation (WAFF).. **History and Achievements:**. Iraq's football history is marked by periods of both."
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: The general search for the Iraq national football team does not provide the specific information needed for 1996. Assuming the goalkeeper might be a renowned player, my best move is to lookup for known goalkeepers in the Iraq national football team.
+Action 5: [Lookup[goalkeeper]] 
+        Action 5: Lookup[goalkeeper]
+        Observation 5: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: The general page about the Iraq national football team provides an overview of the team but doesn't contain information about the goalkeeper for the 1996 AFC Asian Cup. My options are to look up information related to the 1996 AFC Asian Cup within this page or to look up details related to the team's goalkeepers.
+Action 5: [Lookup[1996], Lookup[goalkeeper], Lookup[AFC Asian Cup]] 
+        Action 5: ['Lookup[1996]', 'Lookup[goalkeeper]', 'Lookup[AFC Asian Cup]']
+        Observation 5: The Iraq national football team (Arabic: منتخب الْعِرَاق لِكُرَّةُ الْقَدَم), nicknamed *Usood Al-Rafidain* (Lions of Mesopotamia), represents Iraq in international football and is controlled by the Iraq Football Association (IFA). The team is a member of the Asian Football Confederation (AFC) and the West Asian Football Federation (WAFF).. **History and Achievements:**. Iraq's football history is marked by periods of both."
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: The lookup for the term "goalkeeper" in the article about the Iraq national football team did not produce results. The information about the Iraq goalkeeper in the 1996 AFC Asian Cup isn't readily available. Another way to approach this could be to search for notable Iraqi goalkeepers and cross verify their career timelines. 
+Action 6: [Search[Notable Iraqi goalkeepers]] 
+        Action 6: Search[Notable Iraqi goalkeepers]
+        Observation 6: Could not find Notable Iraqi goalkeepers. Similar: ['List of Iraqis', 'List of University of California, Los Angeles people (redirect from Notable faculty, past and present, of UCLA)', 'List of Moroccan people (redirect from List of notable Moroccans)', 'List of fatalities from aviation accidents (redirect from List of notable people killed in aircraft crashes)', 'Fadhil']."
+
+SIMULATION TRAJECTORY:
+ Thought 6: The lookup action did not return any useful information regarding goalkeepers. The information needed might not be readily available in the currently searched pages. I need to consult a different source.
+Action 6: [Search[Iraq football goalkeeper 1996]], [Search[Iraq AFC Asian Cup 1996]], [Search[Iraq national football team history]] 
+        Action 6: ['Search[Iraq football goalkeeper 1996]', 'Search[Iraq AFC Asian Cup 1996]', 'Search[Iraq national football team history]']
+        Observation 6: Here's information about notable Iraqi goalkeepers, presented in a Wikipedia-style format:. ## Notable Iraqi Goalkeepers. This list highlights prominent Iraqi goalkeepers who have made significant contributions to Iraqi football, both domestically and internationally. Their careers often span periods of great challenge and triumph for the national team.. ---."
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: The search for notable Iraqi goalkeepers did not yield useful results. It may be necessary to use a broader search term such as "Famous Iraqi footballers" to find more information.
+Action 7: [Search[Famous Iraqi footballers]] 
+        Action 7: Search[Famous Iraqi footballers]
+        Observation 7: Could not find Famous Iraqi footballers. Similar: ['Iraq national football team', 'List of Iraqis', 'Iraq', 'Culture of Iraq', "Ammo Baba (category Iraqi men's footballers)"]."
+
+SIMULATION TRAJECTORY:
+ Thought 7: The observation did not provide any specific information about the goalkeepers. I might try looking up specific goalkeepers mentioned in the text or still aim for information about 1996.
+Action 7: [Lookup[1996], Search[Emad Hashim], Search[Hashim Khamis]] 
+        Action 7: ['Search[Emad Hashim]', 'Search[Hashim Khamis]', 'Lookup[1996]']
+        Observation 7: ## Famous Iraqi Footballers. This article provides an overview of notable Iraqi footballers who have achieved recognition both domestically and internationally. While some have extensive Wikipedia entries, others are recognized for their significant contributions to Iraqi football history.. ---. ### **Ahmed Radhi**."
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Emad Hashim', 'question_idx': 1371, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 5 
+Average reward: 0.4 
+Average time 46.880957412719724
+
+--------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 7090 Question: Were Maurice Tourneur and Greg Mottola both American film directors?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Maurice Tourneur]
+Action 1: Search[Maurice Tourneur]
+Observation 1: Maurice Félix Thomas (French pronunciation: [mɔʁis feliks tɔmɑ]; 2 February 1876 – 4 August 1961), known as Maurice Tourneur (pronounced [tuʁnœʁ]), was a French film director and screenwriter.[1]. Born Maurice Félix Thomas in the Épinettes district (17th arrondissement of Paris), his father was a wholesaler. As a young man, Maurice Thomas first trained as a graphic designer and a magazine illustrator but was soon drawn to the theater. In 1904, he married the actress Fernande Petit. They had a son, Jacques (1904–1977), who would follow his father into the film industry, establishing his own reputation as a director of American films in the 1940s and 1950s.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Maurice Tourneur]
+Action 1: Search[Maurice Tourneur]
+Observation 1: Maurice Tourneur (1876 – 1954) was a French film director and screenwriter. He was a pioneer of American cinema, known for his visually striking and atmospheric films.. **Early Life and Career:**. Born in Paris, France, Maurice Tourneur began his career in the theatre as an actor and stage director. He transitioned to filmmaking in the early 1900s, working in France for various production companies.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Greg Mottola]
+Action 2: Search[Greg Mottola]
+Observation 2: Gregory J. Mottola[1] (born July 11, 1964)[2] is an American film director, screenwriter and television director.. Mottola grew up in Dix Hills, New York,[3] in a Catholic family of Italian and Irish descent.[4] He received his BFA in art from Carnegie Mellon University and MFA in film from Columbia University.[5]. He wrote and directed the 1996 independent film The Daytrippers, then concentrated for several years on directing in television for series such as Undeclared and Arrested Development.. More recently, he has directed the feature films Superbad, Adventureland and Paul..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Greg Mottola]
+Action 2: Search[Greg Mottola]
+Observation 2: **Greg Mottola** is an American film director, screenwriter, and producer. He is best known for directing critically acclaimed comedies such as *Superbad* (2007), *Adventureland* (2009), and *Paul* (2011).. **Early Life and Education:**. Greg Mottola was born in Jericho, New York. He attended Jericho High School.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: **Greg Mottola** is an American film director, screenwriter, and producer. He is best known for directing critically acclaimed comedies such as *Superbad* (2007), *Adventureland* (2009), and *Paul* (2011).. **Early Life and Education:**. Greg Mottola was born in Jericho, New York. He attended Jericho High School.
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'French film director', 'question_idx': 5442, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 13 
+Average reward: 0.15384615384615385 
+Average time 9.63172435760498
+
+-------------------------------------------------------
+

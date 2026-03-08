@@ -1,0 +1,76 @@
+INFO 3021 Question: What was the name of the publisher who published "Finnegans Wake" in 1939 by James Joyce
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for Finnegans Wake, then find the publisher information for the 1939 edition by James Joyce.
+Action 1: Search[Finnegans Wake]
+Observation 1: Finnegans Wake is a novel by the Irish writer James Joyce. It was published in instalments  starting in 1924, under the title "fragments from Work in Progress". The final title was only revealed when the book was published on 4 May 1939.. Although the base language of the novel is English, it is an English that Joyce modified by combining and altering words from many languages into his own distinctive idiom. Some commentators believe this technique was Joyce's attempt to reproduce the way that memories, people, and places are mixed together and transformed in a dreaming or half-awakened state..
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the publisher of the 1939 edition of Finnegans Wake by James Joyce, so I'll search for the Finnegans Wake article and look for publication details.
+Action 1: Search[Finnegans Wake]
+Observation 1: **Finnegans Wake** is a novel by Irish writer James Joyce. It is the last book Joyce published, and it is notoriously difficult to read due to its experimental use of language and complex structure. The book is known for its cyclical narrative, its exploration of themes such as family, history, and the unconscious, and its unique linguistic style, which incorporates puns, portmanteaus, and words from many different languages.. **Publication and Reception:**. *   *Finnegans Wake.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The publisher isn't in the first paragraph; I should look for a sentence mentioning the publisher on the Finnegans Wake page.
+Action 2: Lookup[publisher]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: I should look for the publisher information within the Finnegans Wake article.
+Action 2: Lookup[publisher]
+Observation 2: **Finnegans Wake** is a novel by Irish writer James Joyce. It is the last book Joyce published, and it is notoriously difficult to read due to its experimental use of language and complex structure. The book is known for its cyclical narrative, its exploration of themes such as family, history, and the unconscious, and its unique linguistic style, which incorporates puns, portmanteaus, and words from many different languages.. **Publication and Reception:**. *   *Finnegans Wake.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: The publisher may be named explicitly on the Finnegans Wake page; I should look for "Faber."
+Action 7: Lookup[Faber]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: None
+Action 7: Lookup[Faber]
+Observation 7: **Finnegans Wake** is a novel by Irish writer James Joyce. It is the last book Joyce published, and it is notoriously difficult to read due to its experimental use of language and complex structure. The book is known for its cyclical narrative, its exploration of themes such as family, history, and the unconscious, and its unique linguistic style, which incorporates puns, portmanteaus, and words from many different languages.. **Publication and Reception:**. *   *Finnegans Wake.
+
+
+
+INFO {'steps': 7, 'answer': '', 'gt_answer': 'Teriade', 'question_idx': 935, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 194.92703878879547
+
+-------------------------------------------------------
+

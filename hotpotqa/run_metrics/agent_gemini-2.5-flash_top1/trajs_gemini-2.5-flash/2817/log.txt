@@ -1,0 +1,39 @@
+INFO 2817 Question: The Battle of Nanchang was fought between the Chinese Nationals and what ground-based armed force of Japan?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Battle of Nanchang]
+Action 1: Search[Battle of Nanchang]
+Observation 1: Chinese claim : 24,000 killed or wounded[1]Japanese claim :. In the Nanchang offensive according to the statistical table compiled by the general staff of the 11th army on 20th April 1939 :[2] 520 killed, 1,676 wounded. From 20 March until 10 April 1939 in the Nanchang offensive according to survey data of the medical department of the 11th army on 1st March 1940:[3] 583 killed, 1,984 wounded. In the Chinese counterattack from mid-April until early May 1939 according to the statistical table compiled by the general staff of the 11th army on 14th May 1939:[2]. The Battle of Nanchang (simplified Chinese: 南昌会战; traditional Chinese: 南昌會戰) was a military campaign fought around Nanchang, Jiangxi between the Chinese National Revolutionary Army and the Japanese Imperial Japanese Army in the Second Sino-Japanese War.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Battle of Nanchang]
+Action 1: Search[Battle of Nanchang]
+Observation 1: The **Battle of Nanchang** was a significant engagement fought between the Chinese National Revolutionary Army (NRA) and the Imperial Japanese Army (IJA) during the Second Sino-Japanese War. It took place from March 17 to May 9, 1939, in and around Nanchang, the capital of Jiangxi Province in southeastern China.. **Background:**. By early 1939, the Japanese had already captured major cities along the coast and.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Imperial Japanese Army]
+Action 2: Finish[Imperial Japanese Army]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Imperial Japanese Army]
+Action 2: Finish[Imperial Japanese Army]
+Observation 2: The **Battle of Nanchang** was a significant engagement fought between the Chinese National Revolutionary Army (NRA) and the Imperial Japanese Army (IJA) during the Second Sino-Japanese War. It took place from March 17 to May 9, 1939, in and around Nanchang, the capital of Jiangxi Province in southeastern China.. **Background:**. By early 1939, the Japanese had already captured major cities along the coast and.
+
+
+
+INFO {'steps': 3, 'answer': 'Imperial Japanese Army', 'gt_answer': 'Imperial Japanese Army', 'question_idx': 5264, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 15 
+Average reward: 0.6 
+Average time 11.395745340983073
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 3954 Question: Who is considered the more well known author, Roger Angell or Harry Stephen Keeler?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Roger Angell]
+Action 1: Search[Roger Angell]
+Observation 1: Roger Angell (September 19, 1920 – May 20, 2022) was an American essayist known for his writing on sports, especially baseball. He was a regular contributor to The New Yorker and was its chief fiction editor for many years.[1][2] He wrote numerous works of fiction, non-fiction, and criticism, and for many years wrote an annual Christmas poem for The New Yorker.[2] Sportswriter Jane Leavy called him "the Babe Ruth of baseball writers."[3]. Born on September 19, 1920, in Manhattan, New York,[4][5] Angell was the son of Katharine Sergeant Angell White, The New Yorker's first fiction editor, and the stepson of renowned essayist E. B. White, but he was raised for the most part by his father, Ernest Angell, an attorney who became head of the American Civil Liberties Union.[6][7][8]. After graduating in 1938 from the Pomfret School, he attended Harvard University.[9] He served in the United States Army Air Forces during World War II.[10].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Roger Angell]
+Action 1: Search[Roger Angell]
+Observation 1: Roger Angell (born September 19, 1920) is an American essayist known for his writing on baseball. He is the son of Katherine White, a fiction editor at The New Yorker, and stepson of renowned essayist E. B. White. Angell has been a regular contributor to The New Yorker since 1944, and his essays often focus on the sport of baseball.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Harry Stephen Keeler]
+Action 2: Search[Harry Stephen Keeler]
+Observation 2: Harry Stephen Keeler (November 3, 1890 – January 22, 1967) was a prolific but little-known American fiction writer, who developed a cult following for his eccentric mysteries. He also wrote science fiction.. Born in Chicago in 1890, Keeler spent his childhood exclusively in this city, which was so beloved by the author that a large number of his works took place in and around it.[1] In many of his novels, Keeler refers to Chicago as "the London of the west". The expression is explained in the opening of Thieves' Nights (1929):. Here ...
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Harry Stephen Keeler]
+Action 2: Search[Harry Stephen Keeler]
+Observation 2: Harry Stephen Keeler (November 3, 1890 – January 22, 1967) was an American author known for his unique and complex mystery novels. He was born in Chicago, Illinois, and began his writing career in the early 20th century. Keeler's writing style was characterized by intricate plots, bizarre storylines, and a distinctive use of language.. Throughout his career, Keeler published over 70 novels, many of which featured convoluted and puzzling narratives.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Roger Angell]
+Action 3: Finish[Roger Angell]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Roger Angell]
+Action 3: Finish[Roger Angell]
+Observation 3: Harry Stephen Keeler (November 3, 1890 – January 22, 1967) was an American author known for his unique and complex mystery novels. He was born in Chicago, Illinois, and began his writing career in the early 20th century. Keeler's writing style was characterized by intricate plots, bizarre storylines, and a distinctive use of language.. Throughout his career, Keeler published over 70 novels, many of which featured convoluted and puzzling narratives.
+
+
+
+INFO {'steps': 5, 'answer': 'Roger Angell', 'gt_answer': 'Roger Angell', 'question_idx': 3629, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 15 
+Number of steps: 34 
+Average reward: 0.4411764705882353 
+Average time 16.767631586860208
+
+-------------------------------------------------------
+

@@ -1,0 +1,62 @@
+INFO 1354 Question: The figure skater who was coached to Olympic, World, and national titles by Richard Callaghan was born in what year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to first search for the figure skater who was coached to Olympic, World, and national titles by Richard Callaghan to find out when they were born.
+Action 1: Search[Richard Callaghan] 
+        Action 1: Search[Richard Callaghan]
+        Observation 1: Richard S. Callaghan is an American former figure skating coach. He is best known as the long-time coach of Todd Eldredge, the 1996 World champion and a six-time U.S. national champion. He also coached Nicole Bobek to her national title, and Tara Lipinski to Olympic, World, and national titles.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To answer this question, first I need to find out who was coached by Richard Callaghan to Olympic, World, and national titles.
+Action 1: Search[Richard Callaghan]
+
+Action candidates: [Search[Olympic titles Richard Callaghan], Lookup[Olympic], Search[Richard Callaghan skaters]] 
+        Action 1: ['Search[Richard Callaghan]', 'Search[Olympic titles Richard Callaghan]', 'Search[Richard Callaghan skaters]', 'Lookup[Olympic]']
+        Observation 1: **Richard Callaghan** (born 1946) is an American figure skating coach. He is best known for coaching Olympic and World champion Tara Lipinski.. **Early Life and Career:**. Callaghan began his coaching career in the 1970s. He worked at various rinks in the Detroit area, including the Detroit Skating Club."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The figure skater who was coached to Olympic, World, and national titles by Richard Callaghan is Tara Lipinski. I need to search Tara Lipinski to find out when she was born.
+Action 2: Search[Tara Lipinski] 
+        Action 2: Search[Tara Lipinski]
+        Observation 2: Tara Kristen Lipinski (born June 10, 1982) is an American former competitive figure skater, actress, sports commentator, and documentary film producer. A former competitor in women's singles, she is the 1998 Olympic champion, the 1997 World champion, a two-time Champions Series Final champion (1997–1998) and the 1997 U.S. national champion. Until 2019, she was the youngest single skater to win a U.S. Nationals and the youngest to become an Olympic and World champion in figure skating history."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Richard Callaghan coached Tara Lipinski to become an Olympic and World champion. I need to find out when Tara Lipinski was born.
+Action 2: Search[Tara Lipinski], Lookup[Tara Lipinski], Search[Tara Lipinski Figure Skater] 
+        Action 2: ['Search[Tara Lipinski]', 'Search[Tara Lipinski Figure Skater]', 'Lookup[Tara Lipinski]']
+        Observation 2: **Tara Kristen Lipinski** (born June 10, 1982) is an American former competitive figure skater, actress, and sports commentator. She is best known for being the youngest individual gold medalist in the history of the Winter Olympics, achieving this feat at the 1998 Nagano Games at the age of 15 years, 255 days.. **Early Life and Career:**. Lipinski was born in Philadelphia, Pennsylvania, to Patricia and Jack."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Tara Lipinski was born on June 10, 1982. Therefore, the answer to the question is 1982.
+Action 3: Finish[1982] 
+        Action 3: Finish[1982]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Tara Lipinski was born on June 10, 1982. So the answer is 1982. 
+Action 3 Candidates: [Finish[1982], Search[June 10, 1982], Lookup[born]] 
+        Action 3: ['Search[June 10, 1982]', 'Lookup[born]', 'Finish[1982]']
+        Observation 3: **Tara Kristen Lipinski** (born June 10, 1982) is an American former competitive figure skater, actress, and sports commentator. She is best known for being the youngest individual gold medalist in the history of the Winter Olympics, achieving this feat at the 1998 Nagano Games at the age of 15 years, 255 days.. **Early Life and Career:**. Lipinski was born in Philadelphia, Pennsylvania, to Patricia and Jack."
+
+
+
+INFO {'steps': 5, 'answer': '1982', 'gt_answer': '1982', 'question_idx': 4145, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 12 
+Average reward: 0.4166666666666667 
+Average time 37.71840516726176
+
+--------------------------------------------------
+

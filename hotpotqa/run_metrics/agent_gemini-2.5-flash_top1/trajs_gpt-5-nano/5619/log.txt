@@ -1,0 +1,60 @@
+INFO 5619 Question: Who was born first, Ulf Merbold or Mirosław Hermaszewski?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Ulf Merbold and Mirosław Hermaszewski, find their birth dates, then find who was born first.
+Action 1: Search[Ulf Merbold] 
+        Action 1: Search[Ulf Merbold]
+        Observation 1: Ulf Dietrich Merbold (German: [ʊlf ˈdiːtrɪç ˈmɛrbɔlt]; born 20 June 1941) is a German physicist and astronaut who flew to space three times, becoming the first West German citizen in space and the first non-American to fly on a NASA spacecraft. Merbold flew on two Space Shuttle missions and on a Russian mission to the space station Mir, spending a total of 49 days in space.. Merbold's father was imprisoned in NKVD special camp Nr. 2 by the Red Army in 1945 and died there in 1948, and Merbold was brought up in the town of Greiz in East Germany by his mother and grandparents. As he was not allowed to attend university in East Germany, he left for West Berlin in 1960, planning to study physics there."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Ulf Merbold and Mirosław Hermaszewski, find their birth dates, then determine who was born first.
+Action 1: Search[Ulf Merbold] 
+        Action 1: ['Search[Ulf Merbold]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Ulf Merbold was born on June 20, 1941. I need to search Mirosław Hermaszewski next and find his birth date.
+Action 2: Search[Mirosław Hermaszewski] 
+        Action 2: Search[Mirosław Hermaszewski]
+        Observation 2: Mirosław Hermaszewski (Polish: [miˈrɔswaf xɛrmaˈʂɛfski] ⓘ; 15 September 1941 – 12 December 2022) was a Polish cosmonaut, fighter plane pilot, and Polish Air Force officer. He became the first and, at the time of his death in December 2022, only[a] Polish national to ever go to space when he flew aboard the Soviet Soyuz 30 spacecraft in 1978.[3] He was the 89th human to reach outer space.[4][5]. Mirosław Hermaszewski was born on 15 September 1941[6] into a Polish family in Lipniki,[b] formerly in the Wołyń Voivodeship of Poland, but at the time part of Reichskommissariat Ukraine, and since the end of the Second World War located in Ukraine. The youngest of Roman Hermaszewski and Kamila Bielawska's seven children, Mirosław was a survivor of the Volhynian slaughter during which the Ukrainian Insurgent Army murdered 19 members of his family, including his father when they attacked Lipniki on the night of 26–27 March 1943.[7] At the time of the massacre, Hermaszewski was only 18 months old; the youngest victim from his family was 1½ years old, while the oldest—Hermaszewski's grandfather—was 90.[8]. Although he has since highlighted the need to depart from nationalist sentiments and to accept responsibility for the genocide, Hermaszewski also condemned discrimination of the Ukrainian nation as a whole based on the actions of the Ukrainian Insurgent Army and the Ukrainian villagers who aided them in the murders."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Ulf Merbold was born on 1941-06-25. Now I need to search Mirosław Hermaszewski and find his birth date.
+Action 2: Search[Mirosław Hermaszewski] 
+        Action 2: ['Search[Mirosław Hermaszewski]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Ulf Merbold was born on June 20, 1941, and Mirosław Hermaszewski was born on September 15, 1941. Ulf Merbold was born first.
+Action 3: Finish[Ulf Merbold] 
+        Action 3: Finish[Ulf Merbold]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Mirosław Hermaszewski was born on September 15, 1941. Ulf Merbold was born on June 20, 1941. Since June 20, 1941 is before September 15, 1941, Ulf Merbold was born first.
+Action 3: Finish[Ulf Merbold] 
+        Action 3: ['Finish[Ulf Merbold]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': 'Ulf Merbold', 'gt_answer': 'Ulf Dietrich Merbold', 'question_idx': 891, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 14.967766523361206
+
+--------------------------------------------------
+

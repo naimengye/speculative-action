@@ -1,0 +1,48 @@
+INFO 1248 Question: Who, born February 20, 1983, played for The Monarchs and in the World Series?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Thought: Feb 20, 1983 matches Justin Verlander, who played college baseball for the Old Dominion Monarchs and in multiple World Series.
+
+Action 1: Search[Justin Verlander] 
+        Action 1: Search[Justin Verlander]
+        Observation 1: Justin Brooks Verlander (/ˈvɜːrlændɜːr/ VUR-land-ur; born February 20, 1983) is an American professional baseball pitcher for the San Francisco Giants of Major League Baseball (MLB). He has previously played in MLB for the Detroit Tigers, Houston Astros, and New York Mets. A three-time Cy Young Award winner, an American League (AL) Most Valuable Player (MVP) Award recipient, and a two-time World Series champion, Verlander is considered to be one of the greatest pitchers in baseball history.. Born in Manakin Sabot, Virginia, Verlander attended Old Dominion University (ODU) and played college baseball for the Monarchs. He broke the Monarchs' and Colonial Athletic Association's career records for strikeouts."
+
+SIMULATION TRAJECTORY:
+ Thought 1: The birthdate and clues point to Justin Verlander, who played college baseball for the Old Dominion Monarchs and has appeared in multiple World Series; I should verify via his page or finish.
+
+Action 1: Search[Justin Verlander], Search[Old Dominion Monarchs baseball], Finish[Justin Verlander] 
+        Action 1: ['Search[Justin Verlander]', 'Search[Old Dominion Monarchs baseball]', 'Finish[Justin Verlander]']
+        Observation 1: Justin Verlander is an American professional baseball pitcher who has played in Major League Baseball (MLB) for several teams, including the Detroit Tigers, Houston Astros, and New York Mets. Born on February 20, 1983, in Manakin-Sabot, Virginia, Verlander is renowned for his powerful arm, exceptional control, and competitive spirit.. Verlander was drafted by the Detroit Tigers in the 2004 MLB Draft and made his major league debut in 2005. Over his career."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The observation confirms the person born Feb 20, 1983 played for the ODU Monarchs and is a World Series champion—Justin Verlander.
+
+Action 2: Finish[Justin Verlander] 
+        Action 2: Finish[Justin Verlander]
+        Observation 2: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The evidence matches Justin Verlander; I can either confirm the Monarchs link or finish.
+
+Action 2: Lookup[Monarchs], Search[Old Dominion Monarchs baseball], Finish[Justin Verlander] 
+        Action 2: ['Search[Old Dominion Monarchs baseball]', 'Lookup[Monarchs]', 'Finish[Justin Verlander]']
+        Observation 2: Justin Verlander is an American professional baseball pitcher who has played in Major League Baseball (MLB) for several teams, including the Detroit Tigers, Houston Astros, and New York Mets. Born on February 20, 1983, in Manakin-Sabot, Virginia, Verlander is renowned for his powerful arm, exceptional control, and competitive spirit.. Verlander was drafted by the Detroit Tigers in the 2004 MLB Draft and made his major league debut in 2005. Over his career."
+
+
+
+INFO {'steps': 3, 'answer': 'Justin Verlander', 'gt_answer': 'Justin Brooks Verlander', 'question_idx': 4383, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 3 
+Number of steps: 9 
+Average reward: 0.3333333333333333 
+Average time 322.51052432590063
+
+--------------------------------------------------
+

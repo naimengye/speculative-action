@@ -1,0 +1,53 @@
+INFO 6031 Question: Are Alice Munro and Lillian Hellman both writers?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Alice Munro]
+Action 1: Search[Alice Munro]
+Observation 1: Alice Ann Munro OOnt (/mənˈroʊ/ mən-ROH; née Laidlaw; 10 July 1931 – 13 May 2024) was a Canadian short story writer who was awarded the Nobel Prize in Literature in 2013. Her work tends to move forward and backward in time, with integrated short story cycles.. Munro's fiction is most often set in her native Huron County in southwestern Ontario. Her stories explore human complexities in a simple but meticulous prose style. Munro received the Man Booker International Prize in 2009 for her life's work.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Alice Munro]
+Action 1: Search[Alice Munro]
+Observation 1: **Alice Ann Munro** (née Laidlaw; born July 10, 1931) is a Canadian short story writer who won the Nobel Prize in Literature in 2013. Her work has been described as revolutionizing the architecture of the short story, particularly in its tendency to move forward and backward in time, and its exploration of the human condition with a profound psychological realism.. **Early Life and Education:**. Alice Laidlaw was born in Wingham, Ontario.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Lillian Hellman]
+Action 2: Search[Lillian Hellman]
+Observation 2: Lillian Florence Hellman (June 20, 1905 – June 30, 1984) was an American playwright, prose writer, memoirist, and screenwriter known for her success on Broadway as well as her communist views and political activism. She was blacklisted after her appearance before the House Committee on Un-American Activities (HUAC) at the height of the anti-communist campaigns of 1947–1952. Although she continued to work on Broadway in the 1950s, her blacklisting by the U.S. film industry caused a drop in her income. Many praised Hellman for refusing to answer HUAC's questions, but others believed, despite her denial, that she had belonged to the Communist Party.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Lillian Hellman]
+Action 2: Search[Lillian Hellman]
+Observation 2: **Lillian Florence Hellman (1905–1984) was an American playwright, screenwriter, and memoirist known for her strong political convictions and her sharp, often controversial, dramas.** Her work frequently explored themes of morality, betrayal, and the struggle for justice, often set against backdrops of social and political upheaval.. **Early Life and Education:**. Born in New Orleans, Louisiana, to a Jewish family, Hellman spent her childhood divided between New Orleans and New.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Yes]
+Action 3: Finish[Yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: **Lillian Florence Hellman (1905–1984) was an American playwright, screenwriter, and memoirist known for her strong political convictions and her sharp, often controversial, dramas.** Her work frequently explored themes of morality, betrayal, and the struggle for justice, often set against backdrops of social and political upheaval.. **Early Life and Education:**. Born in New Orleans, Louisiana, to a Jewish family, Hellman spent her childhood divided between New Orleans and New.
+
+
+
+INFO {'steps': 5, 'answer': 'Yes', 'gt_answer': 'yes', 'question_idx': 3953, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 14 
+Number of steps: 24 
+Average reward: 0.5833333333333334 
+Average time 10.774806082248688
+
+-------------------------------------------------------
+

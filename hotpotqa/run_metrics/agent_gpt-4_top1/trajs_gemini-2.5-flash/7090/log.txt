@@ -1,0 +1,53 @@
+INFO 7090 Question: Were Robert Holdstock and H. L. Mencken both known for being satirists?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Robert Holdstock]
+Action 1: Search[Robert Holdstock]
+Observation 1: Robert Paul Holdstock (2 August 1948 – 29 November 2009) was an English novelist and author best known for his works of Celtic, Nordic, Gothic and Pictish fantasy literature, predominantly in the fantasy subgenre of mythic fiction.. Holdstock broke into print in 1968. His science fiction and fantasy works explore philosophical, psychological, anthropological, spiritual and woodland themes. He received three BSFA awards and won the World Fantasy Award in the category of Best Novel of 1985.. Robert Holdstock, the eldest of five children, was born in Hythe, Kent.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Robert Holdstock]
+Action 1: Search[Robert Holdstock]
+Observation 1: **Robert Paul Holdstock (1948 – 2009)** was a British novelist and short story writer known for his unique blend of fantasy, myth, and folklore, often set in ancient, primeval forests. His work frequently explored themes of nature, the human psyche, and the enduring power of storytelling.. **Early Life and Education:**. Born in Hythe, Kent, England, on April 2, 1948, Holdstock developed an early fascination.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[H. L. Mencken]
+Action 2: Search[H. L. Mencken]
+Observation 2: Henry Louis Mencken (September 12, 1880 – January 29, 1956) was an American journalist, essayist, satirist, cultural critic, and scholar of American English.[1] He commented widely on the social scene, literature, music, prominent politicians, and contemporary movements. His satirical reporting on the Scopes Trial, which he dubbed the "Monkey Trial", also earned him attention. The term Menckenian has entered multiple dictionaries to describe anything of or pertaining to Mencken, including his combative rhetorical and prose styles.. As a scholar, Mencken is known for The American Language, a multi-volume study of how the English language is spoken in the United States. As an admirer of the German philosopher Friedrich Nietzsche, he was an outspoken opponent of organized religion, theism, censorship, populism, and representative democracy, the last of which he viewed as a system in which inferior men dominated their superiors.[2] Mencken was a supporter of scientific progress and was critical of osteopathy and chiropractic.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[H. L. Mencken]
+Action 2: Search[H. L. Mencken]
+Observation 2: **Henry Louis Mencken** (September 12, 1880 – January 29, 1956) was an American journalist, essayist, satirist, cultural critic, and scholar of American English. He was known as the "Sage of Baltimore" and is widely regarded as one of the most influential American writers and thinkers of the early 20th century.. **Early Life and Career:**. Born in Baltimore, Maryland, Mencken was the.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[no]
+Action 3: Finish[no]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[no]
+Action 3: Finish[no]
+Observation 3: **Henry Louis Mencken** (September 12, 1880 – January 29, 1956) was an American journalist, essayist, satirist, cultural critic, and scholar of American English. He was known as the "Sage of Baltimore" and is widely regarded as one of the most influential American writers and thinkers of the early 20th century.. **Early Life and Career:**. Born in Baltimore, Maryland, Mencken was the.
+
+
+
+INFO {'steps': 5, 'answer': 'no', 'gt_answer': 'no', 'question_idx': 4815, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 13 
+Average reward: 0.6153846153846154 
+Average time 31.12887169764592
+
+-------------------------------------------------------
+

@@ -227,3 +227,16 @@ chess-game/trajectories/sample_trajectories/*/*.csv
 *.swp
 *.swo
 *~
+
+# HpotQA-specific
+hotpotqa/__pycache__/
+hotpotqa/*.pyc
+hotpotqa/*.pyo
+hotpotqa/.DS_Store
+hotpotqa/.env
+hotpotqa/temp/
+hotpotqa/*.egg-info/
+hotpotqa/dist/
+hotpotqa/build/
+hotpotqa/.venv/
+hotpotqa/venv/

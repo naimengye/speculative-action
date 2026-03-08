@@ -1,0 +1,39 @@
+INFO 5890 Question: What dance competition television series features host and NFL reporter Erin Andrews?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Erin Andrews]
+Action 1: Search[Erin Andrews]
+Observation 1: Erin Jill Andrews[1] (born May 4, 1978)[2] is an American sportscaster and television personality. She rose to prominence as a correspondent on the American cable sports channel ESPN after joining the network in 2004. She later joined Fox Sports in 2012 and has since become the lead sideline reporter for the network's NFL broadcasting team. In 2010, she also gained further recognition from placing third on the tenth season of ABC's Dancing with the Stars and eventually co-hosted the show from 2014 to 2019 with Tom Bergeron.. Andrews was born in Lewiston, Maine, to Paula Andrews, a teacher, and Steven Andrews, a broadcast journalist.[3][4] Her family moved to San Antonio, Texas when she was 5 years old, and then to Valrico, Florida[5] 18 months later,[6] when her father, a six-time Emmy Award winner, began working as an investigative reporter for the local NBC affiliate, WFLA-TV.[7].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Erin Andrews]
+Action 1: Search[Erin Andrews]
+Observation 1: Erin Jill Andrews is an American sportscaster and television personality. She was born on May 4, 1978, in Lewiston, Maine. Andrews is best known for her work as a sideline reporter for ESPN and Fox Sports, covering major sporting events such as the NFL, MLB, and college football. She has also appeared as a co-host on the TV show "Dancing with the Stars." Andrews has won several awards for her work in sports broadcasting and is considered one of the.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Dancing with the Stars]
+Action 2: Finish[Dancing with the Stars]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Dancing with the Stars]
+Action 2: Finish[Dancing with the Stars]
+Observation 2: Erin Jill Andrews is an American sportscaster and television personality. She was born on May 4, 1978, in Lewiston, Maine. Andrews is best known for her work as a sideline reporter for ESPN and Fox Sports, covering major sporting events such as the NFL, MLB, and college football. She has also appeared as a co-host on the TV show "Dancing with the Stars." Andrews has won several awards for her work in sports broadcasting and is considered one of the.
+
+
+
+INFO {'steps': 3, 'answer': 'Dancing with the Stars', 'gt_answer': 'Dancing with the Stars', 'question_idx': 7334, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 12 
+Number of steps: 28 
+Average reward: 0.42857142857142855 
+Average time 17.527917640549795
+
+-------------------------------------------------------
+

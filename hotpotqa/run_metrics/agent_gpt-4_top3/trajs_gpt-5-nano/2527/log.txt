@@ -1,0 +1,60 @@
+INFO 2527 Question: The tap dancing soloist in My Feet Keep Dancing also starred in what 1935 MGM musical?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To find who the tap dancing soloist in "My Feet Keep Dancing" also starred in what 1935 MGM musical, I need to first find out who the tap dancing soloist in "My Feet Keep Dancing" is.
+Action 1: Search[My Feet Keep Dancing] 
+        Action 1: Search[My Feet Keep Dancing]
+        Observation 1: "My Feet Keep Dancing" is the third single from Chic's third studio album Risqué. It features a co-lead vocal by Luci Martin and Bernard Edwards and a tap dance solo by Fayard Nicholas (of the Nicholas Brothers), Eugene Jackson (of Our Gang), and Sammy Warren.. Cash Box described it as an "ear-catching dance concoction, with its rhythmic use of strings."[3] Record World called it "a fine example of how Chic sets the standards for today's dance music."[4]. The song reached #21 on the UK singles chart in January 1980, spending 9 weeks on the chart. It failed to enter US Billboard R&B chart top 40, peaking at #42."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the identity of the tap dancing soloist in "My Feet Keep Dancing," then look up which 1935 MGM musical they starred in.
+Action 1: Search[My Feet Keep Dancing], Search[tap dancing soloist in My Feet Keep Dancing], Lookup[tap dancing soloist] 
+        Action 1: ['Search[My Feet Keep Dancing]', 'Search[tap dancing soloist in My Feet Keep Dancing]', 'Lookup[tap dancing soloist]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Fayard Nicholas is the tap dancing soloist in "My Feet Keep Dancing". I now need to find in which 1935 MGM musical he starred.
+Action 2: Search[Fayard Nicholas] 
+        Action 2: Search[Fayard Nicholas]
+        Observation 2: Fayard Antonio Nicholas (October 20, 1914 – January 24, 2006) was an American choreographer, dancer and actor. He and his younger brother Harold Nicholas made up the Nicholas Brothers tap dance duo, who starred in the MGM musicals An All-Colored Vaudeville Show (1935), Stormy Weather (1943), The Pirate (1948), and Hard Four (2007). The Nicholas brothers also starred in the 20th Century-Fox musicals Down Argentine Way (1940), Sun Valley Serenade (1941), and Orchestra Wives (1942).[1]. Nicholas was born in Alabama, but grew up primarily in Philadelphia, Pennsylvania. He learned to dance while watching vaudeville shows with his brother while their musician parents played in the orchestra.[2] His father, Ulysses D."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search result does not provide information about the tap dancing soloist in "My Feet Keep Dancing". I might need to look up the name of the soloist.
+Action 2 Candidates: [Lookup[tap dancing soloist], Search[tap dancing soloist in My Feet Keep Dancing], Lookup[starred in]] 
+        Action 2: ['Search[tap dancing soloist in My Feet Keep Dancing]', 'Lookup[tap dancing soloist]', 'Lookup[starred in]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Fayard Nicholas starred in the 1935 MGM musical "An All-Colored Vaudeville Show". This must be the 1935 musical the person is referring to.
+Action 3: Finish[An All-Colored Vaudeville Show] 
+        Action 3: Finish[An All-Colored Vaudeville Show]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The information about the 1935 MGM musical in which Fayard Nicholas starred is not included in the first paragraph of his Wikipedia page. I should look up "1935" in the rest of the article. 
+Action 3: [Lookup[1935], Lookup[MGM musical], Lookup[starred]] 
+        Action 3: ['Lookup[1935]', 'Lookup[MGM musical]', 'Lookup[starred]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': 'An All-Colored Vaudeville Show', 'gt_answer': '"An All-Colored Vaudeville Show"', 'question_idx': 959, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 20 
+Average reward: 0.45 
+Average time 55.330928242206575
+
+--------------------------------------------------
+

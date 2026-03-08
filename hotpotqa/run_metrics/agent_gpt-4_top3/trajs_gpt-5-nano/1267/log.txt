@@ -1,0 +1,77 @@
+INFO 1267 Question: Which founder of Alcatraz East was born on March 31, 1956?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for 'Alcatraz East' to find the founders, then find out which founder was born on March 31, 1956.
+Action 1: Search[Alcatraz East]
+        Action 1: Search[Alcatraz East]
+        Observation 1: Alcatraz East is a privately owned for-profit crime museum in Pigeon Forge, Tennessee.[1] Opened in 2008 as the National Museum of Crime and Punishment in Washington, D.C., the museum moved in 2016 to its present site in Pigeon Forge.[2] The museum gives a behind-the-scenes look at crime history in America. It was created and built by attorney John Morgan and chief operating officer Janine Vaccarello.. Alcatraz East is 24,000 square feet, two stories, and is themed as a 19th-century prison inspired by the infamous Alcatraz island prison in San Francisco. Alcatraz East includes interactive displays and artifacts that cover criminal intent, criminal profiles, the penal system, victims' stories, law enforcement, crime prevention, forensic science, and the U.S. justice system.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To find which founder of Alcatraz East was born on this date, I need to first get information about the founders of Alcatraz East.
+Action 1: [Search[Alcatraz East], Lookup[Alcatraz East founders], Lookup[March 31, 1956]]
+        Action 1: ['Search[Alcatraz East]', 'Lookup[Alcatraz East founders]', 'Lookup[March 31, 1956]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The founders of Alcatraz East are John Morgan and Janine Vaccarello. I need to search John Morgan and Janine Vaccarello, find their birthdays and see which one was born on March 31, 1956.
+Action 2: Search[John Morgan]
+        Action 2: Search[John Morgan]
+        Observation 2: Could not find [John Morgan]. Similar: ['John Morgan (lawyer)', 'Morgan & Morgan', 'John Adams Morgan', 'J. P. Morgan', 'John Morgan']."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search result for 'Alcatraz East' does not provide a concrete list of founders. We should look up 'founder' in the current passage to see if there's any useful information.
+Action 2: Lookup[founder], Lookup[Alcatraz East], Search[Founders of Alcatraz East]
+        Action 2: ['Search[Founders of Alcatraz East]', 'Lookup[founder]', 'Lookup[Alcatraz East]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: "John Morgan" seems to be too common a name to search without specification. The John Morgan mentioned as a founder of Alcatraz East is specified as an attorney. Searching "John Morgan (lawyer)" might yield better results.
+Action 3: Search[John Morgan (lawyer)]
+        Action 3: Search[John Morgan (lawyer)]
+        Observation 3: John Bryan Morgan (born March 31, 1956)[1] is an American attorney based in Florida, best known as founder of personal injury law firm Morgan & Morgan.[2] He is a billionaire.[3]. Politico has described Morgan as "the godfather of Florida's medical marijuana amendment and a Democratic fundraiser."[4]. Morgan was born on March 31, 1956, in Lexington, Kentucky. He is the eldest of five children, to Ramon Morgan and Patricia Morgan.[5] When Morgan was fourteen years old, his family moved to Winter Park, Florida.[5] Morgan began working in various jobs at an early age, as his family struggled financially.[5][2] In 1974, he entered the University of Florida, where he earned a bachelor's degree in arts in 1978. He took an 18-month hiatus selling ads to pay for his studies at the University of Florida Levin College of Law.[5] He received his Juris Doctor in 1982."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The search result for 'John Morgan' did not give specific information about the person I'm looking for. I will need to try different search options.
+Action 3: Search[John Morgan (attorney)], Search[John Morgan Alcatraz East], Lookup[John Morgan]
+        Action 3: ['Search[John Morgan (attorney)]', 'Search[John Morgan Alcatraz East]', 'Lookup[John Morgan]']
+        Observation 3: "
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: John Bryan Morgan was born on March 31, 1956. As he was one of the founders of Alcatraz East, he is the person we were looking for.
+Action 4: Finish[John Morgan]
+        Action 4: Finish[John Morgan]
+        Observation 4: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: John Morgan's birthdate wasn't provided in the information found. I still need to confirm whether he was born on March 31, 1956. 
+
+Action 4 Candidates: [Lookup[birthday], Lookup[born], Lookup[March 31, 1956]]
+        Action 4: ['Lookup[birthday]', 'Lookup[born]', 'Lookup[March 31, 1956]']
+        Observation 4: "
+
+
+
+INFO {'steps': 7, 'answer': 'John Morgan', 'gt_answer': 'John Morgan', 'question_idx': 1391, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 2 
+Average reward: 1.0 
+Average time 38.17639243602753
+
+--------------------------------------------------
+

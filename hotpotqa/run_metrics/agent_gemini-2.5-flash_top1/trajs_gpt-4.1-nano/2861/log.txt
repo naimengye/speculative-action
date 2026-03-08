@@ -1,0 +1,53 @@
+INFO 2861 Question: Were Daniel Mann and Todd Solondz both directors?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Daniel Mann]
+Action 1: Search[Daniel Mann]
+Observation 1: Daniel Chugerman (August 8, 1912 – November 21, 1991), known professionally as Daniel Mann, was an American stage, film and television director.. Originally trained as an actor by Sanford Meisner, between 1952 and 1987 he directed over 31 feature films and made-for-television. Considered a true "actor's director", he directed seven Oscar-nominated and two Tony Award-winning performances, collaborating with actors like Burt Lancaster, Shirley Booth, Susan Hayward, Marlon Brando, Elizabeth Taylor, Dean Martin and Anthony Quinn.. He was nominated for several accolades, including two Palme d'Or, three Directors Guild of America Awards and a Golden Bear.. Mann was born in Brooklyn, New York, the son of Helen and Samuel Chugerman, a lawyer.[1] He was a stage actor since childhood and attended Erasmus Hall High School, New York's Professional Children's School and the Neighborhood Playhouse.[2] He entered films in 1952 as a director and is known for his excellent ear for dialogue.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Daniel Mann]
+Action 1: Search[Daniel Mann]
+Observation 1: Daniel Mann was an American theater and film director known for his work in both stage and cinema. Born on December 28, 1912, Mann gained recognition for his innovative approach to directing and his ability to bring out strong performances from actors. He directed numerous Broadway productions, including notable plays such as "The Teahouse of the August Moon" and "The Country Girl," earning critical acclaim for his work.. In addition to his theater career, Daniel Mann directed several films, including adaptations of.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Todd Solondz]
+Action 2: Search[Todd Solondz]
+Observation 2: Todd Solondz (/ˈsoʊləndz/;[1] born October 15, 1959) is an American filmmaker and playwright known for his style of dark, socially conscious satire. Solondz's work has received critical acclaim for its commentary on the "dark underbelly of middle class American suburbia", a reflection of his own background in New Jersey.[2] His work includes Welcome to the Dollhouse (1995), Happiness (1998), Storytelling (2001),  Palindromes (2004), Life During Wartime (2009), Dark Horse (2011), and Wiener-Dog (2016). He is also a professor at New York University.. Solondz was born in 1959 in Newark, New Jersey, and grew up in its nearby suburbs.[3][4] He wrote several screenplays while working as a delivery boy for the Writers Guild of America.[citation needed] Solondz earned his undergraduate degree in English from Yale and attended New York University's Master of Fine Arts program in film and television, but did not complete a degree.[5]. During the early 1990s, Solondz worked at NYANA as a teacher of English as a second language to Russian immigrants in New York City and described the experience as positive.[5][6].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Todd Solondz]
+Action 2: Search[Todd Solondz]
+Observation 2: Todd Solondz is an American filmmaker and screenwriter known for his darkly comedic and often provocative films that explore themes of alienation, suburban life, and the complexities of human relationships. Born on October 29, 1959, in Newark, New Jersey, Solondz gained recognition for his distinctive storytelling style and his ability to address controversial topics with a blend of humor and pathos.. He made his feature film debut with *Welcome to the Dollhouse* (1995), which received.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Yes]
+Action 3: Finish[Yes]
+Observation 3: Todd Solondz is an American filmmaker and screenwriter known for his darkly comedic and often provocative films that explore themes of alienation, suburban life, and the complexities of human relationships. Born on October 29, 1959, in Newark, New Jersey, Solondz gained recognition for his distinctive storytelling style and his ability to address controversial topics with a blend of humor and pathos.. He made his feature film debut with *Welcome to the Dollhouse* (1995), which received.
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 2366, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 18 
+Average reward: 0.3888888888888889 
+Average time 16.72107383939955
+
+-------------------------------------------------------
+

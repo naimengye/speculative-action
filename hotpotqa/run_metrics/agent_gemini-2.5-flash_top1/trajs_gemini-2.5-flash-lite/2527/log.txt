@@ -1,0 +1,53 @@
+INFO 2527 Question: Do both Lee Tamahori and Robert Redford work as a director?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Lee Tamahori]
+Action 1: Search[Lee Tamahori]
+Observation 1: Warren Lee Tamahori (/ˌtɑːməˈhɔːri/; born 17 June 1950) is a New Zealand film director. His feature directorial debut, Once Were Warriors (1994), was a widespread critical and commercial success, and is considered one of the greatest New Zealand films ever made.[1][2] Subsequently, he has directed a variety of works both in his native country and in Hollywood, including the survival drama The Edge (1997), the Alex Cross thriller Along Came a Spider (2001), the James Bond film Die Another Day (2002), the political biopic The Devil's Double (2011), and the period drama Mahana (2016).. Tamahori won the New Zealand Film Award for Best Director for Once Were Warriors, with a second nomination for Mahana.. Tamahori was born in Wellington, New Zealand. He is of Māori ancestry on his father's side and British on his mother's.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Lee Tamahori]
+Action 1: Search[Lee Tamahori]
+Observation 1: Lee Tamahori (born 1955) is a New Zealand film director.. Tamahori began his career in television commercials and documentaries in New Zealand. He gained international recognition for his debut feature film, *Once Were Warriors* (1994), a gritty and powerful drama about a Māori family struggling with domestic violence and social issues. The film was a critical and commercial success, earning him awards and establishing his reputation as a director capable of handling intense and challenging subject matter.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Robert Redford]
+Action 2: Search[Robert Redford]
+Observation 2: Charles Robert Redford Jr. (born August 18, 1936) is an American actor, producer and director. He has received numerous accolades such as an Academy Award, a BAFTA Award, and two Golden Globe Awards, as well as the Cecil B. DeMille Award in 1994, the Screen Actors Guild Life Achievement Award in 1996, the Academy Honorary Award in 2002, the Kennedy Center Honors in 2005, the Presidential Medal of Freedom in 2016, and the Honorary César in 2019. He was named by Time as one of the 100 most influential people in the world in 2014.[1][2].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Robert Redford]
+Action 2: Search[Robert Redford]
+Observation 2: **Robert Redford**. Robert Redford (born August 18, 1936) is an American actor, director, producer, businessman, and environmentalist. He is the founder of the Sundance Film Festival and the Sundance Institute.. **Early Life and Career**. Redford was born in Santa Monica, California.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Yes]
+Action 3: Finish[Yes]
+Observation 3: **Robert Redford**. Robert Redford (born August 18, 1936) is an American actor, director, producer, businessman, and environmentalist. He is the founder of the Sundance Film Festival and the Sundance Institute.. **Early Life and Career**. Redford was born in Santa Monica, California.
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 3615, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 20 
+Average reward: 0.4 
+Average time 9.44650104045868
+
+-------------------------------------------------------
+

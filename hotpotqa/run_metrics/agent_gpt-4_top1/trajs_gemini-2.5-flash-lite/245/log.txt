@@ -1,0 +1,53 @@
+INFO 245 Question: Which university - the University of Rochester or the University of Colorado - is located further east?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[University of Rochester]
+Action 1: Search[University of Rochester]
+Observation 1: The University of Rochester is a private research university in Rochester, New York, United States.[10] It was founded in 1850 and moved into its current campus, next to the Genesee River in 1930. With approximately 30,000 full-time employees, the university is the largest private employer in Upstate New York and the seventh-largest in all of New York State.[11]. With over 12,000 students, the university offers 160 undergraduate and 30 graduate programs across seven schools spread throughout five campuses.[12][13] The College of Arts, Sciences, and Engineering is the largest school,[14] and it includes the School of Engineering and Applied Sciences. The Eastman School of Music, founded by and named after George Eastman, is located in Downtown Rochester.. The university is also home to Rochester's Laboratory for Laser Energetics, a national laboratory supported by the US Department of Energy.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[University of Rochester]
+Action 1: Search[University of Rochester]
+Observation 1: The University of Rochester is a private research university in Rochester, New York. Founded in 1850, it is one of the leading institutions of higher education in the United States, known for its strong programs in medicine, optics, music, and the humanities.. **Academics and Research:**. The University of Rochester is organized into several schools and colleges, offering a wide range of undergraduate, graduate, and professional degrees. Key academic divisions include:.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[University of Colorado]
+Action 2: Search[University of Colorado]
+Observation 2: The University of Colorado (CU)[4] is a system of public universities in Colorado. It consists of four institutions: the University of Colorado Boulder, the University of Colorado Colorado Springs, the University of Colorado Denver, and the University of Colorado Anschutz Medical Campus. It is governed by an elected nine-member board of regents.. CU Boulder is the flagship university of the University of Colorado System in Boulder, Colorado. Founded in 1876, the university has more than 39,000 undergraduate and graduate students, making it the largest university in Colorado by enrollment.[5] It offers more than 2,500 courses in more than 150 areas of study through its nine colleges and schools.[citation needed].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[University of Colorado]
+Action 2: Search[University of Colorado]
+Observation 2: The **University of Colorado** (often referred to as **CU**) is a public university system in the U.S. state of Colorado. It is the state's only public research university system. The system comprises four campuses:. *   **University of Colorado Boulder (CU Boulder):** The flagship campus, located in Boulder, Colorado.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[University of Rochester]
+Action 3: Finish[University of Rochester]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[University of Rochester]
+Action 3: Finish[University of Rochester]
+Observation 3: The **University of Colorado** (often referred to as **CU**) is a public university system in the U.S. state of Colorado. It is the state's only public research university system. The system comprises four campuses:. *   **University of Colorado Boulder (CU Boulder):** The flagship campus, located in Boulder, Colorado.
+
+
+
+INFO {'steps': 5, 'answer': 'University of Rochester', 'gt_answer': 'University of Rochester', 'question_idx': 7157, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 15 
+Number of steps: 41 
+Average reward: 0.36585365853658536 
+Average time 27.188242412194974
+
+-------------------------------------------------------
+

@@ -1,0 +1,67 @@
+INFO 190 Question: What type of group does Roses Are Red and Sleeping with Sirens have in common?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Roses Are Red]
+Action 1: Search[Roses Are Red]
+Observation 1: "Roses Are Red" is a love poem and children's rhyme with Roud Folk Song Index number 19798.[1] It has become a cliché for Valentine's Day, and has spawned multiple humorous and parodic variants.. A modern standard version is:[2]. Roses are red. Violets are blue,. Sugar is sweet.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Roses Are Red]
+Action 1: Search[Roses Are Red]
+Observation 1: "Roses Are Red" is a popular children's poem and a common saying, often used as a simple expression of affection or as a starting point for more elaborate verses.. **The Traditional Verse:**. The most well-known version of the poem is:. > Roses are red,. > Violets are blue,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Roses Are Red (band)]
+Action 2: Search[Roses Are Red (band)]
+Observation 2: Roses Are Red is a rock band formed in Rochester, New York.[1][4] The band was signed to Trustkill Records.[4]. Roses Are Red (originally named Nobody Cares[4]) formed in the summer of 2002 from members of other bands around the Western New York area.[4] It originally featured Vincent Minervino[4][5][6] on vocals, Brian and Matthew Gordner[7][4][5][6] on guitars, Kevin Mahoney[4][5][6] on bass, and Michael Lasaponara[4][5][6] on drums. Just 2 months after forming, the band recorded a 4-song demo and toured on weekends throughout the fall and winter of 2002. Their first full-length album, Handshakes and Heartbreaks, was released in June 2003 and was followed by a tour of the United States in July and August 2003. The band was named "The Next Big Thing" by Absolutepunk.net, and label interest soon followed.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Roses Are Red (band)]
+Action 2: Search[Roses Are Red (band)]
+Observation 2: **Roses Are Red** was an American emo band formed in 1997 in New Jersey. The band was active throughout the late 1990s and early 2000s, playing a significant role in the burgeoning emo scene of the time.. **Musical Style and History:**. Roses Are Red were known for their melodic and often melancholic sound, characterized by intricate guitar work, heartfelt lyrics, and dynamic vocal performances. Their music typically featured a blend of fast.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Sleeping with Sirens]
+Action 3: Search[Sleeping with Sirens]
+Observation 3: Sleeping with Sirens is an American rock band from Orlando, Florida, currently residing in Grand Rapids, Michigan. The band currently consists of Kellin Quinn (lead vocals, keyboards), Nick Martin (rhythm guitar, backing vocals), Justin Hills (bass guitar, backing vocals) and Matty Best (drums, percussion). The band was formed in 2009 by members of For All We Know and Paddock Park. The group is currently signed to Sumerian Records and have released seven full-length albums and an acoustic EP.. The band rose to fame with their song "If I'm James Dean, You're Audrey Hepburn", the lead single from their debut album, With Ears to See and Eyes to Hear, which was released in 2010.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Sleeping with Sirens]
+Action 3: Search[Sleeping with Sirens]
+Observation 3: Sleeping with Sirens is an American rock band from Orlando, Florida, formed in 2009. The band was founded by Kellin Quinn, Jack Fowler, Nick Jones, and Alex Kaladjian. They are known for their melodic and energetic sound, often incorporating elements of post-hardcore, pop-punk, and alternative rock.. **Formation and Early Years:**. Sleeping with Sirens was formed in 2009.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[rock bands]
+Action 4: Finish[rock bands]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[rock band]
+Action 4: Finish[rock band]
+Observation 4: Sleeping with Sirens is an American rock band from Orlando, Florida, formed in 2009. The band was founded by Kellin Quinn, Jack Fowler, Nick Jones, and Alex Kaladjian. They are known for their melodic and energetic sound, often incorporating elements of post-hardcore, pop-punk, and alternative rock.. **Formation and Early Years:**. Sleeping with Sirens was formed in 2009.
+
+
+
+INFO {'steps': 7, 'answer': 'rock bands', 'gt_answer': 'rock band', 'question_idx': 7085, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 16 
+Number of steps: 46 
+Average reward: 0.34782608695652173 
+Average time 26.089856127034064
+
+-------------------------------------------------------
+

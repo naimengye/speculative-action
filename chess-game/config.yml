@@ -3,6 +3,7 @@
 api:
   openai:
     key: ""
+    # base_url: "http://localhost:8000/v1"  # optional OpenAI-compatible server, e.g. vLLM
   openrouter:
     key: ""
   

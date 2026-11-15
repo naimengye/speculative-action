@@ -9,6 +9,7 @@ import re
 import time
 import uuid
 from concurrent.futures import ThreadPoolExecutor
+from functools import cached_property
 from os.path import join
 from typing import Dict, List, Optional, Tuple, Any
 
@@ -36,6 +37,8 @@ class Config:
             # API Configuration
             self.openai_api_key = config['api']['openai']['key']
             self.openrouter_api_key = config['api']['openrouter']['key']
+            # Optional OpenAI-compatible server such as vLLM; defaults to the OpenAI API
+            self.openai_base_url = config['api']['openai'].get('base_url') or "https://api.openai.com/v1"
 
             # Model Configuration
             self.openai_model_name = config['models']['openai']['main']
@@ -131,11 +134,16 @@ class AgentManager:
     
     def __init__(self, config: Config):
         self.config = config
-        self.openai_client = OpenAI(api_key=config.openai_api_key)
-        self.openrouter_client = OpenAI(
-            base_url="https://openrouter.ai/api/v1",
-            api_key=config.openrouter_api_key
-        )
+
+    # Created on first use, so a run only needs the key of the provider it calls
+    # (openai>=3 raises as soon as a client is built with an empty key).
+    @cached_property
+    def openai_client(self) -> OpenAI:
+        return OpenAI(api_key=self.config.openai_api_key, base_url=self.config.openai_base_url)
+
+    @cached_property
+    def openrouter_client(self) -> OpenAI:
+        return OpenAI(base_url="https://openrouter.ai/api/v1", api_key=self.config.openrouter_api_key)
     
     def create_agents(self, agent0_name: str, agent1_name: str) -> Dict[int, Any]:
 
@@ -155,7 +163,7 @@ class AgentManager:
                     model_name=self.config.openai_model_name,
                     system_prompt=self.config.standard_game_prompt,
                     api_key=self.config.openai_api_key,
-                    base_url="https://api.openai.com/v1",
+                    base_url=self.config.openai_base_url,
                     verbose=False
                 )
             else:

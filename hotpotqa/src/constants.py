@@ -1,3 +1,6 @@
+import json
+import os
+
 openrouter_api_key = "your-openrouter-api-key"
 openrouter_model_name = "openai/gpt-4"
 openrouter_guess_model_name = "openai/gpt-5-nano"
@@ -26,3 +29,10 @@ temperature = 1
 max_guess_output_tokens = 100
 guess_top_p = 0.9
 guess_temperature = 0.1
+
+# Optional OpenAI-compatible endpoints (e.g. local vLLM or SGLang servers), one per role.
+agent_base_url = os.environ.get("AGENT_BASE_URL")
+guess_base_url = os.environ.get("GUESS_BASE_URL")
+# Extra request fields for those endpoints, e.g. to turn off Qwen3 thinking:
+# LOCAL_EXTRA_BODY='{"chat_template_kwargs": {"enable_thinking": false}}'
+local_extra_body = json.loads(os.environ.get("LOCAL_EXTRA_BODY", "null"))

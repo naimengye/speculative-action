@@ -1,6 +1,7 @@
 openai
 google-genai
-gymnasium
+# 1.0 dropped Wrapper attribute forwarding, which the wrappers and runner rely on
+gymnasium<1.0
 requests
 beautifulsoup4
 numpy

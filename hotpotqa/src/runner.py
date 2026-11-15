@@ -16,15 +16,18 @@ from . import wrappers
 
 
 class HotPotQARun:
-    def __init__(self, model_name="gemini", guess_model_name="gemini", to_print_output=True):
+    def __init__(self, model_name="gemini", guess_model_name="gemini", to_print_output=True,
+                 agent_base_url=None, guess_base_url=None):
         self.llm = LLMClient(
             model_name=model_name,
             temperature=constants.temperature,
             max_tokens=constants.max_output_tokens,
             top_p=constants.top_p,
+            base_url=agent_base_url,
         )
         self.model_name = model_name
         self.guess_model_name = guess_model_name
+        self.guess_base_url = guess_base_url
         self.env = self._get_env()
         self.simulation_observations_dict = {}
         self.current_index = None
@@ -42,7 +45,9 @@ class HotPotQARun:
         return btp
 
     def _get_env(self):
-        env = environment.WikiEnv(guess_model_name=self.guess_model_name)
+        env = environment.WikiEnv(
+            guess_model_name=self.guess_model_name, guess_base_url=self.guess_base_url
+        )
         env = wrappers.HotPotQAWrapper(env, split="dev")
         env = wrappers.LoggingWrapper(env)
         env = wrappers.HistoryWrapper(env, obs_format="history")
@@ -61,7 +66,9 @@ class HotPotQARun:
             start = time.perf_counter()
             obs, r, done, info = env.step(action, step_type="simulate")
             end = time.perf_counter()
-            return env.sim_obs, r, done, info, end - start
+            # Only a search sets sim_obs, so it is None if the agent acts before its first search.
+            sim_obs = env.sim_obs if env.sim_obs is not None else obs
+            return sim_obs, r, done, info, end - start
 
         attempts = 0
         while attempts < 10:

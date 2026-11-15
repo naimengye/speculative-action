@@ -91,6 +91,10 @@ def main():
     parser.add_argument("--norun", action="store_false", help="Skip running the experiment")
     parser.add_argument("--modelname", default=constants.openrouter_model_name, help="Agent model name")
     parser.add_argument("--guessmodelname", default=constants.openrouter_guess_model_name, help="Guess model name")
+    parser.add_argument("--agentbaseurl", default=constants.agent_base_url,
+                        help="OpenAI-compatible base URL for the agent model, e.g. http://localhost:8000/v1")
+    parser.add_argument("--guessbaseurl", default=constants.guess_base_url,
+                        help="OpenAI-compatible base URL for the guess model")
     parser.add_argument("--cleanuptrajs", action="store_true", help="Clean up incomplete trajectories")
     args = parser.parse_args()
 
@@ -98,6 +102,8 @@ def main():
         model_name=args.modelname,
         guess_model_name=args.guessmodelname,
         to_print_output=args.noprint,
+        agent_base_url=args.agentbaseurl,
+        guess_base_url=args.guessbaseurl,
     )
 
     if args.cleanuptrajs:

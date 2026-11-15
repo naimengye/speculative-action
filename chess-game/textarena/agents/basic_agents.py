@@ -65,7 +65,8 @@ class OpenRouterAgent(Agent):
             input_tokens = usage.prompt_tokens
             output_tokens = usage.completion_tokens
             total_tokens = usage.total_tokens
-        return response.choices[0].message.content.strip(), input_tokens, output_tokens, total_tokens
+        # content is None when a reasoning model runs out of tokens before answering
+        return (response.choices[0].message.content or "").strip(), input_tokens, output_tokens, total_tokens
 
     def _retry_request(self, observation: str, retries: int = 3, delay: int = 5) -> Tuple[str, int, int, int]:
         """
@@ -242,7 +243,8 @@ class OpenAIAgent(Agent):
             input_tokens = usage.prompt_tokens
             output_tokens = usage.completion_tokens
             total_tokens = usage.total_tokens
-        return completion.choices[0].message.content.strip(), input_tokens, output_tokens, total_tokens
+        # content is None when a reasoning model runs out of tokens before answering
+        return (completion.choices[0].message.content or "").strip(), input_tokens, output_tokens, total_tokens
     
     def _retry_request(self, observation: str, retries: int=3, delay: int=5) -> str:
         """

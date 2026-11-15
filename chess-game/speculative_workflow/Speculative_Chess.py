@@ -9,6 +9,7 @@ import re
 import time
 import uuid
 from concurrent.futures import ThreadPoolExecutor
+from functools import cached_property
 from os.path import join
 from typing import Dict, List, Optional, Tuple, Any
 
@@ -120,11 +121,16 @@ class AgentManager:
     
     def __init__(self, config: Config):
         self.config = config
-        self.openai_client = OpenAI(api_key=config.openai_api_key, base_url=config.openai_base_url)
-        self.openrouter_client = OpenAI(
-            base_url="https://openrouter.ai/api/v1",
-            api_key=config.openrouter_api_key
-        )
+
+    # Created on first use, so a run only needs the key of the provider it calls
+    # (openai>=3 raises as soon as a client is built with an empty key).
+    @cached_property
+    def openai_client(self) -> OpenAI:
+        return OpenAI(api_key=self.config.openai_api_key, base_url=self.config.openai_base_url)
+
+    @cached_property
+    def openrouter_client(self) -> OpenAI:
+        return OpenAI(base_url="https://openrouter.ai/api/v1", api_key=self.config.openrouter_api_key)
     
     def create_agents(self, agent0_name: str, agent1_name: str) -> Dict[int, Any]:
 
@@ -303,7 +309,8 @@ class SpeculativeChessRunner:
         if prediction_results is None:
             return [], [], [], [], [], [], [], [], [], [], []
 
-        predictions = prediction_results[0]
+        # Only a legal move can match the real move, and a branch for any other guess fails on board.push.
+        predictions = [p for p in prediction_results[0] if p in valid_moves]
         individual_prediction_times = [prediction_results[1]] * len(predictions)
         input_prediction_tokens = [prediction_results[2]] * len(predictions)
         output_prediction_tokens = [prediction_results[3]] * len(predictions)
@@ -326,19 +333,30 @@ class SpeculativeChessRunner:
 
         print(f"Speculations: {speculations_results}")
         
+        kept_predictions: List[str] = []
         speculations: List[str] = []
         individual_speculation_times: List[float] = []
         input_speculation_tokens: List[int] = []
         output_speculation_tokens: List[int] = []
         total_speculation_tokens: List[int] = []
 
-        for speculation in speculations_results:
+        for prediction, speculation in zip(valid_predictions, speculations_results):
             if speculation is not None and speculation[0] is not None:
+                kept_predictions.append(prediction)
                 speculations.append(speculation[0])
                 individual_speculation_times.append(speculation[1])
                 input_speculation_tokens.append(speculation[2])
                 output_speculation_tokens.append(speculation[3])
                 total_speculation_tokens.append(speculation[4])
+
+        # Drop the guess of a branch that found no legal move as well, so the lists stay aligned.
+        n_kept = len(kept_predictions)
+        valid_predictions = kept_predictions
+        individual_prediction_times = individual_prediction_times[:n_kept]
+        valid_prediction_times = valid_prediction_times[:n_kept]
+        input_prediction_tokens = input_prediction_tokens[:n_kept]
+        output_prediction_tokens = output_prediction_tokens[:n_kept]
+        total_prediction_tokens = total_prediction_tokens[:n_kept]
 
         total_times: List[float] = []
         for i in range(len(valid_prediction_times)):

@@ -36,6 +36,8 @@ class Config:
             # API Configuration
             self.openai_api_key = config['api']['openai']['key']
             self.openrouter_api_key = config['api']['openrouter']['key']
+            # Optional OpenAI-compatible server such as vLLM; defaults to the OpenAI API
+            self.openai_base_url = config['api']['openai'].get('base_url') or "https://api.openai.com/v1"
             
             # Model Configuration
             self.openai_model_name = config['models']['openai']['main']
@@ -118,7 +120,7 @@ class AgentManager:
     
     def __init__(self, config: Config):
         self.config = config
-        self.openai_client = OpenAI(api_key=config.openai_api_key)
+        self.openai_client = OpenAI(api_key=config.openai_api_key, base_url=config.openai_base_url)
         self.openrouter_client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
             api_key=config.openrouter_api_key
@@ -142,7 +144,7 @@ class AgentManager:
                     model_name=self.config.openai_model_name,
                     system_prompt=self.config.standard_game_prompt,
                     api_key=self.config.openai_api_key,
-                    base_url="https://api.openai.com/v1",
+                    base_url=self.config.openai_base_url,
                     verbose=False
                 )
             else:

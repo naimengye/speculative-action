@@ -20,7 +20,7 @@ class TextSpace(gym.spaces.Space):
 
 class WikiEnv(gym.Env):
 
-    def __init__(self, guess_model_name):
+    def __init__(self, guess_model_name, guess_base_url=None):
         super().__init__()
         self.page = None
         self.obs = None
@@ -39,6 +39,7 @@ class WikiEnv(gym.Env):
             temperature=constants.guess_temperature,
             max_tokens=constants.max_guess_output_tokens,
             top_p=constants.guess_top_p,
+            base_url=guess_base_url,
         )
 
     def _get_obs(self):

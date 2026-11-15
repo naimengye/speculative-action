@@ -57,6 +57,31 @@ openrouter_guess_model_name = "openai/gpt-5-nano"  # Speculator model
 
 Direct Gemini and OpenAI clients are also supported in `src/llm_client.py` — add the relevant API keys to `constants.py` to use them.
 
+Keys can also come from the environment (`GEMINI_API_KEY`, `OPENAI_API_KEY`, `OPENROUTER_API_KEY`). Only the provider a run calls needs a key.
+
+### Self-hosted models (vLLM, SGLang)
+
+The agent and the speculator can each point at any OpenAI-compatible server. The model name is sent unchanged, so it must match the name the server serves. For example, with two vLLM servers sharing one GPU:
+
+```bash
+vllm serve Qwen/Qwen3-14B --port 8000 --gpu-memory-utilization 0.6
+vllm serve Qwen/Qwen3-1.7B --port 8001 --gpu-memory-utilization 0.25
+
+# Qwen3 thinks by default; this turns thinking off for both endpoints.
+export LOCAL_EXTRA_BODY='{"chat_template_kwargs": {"enable_thinking": false}}'
+
+python run.py --modelname Qwen/Qwen3-14B --agentbaseurl http://localhost:8000/v1 \
+              --guessmodelname Qwen/Qwen3-1.7B --guessbaseurl http://localhost:8001/v1
+```
+
+The same settings can be given as `AGENT_BASE_URL` and `GUESS_BASE_URL` environment variables. Hosted providers are used as before when no base URL is set.
+
+### Tests
+
+```bash
+python -m unittest discover tests
+```
+
 ## Running Experiments
 
 ### Launch a run

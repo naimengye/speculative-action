@@ -66,7 +66,9 @@ class HotPotQARun:
             start = time.perf_counter()
             obs, r, done, info = env.step(action, step_type="simulate")
             end = time.perf_counter()
-            return env.sim_obs, r, done, info, end - start
+            # Only a search sets sim_obs, so it is None if the agent acts before its first search.
+            sim_obs = env.sim_obs if env.sim_obs is not None else obs
+            return sim_obs, r, done, info, end - start
 
         attempts = 0
         while attempts < 10:

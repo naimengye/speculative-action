@@ -73,7 +73,7 @@ class HistoryWrapper(gym.Wrapper):
         return obs_dict
 
     def reset(self, seed=None, return_info=False, options=None, idx=None):
-        output = self.env.reset(seed=None, return_info=False, options=None, idx=None)
+        output = self.env.reset(seed=seed, return_info=return_info, options=options, idx=idx)
         self.normal_trajectory_dict = self.get_empty_traj_dict()
         self.sim_trajectory_dict = self.get_empty_traj_dict()
         return output
